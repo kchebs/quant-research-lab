@@ -1,0 +1,365 @@
+﻿ticker,security,outlook,rating,use,trust,upward_trend,outlook_date,sector,industry
+BITA,Bitauto Holdings Limited,,,,,,,Consumer Cyclical,Advertising Agencies
+EADSF,Airbus,55,4.1,0,0,yes,9/8/19,Industrials,Aerospace & Defense
+LLL,L3 Technologies,42,,1,0,,8/4/18,Industrials,Aerospace & Defense
+TDG,TransDigm Group,10,1.8,1,0,maybe,9/8/19,Industrials,Aerospace & Defense
+KORS,Michael Kors Holdings,40,,1,0,,8/4/18,Consumer Cyclical,Apparel Manufacturing
+ASNA,Ascena Retail Group,,,,,,,Consumer Cyclical,Apparel Stores
+EXPR,Express,36,,0,0,,8/4/18,Consumer Cyclical,Apparel Stores
+LULU,Lululemon Athletica Inc.,,,,,,,Consumer Cyclical,Apparel Stores
+NXP,Nuveen Select Tax-Free Income Portfolio,,,,,,9/8/19,Financial Services,Asset Management
+ABG,Asbury Automotive Group,60,3.8,1,0,maybe,9/8/19,Consumer Cyclical,Auto & Truck Dealerships
+KMX,CarMax,57,,1,0,,8/4/18,Consumer Cyclical,Auto & Truck Dealerships
+TSLA,Tesla,56,3.6,1,0,pass,11/3/20,Consumer Cyclical,Auto Manufacturers
+AXL,American Axle & Manufacturing,,,,,,,Consumer Cyclical,Auto Parts
+SRI,"Stoneridge, Inc.",,,,,,,Consumer Cyclical,Auto Parts
+TEN,Tenneco,,,,,,,Consumer Cyclical,Auto Parts
+VC,Visteon,34,,1,0,,8/4/18,Consumer Cyclical,Auto Parts
+HDB,HDFC Bank,64,,1,0,yes,8/4/18,Financial Services,Banks - Regional - Asia
+STI,SunTrust Banks,,,1,0,,8/4/18,Financial Services,Banks - Regional - US
+DPS,Dr Pepper Snapple Group,36,,0,0,,8/4/18,Consumer Defensive,Beverages - Soft Drinks
+MNST,Monster Beverage,63,,0,0,yes,8/4/18,Consumer Defensive,Beverages - Soft Drinks
+BF-B,Brown-Forman,83,,1,0,yes,8/4/18,Consumer Defensive,Beverages - Wineries & Distilleries
+ALXN,Alexion Pharmaceuticals,33,,1,0,,8/4/18,Healthcare,Biotechnology
+MACK,"Merrimack Pharmaceuticals, Inc.",,,,,,,Healthcare,Biotechnology
+MGNX,"MacroGenics, Inc.",,,,,,,Healthcare,Biotechnology
+PGNX,"Progenics Pharmaceuticals, Inc.",,,,,,,Healthcare,Biotechnology
+REGN,Regeneron Pharmaceuticals,70,,1,0,,8/4/18,Healthcare,Biotechnology
+SGEN,"Seattle Genetics, Inc.",90,4.1,,,,11/3/20,Healthcare,Biotechnology
+SPPI,"Spectrum Pharmaceuticals, Inc.",,,,,,,Healthcare,Biotechnology
+UBX,Unity Biotechnology,,,,,,,Healthcare,Biotechnology
+IHRT,iHeartMedia,31,,1,0,,8/4/18,Consumer Cyclical,Broadcasting - Radio
+LSXMA,Liberty Media,,,,,,,Consumer Cyclical,Broadcasting - Radio
+BECN,Beacon Roofing Supply,,,,,,,Basic Materials,Building Materials
+BLDR,Builders FirstSource,,,,,,,Basic Materials,Building Materials
+FISV,Fiserv,49,,1,0,,8/4/18,Industrials,Business Services
+AMTD,TD Ameritrade Holding,57,,0,0,maybe,8/4/18,Financial Services,Capital Markets
+INTL,INTL FCStone,,,,,,,Financial Services,Capital Markets
+UNVR,Univar,,,,,,,Basic Materials,Chemicals
+SWIR,"Sierra Wireless, Inc.",,,,,,,Technology,Communication Equipment
+TECD,Tech Data,56,3.3,,,maybe,9/8/19,Technology,Computer Distribution
+SSYS,Stratasys Ltd,,,,,,,Technology,Computer Systems
+CACC,Credit Acceptance,64,3.8,1,0,yes,9/8/19,Financial Services,Credit Services
+PYPL,PayPal Holdings,80,4.1,0,0,yes,2/27/21,Financial Services,Credit Services
+EXAS,Exact Sciences Corporation,,,,,,,Healthcare,Diagnostics & Research
+GHDX,"Genomic Health, Inc.",,,,,,,Healthcare,Diagnostics & Research
+IDXX,IDEXX Laboratories,72,3.8,1,0,,8/4/18,Healthcare,Diagnostics & Research
+ILMN,Illumina,69,,1,0,maybe,8/4/18,Healthcare,Diagnostics & Research
+IQV,IQVIA Holdings,55,3.5,,,,9/8/19,Healthcare,Diagnostics & Research
+LH,Laboratory Corp. of America,40,,1,0,,8/4/18,Healthcare,Diagnostics & Research
+MTD,Mettler-Toledo International,,,1,0,,8/4/18,Healthcare,Diagnostics & Research
+WAT,Waters,77,,1,0,,8/4/18,Healthcare,Diagnostics & Research
+BURL,Burlington Stores,,,,,maybe,,Consumer Defensive,Discount Stores
+ARNC,Arconic,36,,1,0,,8/4/18,Industrials,Diversified Industrials
+IR,Ingersoll-Rand PLC,61,,1,0,,8/4/18,Industrials,Diversified Industrials
+AGN,"Allergan, Plc",46,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Specialty & Generic
+TEVA,Teva Pharmaceutical Industries,,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Specialty & Generic
+ACB,Aurora Cannabis Inc.,,,,,,,Healthcare,Drug Manufacturers‚Äö√Ñ√ÆSpecialty & Generic
+SANM,Sanmina,,,,,,,Technology,Electronic Components
+GLUU,Glu Mobile Inc,,,1,0,,8/4/18,Technology,Electronic Gaming & Multimedia
+ACM,AECOM,44,3.2,,,,9/8/19,Industrials,Engineering & Construction
+JEC,Jacobs Engineering Group,48,,1,0,,8/4/18,Industrials,Engineering & Construction
+MTZ,MasTec,,,,,,,Industrials,Engineering & Construction
+PFGC,Performance Food Group,41,,1,0,,8/4/18,Consumer Defensive,Food Distribution
+WBAI,500.com Limited,,,,,,,Consumer Cyclical,Gambling
+SFM,Sprouts Farmers Market,,,1,0,,8/4/18,Consumer Defensive,Grocery Stores
+SVU,Supervalu,,,1,0,,8/4/18,Consumer Defensive,Grocery Stores
+ESRX,Express Scripts Holding,38,,1,0,,8/4/18,Healthcare,Health Care Plans
+MGLN,Magellan Health,,,,,,,Healthcare,Health Care Plans
+MOH,Molina Healthcare,,,,,,,Healthcare,Health Care Plans
+WCG,WellCare Health Plans,66,3.8,1,0,maybe,9/8/19,Healthcare,Health Care Plans
+MHK,Mohawk Industries,64,,1,0,,8/4/18,Consumer Cyclical,Home Furnishings & Fixtures
+TPX,"Tempur Sealy International, Inc.",,,,,,,Consumer Cyclical,Home Furnishings & Fixtures
+WYN,Wyndham Worldwide,43,,0,0,,8/4/18,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+AXE,Anixter International,,,,,,,Industrials,Industrial Distribution
+WCC,WESCO International,26,,1,0,,8/4/18,Industrials,Industrial Distribution
+NCR,NCR,,,,,,,Technology,Information Technology Services
+NSIT,Insight Enterprises,,,,,,,Technology,Information Technology Services
+BRK.A,Berkshire Hathaway,44,3.1,1,0,yes,9/8/19,Financial Services,Insurance - Diversified
+GNW,Genworth Financial,,,,,,,Financial Services,Insurance - Life
+GL,Global Life Inc,42,,1,0,yes,8/4/18,Financial Services,Insurance - Life
+MKL,Markel,,,,,,,Financial Services,Insurance - Property & Casualty
+Y,Alleghany,,,,,,9/8/19,Financial Services,Insurance - Property & Casualty
+WLTW,Willis Towers Watson,53,,1,0,,8/4/18,Financial Services,Insurance Brokers
+PCLN,Priceline Group,36,,0,0,,8/4/18,Consumer Discretionary,Internet & Direct Marketing Retail
+FB,Facebook,91,,0,1,yes,8/4/18,Technology,Internet Content & Information
+GOOG,Alphabet,70,4.1,,,yes,9/8/19,Technology,Internet Content & Information
+GOOGL,Alphabet (Google) (Class A),84,4.5,0,0,yes,2/27/21,Technology,Internet Content & Information
+GRUB,GrubHub,70,,0,0,yes,8/4/18,Technology,Internet Content & Information
+MTCH,"Match Group, Inc.",,,,,too early,,Technology,Internet Content & Information
+SOHU,Sohu.com Limited,,,1,0,,8/4/18,Technology,Internet Content & Information
+WB,Weibo Corporation,,,,,,,Technology,Internet Content & Information
+WUBA,58.com Inc.,,,,,,9/8/19,Technology,Internet Content & Information
+BKNG,Booking Holdings,,,,,,,Consumer Cyclical,Leisure
+MAT,Mattel,18,,1,0,,8/4/18,Consumer Cyclical,Leisure
+TRIP,TripAdvisor,38,,0,0,,8/4/18,Consumer Cyclical,Leisure
+ADANIPORTS.NS,Adani Ports and Special Economic Zone Limited,,,,,,,Industrials,Marine Shipping
+CBS,CBS,52,,0,0,,8/4/18,Consumer Cyclical,Media - Diversified
+LYV,Live Nation Entertainment,64,,0,0,,8/4/18,Consumer Cyclical,Media - Diversified
+NFLX,Netflix,77,4,0,0,yes,11/3/20,Consumer Cyclical,Media - Diversified
+CYH,Community Health Systems,,,,,,,Healthcare,Medical Care
+EVHC,Envision Healthcare,29,,1,0,,8/4/18,Healthcare,Medical Care
+MD,"MEDNAX, Inc.",,,,,,,Healthcare,Medical Care
+SSY,Sysco,,,,,,,Healthcare,Medical Care
+THC,Tenet Healthcare,,,,,,,Healthcare,Medical Care
+ABMD,Abiomed Inc,,,,,,,Healthcare,Medical Devices
+ALGN,AlignTech (Invisalign),84,4.4,0,0,yes,11/3/20,Healthcare,Medical Devices
+ARAY,Accuray Incorporated,,,,,,,Healthcare,Medical Devices
+HOLX,Hologic,62,,1,0,yes,8/4/18,Healthcare,Medical Instruments & Supplies
+ISRG,Intuitive Surgical,94,,1,0,yes,8/4/18,Healthcare,Medical Instruments & Supplies
+VAR,Varian Medical Systems,60,,1,0,,8/4/18,Healthcare,Medical Instruments & Supplies
+AAL.L,Anglo American plc,,,,,,,Basic Materials,Other Industrial Metals & Mining
+DF,Dean Foods,,,,,,,Consumer Defensive,Packaged Foods
+HLF,Herbalife Nutrition Ltd.,,,,,,,Consumer Defensive,Packaged Foods
+POST,Post Holdings,39,2.7,,,,9/8/19,Consumer Defensive,Packaged Foods
+THS,TreeHouse Foods,,,,,,,Consumer Defensive,Packaged Foods
+BERY,Berry Global Group,,,,,,,Consumer Cyclical,Packaging & Containers
+CCK,Crown Holdings,57,,1,0,,8/4/18,Consumer Cyclical,Packaging & Containers
+TUP,Tupperware Brands Corporation,,,,,,,Consumer Cyclical,Packaging & Containers
+ROKU,"Roku, Inc.",,,,,maybe,,Communication Services,Pay TV
+GNC,GNC Holdings,26,,1,0,,8/4/18,Consumer Defensive,Pharmaceutical Retailers
+RAD,Rite Aid,,,,,,,Consumer Defensive,Pharmaceutical Retailers
+XL,XL Catlin,53,,1,0,,8/4/18,Financials,Property & Casualty Insurance
+RLGY,Realogy Holdings,,,,,,,Real Estate,Real Estate Services
+ZG,"Zillow Group, Inc.",,,,,maybe,,Real Estate,Real Estate Services
+IRM,Iron Mountain,41,,1,0,,8/4/18,Real Estate,REIT - Diversified
+NVR,NVR,,,,,,,Consumer Cyclical,Residential Construction
+ITRI,Itron,48,,1,0,,8/4/18,Technology,Scientific & Technical Instruments
+KEYS,"Keysight Technologies, Inc.",68,3.8,,,,9/8/19,Technology,Scientific & Technical Instruments
+ST,Sensata Technologies Holding plc,31,3.2,,,,9/8/19,Technology,Scientific & Technical Instruments
+AKAM,Akamai Technologies,51,,,0,,8/4/18,Technology,Software - Application
+CRM,salesforce.com,84,,0,0,yes,8/4/18,Technology,Software - Application
+DOMO,Domo,,,,,too early,,Technology,Software - Application
+LYFT,Lyft,,,0,0,too early,,Technology,Software - Application
+PANW,"Palo Alto Networks, Inc.",,,,,maybe,,Technology,Software - Application
+PD,Pagerduty,,,1,0,,,Technology,Software - Application
+STNE,StoneCo,,,,,,,Technology,Software - Application
+SYMC,Symantec,48,,0,0,,8/4/18,Technology,Software - Application
+TIVO,TiVo Corporation,,,,,,,Technology,Software - Application
+TTD,"The Trade Desk, Inc.",86,3.7,,,maybe,11/3/20,Technology,Software - Application
+UBER,Uber,,,1,0,too early,,Technology,Software - Application
+WDAY,Workday,,,0,0,maybe,,Technology,Software - Application
+BKI,Black Knight,,,1,0,,8/4/18,Technology,Software - Infrastructure
+CRWD,"CrowdStrike Holdings, Inc.",,,,,,,Technology,Software - Infrastructure
+FFIV,F5 Networks,49,,0,0,,8/4/18,Technology,Software - Infrastructure
+TSS,Total System Services,44,,1,0,,8/4/18,Technology,Software - Infrastructure
+ADSK,Autodesk,64,,f,0,yes,8/4/18,Technology,Software - Application
+ACIW,ACI Worldwide,,,,,,,Technology,Software - Infrastructure
+ADBE,Adobe Systems,87,4.3,0,0,yes,11/3/20,Technology,Software - Infrastructure
+ADYEY,Adyen,,,,,,,Technology,Software - Infrastructure
+FSLR,First Solar,48,,1,0,,8/4/18,Technology,Solar
+FMCC,Freddie Mac,62,,1,0,,8/4/18,Financial Services,Specialty Finance
+AMZN,Amazon.com,69,3.9,0,0,yes,2/27/21,Consumer Cyclical,Specialty Retail
+AZO,AutoZone,42,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail
+BABA,Alibaba,68,3.9,1,1,maybe,11/3/20,Consumer Cyclical,Specialty Retail
+BKS,Barnes & Noble,27,,0,0,,8/4/18,Consumer Cyclical,Specialty Retail
+BZUN,Baozun Inc.,,,,,,,Consumer Cyclical,Specialty Retail
+FIVE,Five Below,36,3,1,0,yes,9/8/19,Consumer Cyclical,Specialty Retail
+GME,GameStop,27,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail
+JD,"JD.com, Inc.",53,3.6,,,maybe,11/3/20,Consumer Cyclical,Specialty Retail
+JMEI,Jumei International Holding Limited,,,,,,,Consumer Cyclical,Specialty Retail
+MELI,MercadoLibre,,,1,0,yes,8/4/18,Consumer Cyclical,Specialty Retail
+ORLY,OReilly Automotive,,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail
+OSTK,Overstock.com,39,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail
+PIR,Pier 1 Imports,40,,0,0,,8/4/18,Consumer Cyclical,Specialty Retail
+QRTEA,Qurate Retail,,,,,,,Consumer Cyclical,Specialty Retail
+TA,TravelCenters of America,,,,,,,Consumer Cyclical,Specialty Retail
+TCS,Tata Consultancy Services,60,,1,0,yes,8/4/18,Consumer Cyclical,Specialty Retail
+ULTA,Ulta Beauty,47,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail
+VIPS,Vipshop Holdings Limited,,,,,,,Consumer Cyclical,Specialty Retail
+AKS,AK Steel Holding,,,,,,,Basic Materials,Steel
+CA,CA Technologies Inc,40,,1,0,,8/4/18,Information Technology,Systems Software
+FTR,Frontier Communications,18,,1,0,,8/4/18,Communication Services,Telecom Services
+LILAK,Liberty Latin America Ltd,,,1,0,,8/4/18,Communication Services,Telecom Services
+ZM,Zoom,94,4.8,0,0,yes,,Communication Services,Telecom Services
+NAV,Navistar International,,,,,,,Industrials,Truck Manufacturing
+PCG,PG&E Corp.,37,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric
+WTR,Aqua America Stock,,,,0,yes,,Utilities,Utilities - Regulated Water
+ABNB,Airbnb,,,,,,,,
+AMWL,Amwell,,,,,,,,
+ANTHM,Anthem,,,,,,,,
+ARRY,Array BioPharma Inc.,,,,,too early,,,
+BILI,Bilibili Inc,,,,,maybe,,,
+BL,Blackline,,,,,,,,
+BLDP,Ballard Power Systems,,,,,,,,
+BPTH,Bio-Path,,,,,,,,
+CATX,Credit Acceptance Corp,,,,,,,,
+CGROU,Collective Growth Corp,,,,,,,,
+CODX,Co-Diagnostics,,,,,,,,
+COMP,NASDAQ Composite Index,,,,,,,,
+CPRT,Copart Inc,,,,,,,,
+CSGP,CoStar Group,,,,,,,,
+DASH,DoorDash,,,,,too early,,,
+DDOG,Datadog,,,,,yes,,,
+DHXM,DHX Media,,,,,,,,
+DNN,Denison Mines,,,,,,,,
+DYNT,Dynatronics,,,,,,,,
+ECPG,Encore Capital Group,,,,,,,,
+EICHERMOT.NS,Eicher Motors Limited,,,,,,,,
+ETP,Energy Transfer Partners L.P.,66,,1,1,too early,8/4/18,,
+FDC,First Data,,,,,,,,
+FINL,Finish Line,44,,0,0,,8/4/18,,
+FLT,Fleetcor Tech,,,,,,,,
+FTNT,Fortinet Inc,,,,,,,,
+GIII,G-III Apparel Group,,,,,,,,
+HCLTECH.NS,HCL Technologies Limited,,,,,maybe,,,
+HINDUNILVR.NS,Hindustan Unilever,,,,,,,,
+HMI,Huami,,,,,,,,
+HSC,Harsco Corp,,,,,,,,
+IBN,ICICI Bank,,,,,,,,
+ICON,Iconix Brand Group,,,,,,,,
+IIVI,II-VI Inc,,,,,,,,
+IMB.L,Imperial Brands Plc,,,,,,,,
+INCY,Incyte Corporation,,,,,,,,
+INDUSINDBK.NS,IndusInd Bank Limited,,,,,,,,
+INFN,Infinera Corporation,,,,,,,,
+INFY.NS,Infosys Limited,,,,,maybe,,,
+INVA,Innoviva,,,,,,,,
+IPGP,IPG Photonics Corp,,,,,,,,
+ITC.BO,ITC Limited,,,,,,,,
+ITV.L,ITV Plc,,,,,,,,
+ITX.MC,Industria de Diseno Textil SA,,,,,,,,
+JE/:LN,Just Eat PLC,,,,,,,,
+JMAT.L,Johnson Matthey Plc,,,,,,,,
+JMIA,Jumia Technologies,,,,,,,,
+JSWSTEEL.NS,JSW Steel Limited,,,,,,,,
+KEY.TO,Keyera Corp.,,,,,,,,
+KIO.JO,Kumba Iron Ore Limited,,,,,,,,
+KOPN,Kopin Corporation,,,,,,,,
+KOTAKBANK.NS,Kotak Mahindra Bank,,,,,,,,
+KYCCF,Keyence Corp,,,,,,,,
+LAZR,Luminar Tech,,,,,,,,
+LLNW,Limelight Networks,,,,,,,,
+LMND,Lemonade,,,,,,,,
+LSXMK,Liberty SiriusXM,,,,,,,,
+MARUTI.NS,Maruti Suzuki India Limited,,,,,,,,
+MHO,MI Homes,,,,,,,,
+MIDD,Middleby,,,,,,,,
+MNDI.L,Mondi Plc,,,,,,,,
+MOD,Modine Manufacturing,,,,,,,,
+MOTHERSUMI.NS,Motherson Sumi Systems Limited,,,,,,,,
+MRNA,Moderna,,,,,,,,
+MYOK,MyoKardia,,,,,,,,
+NDA-FI.HE,Nordea Bank Abp,,,,,,,,
+NDRO,Enduro Royalty Trust,,,1,0,,8/4/18,,
+NEWR,New Relic Inc,,,,,,,,
+NIO,Nio Inc,,,,,too early,,,
+NLS,Nautilus,,,,,,,,
+NNVC,NanoViricides,,,,,,,,
+NOVN.SW,Novartis AG,,,,,,,,
+NOVO-B.CO,Novo Nordisk AS,,,,,,,,
+NOW,ServiceNow,,,,,,,,
+NVAX,Novavax,,,,,,,,
+NVGS,Navigator Holdings,,,,,,,,
+NXT.L,Next Plc,,,,,,,,
+OA,Orbital ATK,66,,1,0,,8/4/18,,
+OBSV,Observa SA,,,,,,,,
+OKTA,Okta,,,,,,,,
+OPK,OPKO Health,,,,,,,,
+P,Pandora,37,3.7,0,0,,11/3/20,,
+PAGS,PagSeguro Digital Ltd,,,,,,,,
+PAYC,Paycom Software,,,,,,,,
+PBYI,Puma Biotech,,,,,,,,
+PENN,Penn National Gaming Inc,,,,,,,,
+PLNT,Planet Fitness,,,,,,,,
+PLUG,Plug Power,,,,,,,,
+POWERGRID.NS,Power Grid Corporation of India Limited,,,,,,,,
+PTON,Peloton Interactive,,,,,,,,
+PUSH,Publix Super Markets,,,,,,,,
+QQQ,Invesco QQQ Trust Series 1 NASDAQ ETF,,,0,0,yes,,,
+QTT,Qutoutiao,,,,,,,,
+QTWO,Q2 Holdings,,,,,,,,
+RAMP,LiveRamp Holdings,,,,,,,,
+RCUS,Arcus Biosciences,,,,,,,,
+RELIANCE.NS,Reliance Industries Limited,,,,,,,,
+RHT,Red Hat Inc,,,,,,,,
+RNG,RingCentral Inc,,,,,,,,
+RNWK,RealNetworks,,,,,,,,
+ROX,Castle Brands,,,,,,,,
+RP,Realpage,,,,,,,,
+RUN,Sunrun,,,,,,,,
+SCC.BK,Siam Cement Public Company Limited,,,,,,,,
+SDRL,Seadrill,,,,,,,,
+SEDG,SolarEdge,,,,,,,,
+SHOP,Shopify,81,4.2,,yes,yes,11/3/20,,
+SKX,Sketchers,,,,,,,,
+SMDS.L,DS Smith Plc,,,,,,,,
+SNDL,Sundial Growers,,,,,,,,
+SNOW,Snowflake,,,,,,,,
+SNPS,Synopsys,,,,,,,,
+SPCE,Virgin Galactic,70,3.8,,,too early,11/3/20,,
+SPWH,Sportsman Warehouse,,,,,,,,
+SQ,Square,74,4,yes,yes,maybe,11/3/20,,
+SRNE,Sorrento Therapeutics,,,,,,,,
+SSNLF,Samsung Electron,,,,,,,,
+STFGX,State Farm Insurance,,,,,yes,,,
+SWI,Solarwinds,,,,,,,,
+TAL,TAL Education Group,,,,,,,,
+TATN.ME,PJSC Tatneft,,,,,,,,
+TEAM,Atlassian Corporation,,,,,yes,,,
+TECHM.NS,Tech Mahindra Limited,,,,,,,,
+TLRY,Tilray Cannabis,,,,,,,,
+TRXC,TransEnterix,,,,,,,,
+TWLO,Twilio,,,,,yes,,,
+VEEV,Veeva Systems Inc,,,,,,,,
+VLDR,Velodyne Lidar,,,,,too early,,,
+VOO,Vanguard SP 500 ETF,,,,,,,,
+VSAT,Visasat,,,,,,,,
+WIPRO.BO,Wipro Limited,,,,,,,,
+WIX,Wix.com,,,,,maybe,,,
+WTB.L,Whitbread Plc,,,,,,,,
+XHW,Sherwin-Williams,,,,,yes,,,
+XYF,X Financials,,,,,,,,
+YESBANK.NS,Yes Bank Limited,,,,,,,,
+YEXT,Yext,,,,,,,,
+ZAYO,Zayo,,,,,,,,
+CELG,Celgene,69,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Major
+CYOU,Changyou.com Limited,,,1,0,,8/4/18,Technology,Electronic Gaming & Multimedia
+DISCK,Discovery,,,,,,,Consumer Cyclical,Media - Diversified
+HCP,HCP,82,,1,0,,8/4/18,Real Estate,REIT - Healthcare Facilities
+GL,Global Life - Torchmark,42,,1,0,,8/4/18,Financial Services,Insurance - Life
+TWX,Time Warner,46,,0,0,,8/4/18,Consumer Discretionary,Broadcasting & Cable TV
+ULTI,Ultimate Software,93,,1,0,,8/4/18,Technology,Software - Infrastructure
+VIAC,ViacomCBS,39,,1,0,,8/4/18,Consumer Cyclical,Media - Diversified
+TMO,Thermo Fisher Scientific,74,3.7,,,,2/27/21,,
+TER,Teradyne,91,4.5,,,,2/27/21,,
+DE,Deere,62,4,,,,2/27/21,,
+UNH,UnitedHealth Group,59,3.6,,,,2/27/21,,
+ENPH,Ephase Energy,68,3.5,,,,2/27/21,,
+SBUX,Starbucks,57,3.9,,,,2/27/21,,
+HD,Home Depot,67,3.8,,,,2/27/21,,
+SHW,Sherwin-Williams,67,3.9,,,,2/27/21,,
+SNBR,Sleep Number,55,3.5,,,,2/27/21,,
+ADP,Automated Data Processing,71,3.9,,,,2/27/21,,
+NOC,Northrop Gruman,73,3.9,,,,2/27/21,,
+KMB,Kimberly-Clark,65,4,,,,2/27/21,,
+LOW,Lowes Home Improvement,53,3.5,,,,2/27/21,,
+ROK,Rockwell Automation,71,3.9,,,,2/27/21,,
+LRCX,Lam Research,74,4.2,,,,2/27/21,,
+ZBRA,Zebra Technology,77,4,,,,2/27/21,,
+PNC,PNC Bank,65,3.7,,,,2/27/21,,
+AMAT,Applied Materials,74,3.9,,,,2/27/21,,
+CHD,Church & Dwight,69,3.5,,,,2/27/21,,
+CL,Colgate,76,4.2,,,,2/27/21,,
+SPGI,SP Global,73,4,,,,2/27/21,,
+SQ,Square,81,4.2,,,,2/27/21,,
+SWK,Stanley Black and Decker,50,3.5,,,,2/27/21,,
+BLK,Blackrock,85,4.1,,,,2/27/21,,
+TGT,Target,57,3.7,,,,2/27/21,,
+NKE,Nike,71,4.1,,,,2/27/21,,
+NVDA,Nvidia,97,4.8,,,,2/27/21,,
+AVGO,Broadcom,54,3.2,,,,2/27/21,,
+MSFT,Microsoft,88,4.4,,,,2/27/21,,
+JPM,JP Morgan Chase,74,4,,,,2/27/21,,
+AMGN,Amgen,,,,,,,,
+ABT,Abbot,,,,,,,,
+JNJ,Johnson and Johnson,,,,,,,,
+ABT,Abbot,,,,,,,,
+JNJ,Johnson and Johnson,,,,,,,,
+PG,Proctor and Gamble,,,,,,,,
+PEP,Pepsi,,,,,,,,
+DXCM,Dexcom,,,,,,,,
+HSY,Hershey,,,,,,,,
+AAPL,Apple,,,,,,,,
+CLX,Clorox,,,,,,,,
+A,Agilent Tech,,,,,,,,

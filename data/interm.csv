@@ -1,0 +1,24 @@
+﻿ticker,security,outlook,rating,use,trust,upward_trend,outlook_date,sector,industry
+TSLA,Tesla,56,3.6,1,0,pass,11/3/20,Consumer Cyclical,Auto Manufacturers
+PYPL,PayPal Holdings,80,4.1,0,0,yes,2/27/21,Financial Services,Credit Services
+NFLX,Netflix,77,4,0,0,yes,11/3/20,Consumer Cyclical,Media - Diversified
+ADBE,Adobe Systems,87,4.3,0,0,yes,11/3/20,Technology,Software - Infrastructure
+HD,Home Depot,67,3.8,,,,2/27/21,,
+KMB,Kimberly-Clark,65,4,,,,2/27/21,,
+LRCX,Lam Research,74,4.2,,,,2/27/21,,
+SQ,Square,81,4.2,,,,2/27/21,,
+BLK,Blackrock,85,4.1,,,,2/27/21,,
+NKE,Nike,71,4.1,,,,2/27/21,,
+NVDA,Nvidia,97,4.8,,,,2/27/21,,
+MSFT,Microsoft,88,4.4,,,,2/27/21,,
+JPM,JP Morgan Chase,74,4,,,,2/27/21,,
+AMGN,Amgen,,,,,,,,
+ABT,Abbot,,,,,,,,
+JNJ,Johnson and Johnson,,,,,,,,
+PG,Proctor and Gamble,,,,,,,,
+PEP,Pepsi,,,,,,,,
+DXCM,Dexcom,,,,,,,,
+HSY,Hershey,,,,,,,,
+AAPL,Apple,,,,,,,,
+CLX,Clorox,,,,,,,,
+A,Agilent Tech,,,,,,,,

@@ -1,0 +1,1121 @@
+ticker,security,rec,,yahoo diagram,outlook,rating,use,trust,upward_trend,outlook_date,sector,industry,webscrape_date,net_income,ft_employee,div_yield,one_year,three_year,five_year,ten_year,fifteen_year,avg,rd,peg,profit_margin,roa,roe
+A,Agilent Technologies,,,,79,,1,0,,8/4/18,Healthcare,Diagnostics & Research,12/24/20,719,16400,0.62,38.42,20.94,23.52,12.74,9.58,,495,3,13.47,7.54,14.95
+AA,Alcoa,,,,,,1,0,,,Basic Materials,Aluminum,12/29/20,,,,3.06,-25.66,—,—,—,,,0,-5.03,-3.24,-11.82
+TDG,TransDigm Group,,,,10,1.8,1,0,maybe,9/8/19,Industrials,Aerospace & Defense,1/1/21,699,nan,—,10.51,35.38,26.06,27.02,—,,—,7,nan,nan,nan
+AAL,American Airlines Group,,,,61,,0,0,,8/4/18,Industrials,Airlines,12/24/20,,110500,1.42,-45.43,-31.65,-16.48,-1.35,-7.66,,,0,,,
+CSX,CSX,,,,23,,1,0,,8/4/18,Industrials,Railroads,12/27/20,,,1.15,24.82,19.11,29.3,16.44,17.73,,,3.2,26.08,7.1,22.59
+AAP,Advance Auto Parts,,,,34,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/24/20,,39000,0.55,0.2,16.93,1.58,9.33,9.3,,,1.1,4.84,4.13,13.22
+AME,Ametek,,,,25,,1,0,,8/4/18,Industrials,Diversified Industrials,12/24/20,,18100,0.57,19.17,18.39,17.47,16.64,16.35,,,2.8,18.77,8.88,16.5
+AB,AllianceBernstein,,,,,,,,,,Financial Services,Asset Management,12/24/20,,3811,8.75,20.17,17.66,12.69,8.64,1.19,,,3.1,90.27,18.04,18.04
+ABBV,AbbVie,,,,66,,,0,yes,8/4/18,Healthcare,Drug Manufacturers‚ÄîGeneral,12/24/20,7381,47000,4.51,19.67,5.67,15.56,—,—,,7246,0,18.02,7.01,207.95
+ABC,AmerisourceBergen,,,,49,,,0,,8/4/18,Healthcare,Medical Distribution,12/24/20,,21000,1.65,15.58,3.35,0.19,12.23,11.9,,,3.2,-1.8,-8.17,-366.53
+WTS,Watts Water Tech,,,,30,,1,0,,8/4/18,Industrials,Diversified Industrials,12/29/20,,,,23.07,17.42,19.87,13.23,10.11,,,4.1,7.76,6.87,11.89
+ABM,ABM Industries,,,,,,,,,,Industrials,Specialty Business Services,12/24/20,,114000,1.92,3.18,1.82,7.36,5.34,5.91,,,0,0.01,0.01,0.02
+FMC,FMC,,,,33,,1,0,,8/4/18,Basic Materials,Agricultural Inputs,12/27/20,499,,1.52,15.13,10.55,26.28,12.78,16.58,,280,1.5,10.61,5.08,17.79
+KSU,Kansas City Southern,,,,33,,1,0,,8/4/18,Industrials,Railroads,12/28/20,,,0.86,31.36,23.58,22.9,15.99,15.34,,,2.7,21.67,5.76,12.39
+ABR,"Arbor Realty Trust, Inc.",,,,58,,1,0,,8/4/18,Real Estate,REIT‚ÄîMortgage,12/24/20,,532,9.23,6.75,26.79,21.63,13.64,0.36,,,0,28.08,1.69,10.02
+ABS,Albertsons,,,,,,,,no,,,,,,,,,,,,,,,,,,
+ABT,Abbott Laboratories,,,,58,,1,0,,8/4/18,Healthcare,Medical Devices,12/24/20,3382,107000,1.33,24.66,25.04,20.25,12.35,9.54,,2317,3.4,10.5,4.92,10.7
+ACB,Aurora Cannabis Inc.,,,,,,,,,,Healthcare,Drug Manufacturers‚ÄîSpecialty & Generic,1/1/21,-3402,nan,—,-67.94,-55.06,10.55,—,—,,23,0,nan,nan,nan
+ACIW,ACI Worldwide,,,,,,,,,,Technology,Software - Infrastructure,1/1/21,61,nan,—,1.44,19.24,12.42,15.68,9.69,,143,0,4.67,1.88,5.59
+ACM,AECOM,,,,44,3.2,,,,9/8/19,Industrials,Engineering & Construction,1/1/21,-186,nan,—,15.42,10.25,10.64,5.93,—,,—,0.8,-1.41,-1.36,-5.34
+SWKS,Skyworks Solutions,,,,36,3.2,1,0,maybe,9/8/19,Technology,Semiconductors,12/28/20,815,,1.33,25.32,17.17,14.84,18.84,25.5,,464,1.3,24.28,16.38,19.67
+FIVE,Five Below,,,,36,3,1,0,yes,9/8/19,Consumer Cyclical,Specialty Retail,1/1/21,110,nan,—,36.85,38.18,40.38,—,—,,—,1.9,6.13,5.48,15.74
+SPCE,Virgin Galactic,,,,70,3.8,,,too early,11/3/20,,,1/1/21,-415,nan,—,105.45,32.98,—,—,—,,—,0,nan,nan,nan
+ARNC,Arconic,,,,36,,1,0,,8/4/18,Industrials,Diversified Industrials,1/1/21,171,nan,—,—,—,—,—,—,,38,0,2.89,3.13,10.07
+ADM,Archer Daniels Midland,,,,59,,1,0,,8/4/18,Consumer Defensive,Farm Products,12/24/20,,38100,2.89,10.37,10.03,8.83,7.14,6.27,,,2.1,2.53,3.67,8.32
+ADP,Automatic Data Processing,,,,57,,0,0,,8/4/18,Industrials,Staffing & Employment Services,12/24/20,,58000,2.09,5.19,16.53,17.18,16.26,10.86,,,4.1,17.07,6.21,44.52
+ADS,Alliance Data Systems,,,,56,,1,0,,8/4/18,Financial Services,Credit Services,12/24/20,,8500,1.72,-34.9,-32.54,-22.08,1.24,5.37,,,0.2,6.12,1.24,21.15
+CHTR,Spectrum,,,,37,,1,0,,8/4/18,Communication Services,Pay TV,12/29/20,,,,34.78,24.47,26.48,31.44,—,,,0.8,5.7,1.86,8.98
+AWK,American Water Works,,,,38,,1,0,,8/4/18,Utilities,Utilities - Regulated Water,12/24/20,,6800,1.4,24.4,19.65,21.45,20.47,—,,,4,17.63,2.84,10.42
+AEE,Ameren,,,,67,,1,0,,8/4/18,Utilities,Utilities‚ÄîRegulated Electric,12/24/20,,9323,2.55,2.75,11.56,14.15,12.64,4.74,,,2.7,14.7,2.88,10.27
+AEIS,Advanced Energy Industries,,,,63,,1,0,no,8/4/18,Technology,Electronic Components,,,,,,,,,,,,,,,
+AEMD,Aethlon Medical,,,,,,,,,,,,12/29/20,,,,131.52,-49.31,-54.24,-34.91,-27.97,,,0,-932.51,-70.8,-83.52
+AEO,American Eagle Outfitters,,,,47,,0,0,,8/4/18,Consumer Cyclical,Apparel Stores,12/24/20,,8000,0.76,44.16,4.4,7.54,6.18,4.57,,,0,-5.5,-5.99,-17.87
+AEP,American Electric Power,,,,72,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/24/20,,17408,3.35,-10.88,6.43,9.91,11.14,7.56,,,2.7,12.85,2.51,9.57
+AES,AES,,,,50,,1,0,,8/4/18,Utilities,Utilities - Diversified,12/24/20,,8000,2.8,21.41,32.88,22.25,8.18,3.52,,,2.2,-3.67,-1.03,-13.61
+AFG,American Financial Group,,,,74,3.5,,,,9/8/19,Financial Services,Insurance - Property & Casualty,12/24/20,,7700,2.07,-17.47,-2.74,8.29,13.38,10.64,,,0,3.38,0.35,3.96
+AFL,Aflac,,,,50,,1,0,,8/4/18,Financial Services,Insurance - Life,12/24/20,,11729,2.55,-15.02,2.36,9.95,6.18,5.76,,,0,21.25,2.92,14.88
+AGCO,AGCO,,,,56,3.7,1,0,yes,9/8/19,Industrials,Farm & Construction Equipment,12/24/20,,20961,0.69,34.1,13.1,18.28,7.88,13.2,,,1.6,2.27,2.54,7.03
+DG,Dollar General,,,,38,,1,0,,8/4/18,Consumer Defensive,Discount Stores,12/27/20,,,0.64,36.12,32.28,24.59,21.6,—,,,1.6,7.84,10.49,37.37
+AGNC,Agnc Investment,,,,,,,,,,,,12/24/20,,51,10.47,-2.54,1.99,7.75,4.54,—,,,0,,,
+AHPI,Allied Healthcare,,,,,,,,,,,,12/29/20,,,,406.36,38.64,20.64,-2.8,-4.62,,,0,-7.49,-14.52,-25.53
+AIG,"American International Group, Inc.",,,,37,,1,0,,8/4/18,Financial Services,Insurance - Diversified,12/24/20,,46000,3.33,-24.03,-11.38,-6.52,-0.21,-16.4,,,0.4,-10.79,-0.91,-7.75
+AIR,AAR Corp.,,,,61,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/24/20,,4200,0.53,-24.74,-2.99,7.18,3.28,3.38,,,5.2,-1.15,-1.19,-2.24
+AIV,Apartment Investment & Mgmt (Aimco),,,,51,,1,0,,8/4/18,Real Estate,REIT - Residential,12/24/20,,950,6.75,-16.36,2.12,4.2,7.62,3.78,,,0,17.35,2.27,8.06
+AIZ,Assurant,,,,38,,1,0,,8/4/18,Financial Services,Insurance - Specialty,12/24/20,,13600,1.97,5.51,11.41,12.19,14.56,8.72,,,0,4.06,0.94,7.1
+ESRX,Express Scripts Holding,,,,38,,1,0,,8/4/18,Healthcare,Health Care Plans,1/1/21,-334,nan,—,43.26,36.11,70.37,36.32,31.38,,151,0,-25.27,-10.92,-21.63
+AKAM,Akamai Technologies,,,,51,,,0,,8/4/18,Technology,Software - Application,1/1/21,563,nan,—,21.54,17.31,14.81,8.36,11.71,,271,1.6,18.01,8.11,14.79
+HON,Honeywell International,,,,39,,1,0,,8/4/18,Industrials,Diversified Industrials,12/28/20,,,1.78,20.9,13.52,17.09,16.16,13.22,,,3,14.99,8.06,27.54
+ALB,Albemarle,,,,66,,1,0,,8/4/18,Basic Materials,Specialty Chemicals,12/24/20,382,6000,1.12,109.1,6.06,22.73,11.14,15.27,,58,3,11.77,4.15,9.58
+ALE,"ALLETE, Inc.",,,,,,,,,,Utilities,Utilities - Diversified,12/24/20,,1322,4.39,-22.68,-3.1,6.71,7.99,4.6,,,0,15.33,3.17,7.88
+DVA,DaVita HealthCare Partners,,,,40,,1,0,,8/4/18,Healthcare,Medical Care,12/29/20,,,,54.45,16.85,10.46,12.76,10.66,,,0.9,7.32,4.9,43.39
+ALK,Alaska Air Group,,,,70,,0,0,,8/4/18,Industrials,Airlines,12/24/20,,18112,1.42,-24.64,-9.59,-6.99,15.13,13.46,,,0,-13.96,-5.02,-18.06
+ALKS,Alkermes,,,,,,,,,,,,12/29/20,,,,4.01,-27.34,-23.32,5.42,1.19,,,0,-6.28,-4.05,-6.84
+ALL,Allstate,,,,55,,1,0,,8/4/18,Financial Services,Insurance - Property & Casualty,12/24/20,,45780,2.11,-2.46,2.46,12.79,14.14,5.71,,,1.8,10.33,3.75,18.89
+ALLE,Allegion,,,,49,,1,0,,8/4/18,Industrials,Security & Protection Services,12/24/20,,11000,1.08,-7.6,13.01,12.21,—,—,,,3.5,11.12,10.24,39.98
+ALLY,Ally Financial,,,,54,3.4,,,no,9/8/19,Financial Services,Credit Services,12/24/20,,8700,2.56,15.71,8.03,14.25,—,—,,,0,11.98,0.42,5.43
+ALV,Autoliv,,,,56,3.7,,,,9/8/19,Consumer Cyclical,Auto Parts,12/24/20,154,59423,1.39,9.55,3.16,2.65,6.63,8.8,,374,1.1,2.16,2.14,7.54
+ALXN,Alexion Pharmaceuticals,,,,33,,1,0,,8/4/18,Healthcare,Biotechnology,1/1/21,957,nan,—,44.47,9.32,-3.91,14.52,25.69,,978,1,16.32,5.91,8.92
+AMAT,Applied Materials,,,,78,,1,0,no,8/4/18,Technology,Semiconductor Equipment & Materials,12/24/20,3619,24000,1.05,39,18.41,35.51,20.33,11.18,,2234,2,21.04,17.49,38.52
+AMBA,"Ambarella, Inc.",,,,,,,,no,,Technology,Semiconductor Equipment & Materials,12/29/20,,,,59.26,17.05,10.32,—,—,,,13.3,-27.64,-11.33,-13.28
+AMCX,AMC Networks,,,,22,,0,0,,8/4/18,Consumer Cyclical,Broadcasting - TV,12/29/20,,,,-13.51,-14.44,-14.97,—,—,,,0,4.85,2.48,19.87
+AMD,Advanced Micro Devices,,,,52,,,0,no,8/4/18,Technology,Semiconductors,,,,,,,,,,,,,,,
+CHWY,Chewy,,,,40,2.9,,,maybe,9/12/19,,,12/29/20,,,,223.47,,,,,,,0,,,
+AMG,Affiliated Managers Group,,,,57,,1,0,,8/4/18,Financial Services,Asset Management,12/24/20,,4000,0.4,18.92,-20.03,-8.34,0.53,1.79,,,0.8,5.36,1.42,3.68
+AMGN,Amgen,,,,59,,,0,,8/4/18,Healthcare,Drug Manufacturers - Major,12/24/20,7352,23400,2.88,-5.63,10.87,8.88,16.38,8.05,,4290,1.5,29.42,11.84,67.18
+AMID,American Midstream Partners LP,,,,18,,1,0,,8/4/18,Basic Materials,Oil & Gas Pipelines,,,,,,,,,,,,,,,
+AMP,Ameriprise Financial,,,,66,3.7,1,0,maybe,9/8/19,Financial Services,Asset Management,12/24/20,,12500,2.21,15.15,5.25,13.66,14.07,11.63,,,2,15.33,1.18,30.17
+AMRK,A-Mark Precious Metals,,,,,,,,,,Financial Services,Capital Markets,12/29/20,,,,255.34,26.11,9.92,—,—,,,0,0.91,6.12,58.09
+AMT,American Tower,,,,57,,1,0,,8/4/18,Communication Services,Telecom Services,12/24/20,,5454,1.87,-2.31,17.53,18.73,16.76,15.61,,,2,24.08,4.68,42.09
+LYFT,Lyft,,,,,,0,0,too early,,Technology,Software - Application,1/1/21,-1651,nan,—,14.2,—,—,—,—,,971,0,-58.71,-30.85,-66.13
+BURL,Burlington Stores,,,,,,,,maybe,,Consumer Defensive,Discount Stores,1/1/21,-166,nan,—,14.7,28.58,43.56,—,—,,—,3.3,-2.92,-2.68,-49.01
+TSCO,Tractor Supply,,,,41,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/28/20,,,1.07,56.87,25.2,11.67,20.18,17.5,,,1.9,7.62,12.32,44.97
+AN,AutoNation,,,,39,,1,0,,8/4/18,Consumer Cyclical,Auto & Truck Dealerships,12/29/20,,,,40.08,10.12,2.8,9.37,7.93,,,0.9,1.92,3.87,12.21
+ANDV,Andeavor,,,,70,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,,,,,,,,,,,,,,,
+ANF,Abercrombie & Fitch,,,,32,,0,0,,8/4/18,Consumer Cyclical,Apparel Stores,12/24/20,,8000,1.93,24.3,7.06,-2.69,-7.01,-4.77,,,0,-3.55,-3.35,-12.36
+ANGI,ANGI Homeservices Inc,,,,,,1,0,,8/4/18,Technology,Internet Content & Information,12/29/20,8,,,61.12,8.45,7.48,—,—,,67,0,0.56,0.37,0.62
+HUM,Humana,,,,42,,1,0,,8/4/18,Healthcare,Health Care Plans,12/28/20,,,0.61,10.56,18.85,18.35,22.41,14.47,,,1.6,5.58,12.28,30.35
+ANTM,Anthem,,,,54,3.4,1,0,maybe,9/8/19,Healthcare,Health Care Plans,12/24/20,,70600,1.17,2.96,12.16,18.16,19.16,10.1,,,1.1,4.22,6.03,15.19
+AON,Aon plc,,,,51,,1,0,,8/4/18,Financial Services,Insurance Brokers,12/24/20,,50000,0.87,0.9,16.89,18.64,16.95,12.88,,,1.6,16.56,6.11,51.72
+APA,Apache,,,,42,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/24/20,,3163,2.52,-43.06,-26.4,-16.01,-15.09,-6.41,,,0,-164.52,-45.78,-336.74
+APC,Anadarko Petroleum,,,,46,,1,0,,8/4/18,Energy,Oil & Gas E&P,,,,,,,,,,,,,,,
+NSC,Norfolk Southern,,,,42,2.8,1,0,yes,9/8/19,Industrials,Railroads,12/28/20,,,1.59,22.18,19.2,23.53,15.32,12.53,,,2.8,20.23,5.3,13.28
+BLL,Ball,,,,43,,1,0,,8/4/18,Consumer Cyclical,Packaging & Containers,12/27/20,,,0.62,42.48,35.23,21.11,18.65,16.15,,,3.9,4.54,3.12,16.57
+APRN,Blue Apron,,,,,,,,no,,,,,,,,,,,,,,,,,,
+AR,Antero Resources Corporation,,,,,,,,,,Energy,Oil & Gas E&P,,,,,,,,,,,,,,,
+ARAY,Accuray Incorporated,,,,,,,,,,Healthcare,Medical Devices,1/1/21,14,nan,—,47.87,-1.02,-9.18,-4.7,—,,49,0,3.59,2.93,25.06
+ARLP,Alliance Resource Partners L.P.,,,,43,,1,0,,8/4/18,Basic Materials,Coal,12/24/20,,3602,20.89,-52.73,-21.76,-1.66,-2.7,3.57,,,0,-9.82,-5.72,-11.67
+ARMK,Aramark,,,,,,,,,,Consumer Cyclical,Restaurants,12/24/20,,170750,1.26,-12.77,-3.19,4.11,—,—,,,0,-3.6,-3.13,-15.24
+UNP,Union Pacific,,,,44,,1,0,,8/4/18,Industrials,Railroads,12/28/20,,,1.9,15.5,16.98,23.05,17.41,17.71,,,2.9,27.4,8.55,30.51
+EFX,Equifax,,,,44,,1,0,,8/4/18,Industrials,Business Services,12/27/20,,,0.93,40.16,18.38,12.32,19.22,11.92,,,2.2,11.29,5.3,16.23
+ARW,Arrow Electronics,,,,,,,,,,Technology,Electronics Distribution,12/29/20,,,,15.37,6.6,11.96,11.06,7.64,,,2.4,1.67,2.95,9.72
+LOW,Lowes,,,,45,,0,0,,8/4/18,Consumer Cyclical,Home Improvement Stores,12/28/20,,,1.44,37.78,22.8,17.61,21.25,11.68,,,1,6.27,11.79,163.68
+APD,Air Products & Chemicals,,,,46,,1,0,,8/4/18,Basic Materials,Chemicals,12/24/20,1887,19000,1.85,15.43,19.7,17.41,13.1,11.75,,84,1.7,21.3,8.55,16.31
+ASX,Australian Services Exchange,,,,,,1,0,no,,Technology,Semiconductors,12/24/20,24142,,2.56,0.29,4.68,6.28,7.23,8.49,,19391,0,5.44,4.22,11.86
+ATHM,Autohome Inc.,,,,,,,,no,,Technology,Internet Content & Information,12/24/20,3163,3882,0.82,20.59,15.32,22.21,—,—,,1280,0,37.84,17.29,22.36
+APH,Amphenol,,,,47,,1,0,yes,8/4/18,Technology,Electronic Components,12/24/20,,74000,0.76,21.43,14.43,20.07,17.78,18.05,,,2.9,14,10.39,25.34
+DPZ,Dominos Pizza,,,,48,,0,0,maybe,8/4/18,Consumer Cyclical,Restaurants,12/27/20,,,0.76,38.05,28.02,30.08,38.45,20.83,,,2.2,,,
+AVB,AvalonBay Communities,,,,83,,0,0,,8/4/18,Real Estate,REIT - Residential,12/24/20,,3122,3.78,-21.29,-0.61,0.29,6.45,6.25,,,5.7,27.9,3.42,6.08
+ETN,Eaton Corporation,,,,49,,1,0,,8/4/18,Industrials,Diversified Industrials,12/27/20,1387,,2.41,28.06,17.73,19.75,10.67,10.15,,563,3.5,7.53,4.41,9.15
+AVT,Avnet,,,,37,3.3,,,,9/8/19,Technology,Electronics Distribution,12/24/20,,14600,2.77,-15.94,-1.97,-2.62,2.1,3.41,,,1.3,-0.52,-1.06,-2.37
+AVY,Avery Dennison,,,,83,,1,0,,8/4/18,Industrials,Business Equipment,12/24/20,,27950,1.55,16.71,11.75,20.54,14.8,7.86,,,5.1,7.8,9.53,44.06
+CMG,Chipotle Mexican Grill,,,,49,,0,0,,8/4/18,Consumer Cyclical,Restaurants,12/29/20,,,,67.48,68.14,23.21,20.34,—,,,2.4,4.08,4.49,13.84
+AWR,American States Water Co.,,,,,,1,0,,,Utilities,Utilities - Regulated Water,12/24/20,,841,1.73,-8.35,13.1,14.2,17.6,12.17,,,0,17.32,4.96,13.44
+MKC,McCormick and Company,,,,50,,1,0,,8/4/18,Consumer Defensive,Packaged Foods,12/28/20,,,1.33,12.58,23.88,17.88,15.85,13.66,,,1.9,13.75,7.16,20.54
+AXL,American Axle & Manufacturing,,,,,,,,,,Consumer Cyclical,Auto Parts,1/1/21,-1052,nan,—,-22.49,-21.18,-15.13,-4.24,-4.04,,—,0,-22.36,-15.86,-120.35
+AXP,American Express,,,,57,,0,0,,8/4/18,Financial Services,Credit Services,12/24/20,,64000,1.45,-4.55,7.34,12.17,11.68,6.38,,,14.1,11.66,1.72,14.63
+AXTA,Axalta Coating Systems Ltd,,,,,,1,0,no,8/4/18,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,,,
+XYL,Xylem,,,,51,,1,0,,8/4/18,Industrials,Diversified Industrials,12/29/20,224,,1.08,28.63,14.78,23.13,—,—,,187,3.9,4.6,2.81,7.79
+AYI,Acuity Brands,,,,40,,1,0,,8/4/18,Technology,Electronic Components,12/24/20,,11500,0.44,-12.51,-11.21,-12.73,7.71,10.05,,,1.6,7.46,7.45,12.27
+OKTA,Okta,,,,67,3.9,,,,,,,1/1/21,-241,nan,—,120.39,114.93,—,—,—,,204,254.3,-31.38,-9.56,-44.67
+AZO,AutoZone,,,,42,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,1/1/21,1825,nan,—,-0.49,18.56,9.83,15.83,18.6,,—,1.3,nan,nan,nan
+B4O2,Windstream Holdings,,,,,,,,,,,,12/24/20,,,,0,-69.28,-30.01,-9.84,—,,,0,,,
+BA,Boeing,,,,53,,0,0,,8/4/18,Industrials,Aerospace & Defense,12/24/20,,161100,1.95,-34.17,-7.41,11.22,14.69,9.09,,,0,,,
+BABA,Alibaba,,,,68,3.9,1,1,maybe,11/3/20,Consumer Cyclical,Specialty Retail,1/1/21,131803,nan,—,9.73,10.51,23.42,—,—,,51991,0.8,22.55,10.17,18.06
+BAC,Bank of America Corp.,,,,55,,1,1,,8/4/18,Financial Services,Banks - Global,12/24/20,,211000,2.56,-12.89,2.18,13.49,9.7,-1.09,,,4.1,20.52,0.7,7.35
+ZTS,Zoetis,,,,52,,1,0,yes,8/4/18,Healthcare,Drug Manufacturers - Specialty & Generic,12/29/20,1663,,,22.47,31.43,28.09,—,—,,462,3.7,25.42,13.31,52.96
+BAX,Baxter International,,,,46,,1,0,,8/4/18,Healthcare,Medical Instruments & Supplies,12/27/20,911,,1.22,-4.89,8.26,16.89,9.13,8.38,,542,2.6,7.9,4.87,11.28
+BBBY,Bed Bath & Beyond,,,,28,,0,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/27/20,,,1.62,8.62,-3.64,-15.55,-8.32,-3.62,,,1,-1.91,-2.45,-10.46
+BBT,BB&T Corp.,,,,48,,1,0,,8/4/18,Financial Services,Banks - Regional - US,12/27/20,,,,-73.86,-54.11,62.98,-3.25,—,,,0,-168.72,-6.46,-9.53
+BBVA,Banco Bilbao Vizcaya Argentaria,,,,,,,,,,,,12/27/20,,,3.81,-7.32,-12.68,-3.33,-1.22,-2.1,,,0,-2.72,-0.08,-1.26
+BBY,Best Buy,,,,62,,0,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/27/20,,,1.98,19.13,17.39,29.59,12.92,6.76,,,1.4,3.79,9.06,47.9
+BCE,BCE Inc.,,,,,,,,,,Communication Services,Telecom Services,12/27/20,,,5.65,-1.93,1.71,6.85,6.28,7.24,,,0,9.82,3.73,13.56
+BCRX,BioCryst,,,,,,,,,,,,12/29/20,,,,130.13,12.15,-7.55,2.8,-5.52,,,0,,,
+BCSF,Bain Capital Specialty Finance,,,,,,,,,,,,12/27/20,,,13.21,-29.23,—,—,—,—,,,0,,,
+BDX,Becton Dickinson,,,,50,,1,0,,8/4/18,Healthcare,Medical Instruments & Supplies,12/27/20,874,,1.35,-7.99,5.81,11.02,12.43,10.71,,1096,1.7,4.48,1.45,3.42
+BECN,Beacon Roofing Supply,,,,,,,,,,Basic Materials,Building Materials,1/1/21,-81,nan,—,25.67,-14.26,-0.49,8.44,5.07,,—,0,-1.51,-1.57,-5.79
+BEN,Franklin Templeton Investments,,,,56,,1,0,,8/4/18,Financial Services,Asset Management,12/27/20,,,4.91,-0.99,-11.33,-2.74,0.14,1.28,,,0,14.08,4.51,7.83
+AJG,Arthur J. Gallagher,,,,52,,1,0,,8/4/18,Financial Services,Insurance Brokers,12/24/20,,32000,1.54,32.44,26.99,26.19,16.76,10.64,,,0,11.07,3.78,14.6
+BERY,Berry Global Group,,,,,,,,,,Consumer Cyclical,Packaging & Containers,1/1/21,559,nan,—,18.32,-1.43,9.2,—,—,,—,0,4.77,3.37,30.13
+UNH,United Health Group Inc.,,,,53,3.4,1,0,,11/3/20,Healthcare,Health Care Plans,12/28/20,,,1.39,18.52,17.17,25.17,26.31,12.47,,,1.6,6.66,9.18,27.83
+BHF,Brighthouse Financial,,,,,,,,,,Financial Services,Insurance - Life,12/29/20,,,,-10.38,-15.74,—,—,—,,,0,-12.92,-0.49,-6.32
+BHI,Baker Hughes,,,,37,,1,0,,8/4/18,Energy,Oil & Gas Equipment & Services,,,,,,,,,,,,,,,
+BHP,BHP Group,,,,,,,,,,Basic Materials,Industrial Metals & Minerals,12/27/20,,,4.3,24.04,18.36,24.08,-0.09,7.52,,,0,18.53,7.74,16.72
+BIDU,Baidu,,,,,,,,no,,Technology,Internet Content & Information,,,,,,,,,,,,,,,
+BIIB,Biogen,,,,31,,1,0,no,8/4/18,Healthcare,Drug Manufacturers - Major,,,,,,,,,,,,,,,
+FAST,Fastenal,,,,53,,1,0,yes,8/4/18,Industrials,Industrial Distribution,12/27/20,,,2.02,37.58,24.82,20.99,14.22,12.38,,,3.1,15.12,21.25,30.77
+BEP,Brookfield Renewable Partners,,,,53,3.9,1,0,,9/8/19,Utilities,Utilities - Independent Power Producers,12/27/20,,,3.07,71.23,34.44,26.61,16.19,—,,,0,-4.24,-0.31,-2.63
+TWLO,Twilio,,,,78,4.1,,,yes,,,,1/1/21,-402,nan,—,244.42,142.97,—,—,—,,482,34.3,-26.01,-6.79,-8
+BJ,BJ's Wholesale Club,,,,,,,,no,,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,,,
+BK,Bank of New York Mellon Corp.,,,,47,,1,0,,8/4/18,Financial Services,Asset Management,12/27/20,,,3.17,-16.03,-6.25,2.25,5,3.28,,,4.4,26.1,1.02,10.52
+BKEP,Blueknight Energy Partners L.P.,,,,58,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/27/20,,,9.47,96.21,-17.36,-5.23,-2.09,—,,,0,,,
+EL,Estee Lauder,,,,54,,,0,,8/4/18,Consumer Defensive,Household & Personal Products,12/27/20,,,0.8,27.74,27.66,24.76,21.15,20.52,,,3.9,4.38,3.67,13.63
+BKNG,Booking Holdings,,,,,,,,,,Consumer Cyclical,Leisure,1/1/21,1395,nan,—,8.45,8.62,11.8,18.75,35.92,,—,10,15.68,6.4,25.68
+IDXX,IDEXX Laboratories,,,,54,,1,0,,8/4/18,Healthcare,Diagnostics & Research,1/1/21,497,nan,—,91.43,47.31,46.96,30.61,24.81,,138,6.1,19.2,26.19,154.74
+BKU,"BankUnited, Inc.",,,,35,2.9,,,,9/8/19,Financial Services,Banks - Regional - US,12/27/20,,,3.16,-4.86,-3.52,0.95,—,—,,,0,21.9,0.57,6.67
+GPN,Global Payments,,,,55,,1,0,,8/4/18,Industrials,Business Services,12/28/20,,,0.4,12.85,27.21,25.84,24.61,15.47,,,0.9,6.75,1.12,1.82
+IQV,IQVIA Holdings,,,,55,3.5,,,,9/8/19,Healthcare,Diagnostics & Research,1/1/21,176,nan,—,15.96,22.32,21.15,—,—,,—,1.3,1.61,0.75,2.94
+BLDR,Builders FirstSource,,,,,,,,,,Basic Materials,Building Materials,1/1/21,215,nan,—,60.61,23.26,29.79,35.4,5.02,,—,0,2.76,5.88,24.06
+GDDY,GoDaddy,,,,55,,1,0,,8/4/18,Technology,Internet Content & Information,12/29/20,,,,21.37,18.31,20.29,—,—,,,0,-15.67,-8.16,-200.56
+UI,Ubiquiti Inc,,,,55,3.2,,,yes,11/3/20,,,12/28/20,439,,0.56,46.09,57.3,53.88,—,—,,95,0,,,
+BLMN,Bloomin Brands,,,,,,1,0,,8/4/18,Consumer Cyclical,Restaurants,12/27/20,,,1.71,-13.15,-1.98,3.7,—,—,,,0,-3.55,-3.51,-160.62
+ICE,Intercontinental Exchange,,,,56,,1,0,,8/4/18,Financial Services,Financial Exchanges,12/28/20,,,1.11,23.54,18.18,18.44,17.33,20.94,,,2,26.19,1.8,11.12
+BMO,Bank of Montreal,,,,,,,,,,Financial Services,Banks - Global,12/27/20,,,4.37,2.9,2.4,9.73,6.34,5.07,,,0,19.38,0.54,10.13
+BMW,BMW,,,,,,1,0,,,,,12/27/20,,,,3.67,-1.57,-1.77,4.87,7.24,,,0.5,3.61,1.56,5.95
+BMY,Bristol-Myers Squibb,,,,53,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Major,12/27/20,,,2.88,-0.33,2.78,0.09,11.23,8.89,,,0.8,-0.11,-0.05,-0.13
+BNGO,Bionano Genomics,,,,,,,,,,,,12/29/20,,,,-18.13,—,—,—,—,,,0,,,
+BOSCHLTD.NS,Bosch,,,,66,,1,0,no,8/4/18,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,,,
+BPL,Buckeye Partners L.P.,,,,49,,1,0,,8/4/18,Energy,Oil & Gas Midstream,,,,,,,,,,,,,,,
+BPMC,Blueprint Medicines Corporation,,,,,,,,no,,Healthcare,Biotechnology,12/29/20,333,,,50.67,16.57,38.45,—,—,,338,0,41.08,29.02,36.29
+BPTH,Bio-Path,,,,,,,,,,,,1/1/21,-11,nan,—,-56.2,-55.79,-57.42,-25.93,—,,6,0,nan,nan,nan
+BRK.A,Berkshire Hathaway,,,,44,3.1,1,0,yes,9/8/19,Financial Services,Insurance - Diversified,1/1/21,35845,nan,—,2.42,5.33,11.95,11.19,9.54,,—,0,12.84,4.43,8.82
+BRK.B,Berkshire Hathaway,,,,44,3.1,1,0,yes,9/8/19,Financial Services,Insurance - Diversified,12/29/20,,,,1,4.6,11.4,11.06,9.48,,,0,12.84,4.43,8.82
+BSET,Bassett Furniture Industries,,,,37,,1,0,,8/4/18,Consumer Cyclical,Home Furnishings & Fixtures,12/27/20,,,3.69,22.71,-17.79,-0.53,20.47,3.52,,,0.9,-5.8,-6.6,-13.1
+BSIG,BrightSphere Investment Group,,,,,,,,,,,,12/27/20,,,1.24,89.59,5.78,6.12,—,—,,,0,20.95,10.98,223.25
+BSX,Boston Scientific,,,,75,,1,0,,8/4/18,Healthcare,Medical Devices,12/29/20,3704,,,-22.78,11.5,13.27,16.14,2.31,,1165,2.7,36.46,12.79,29.17
+BTU,Peabody Energy,,,,,,,,,,Basic Materials,Coal,12/27/20,,,10.74,-81.22,-50.67,—,—,—,,,0,-62.27,-34.86,-101.79
+BUD,Anheuser-Busch,,,,54,,0,0,no,8/4/18,Consumer Defensive,Beverages - Brewers,12/27/20,,,2.18,-12.86,-11.85,-7.65,5.46,—,,,7.2,2.54,0.53,1.87
+BURBY,Burberry,,,,,,,,,,,,12/27/20,,,0.64,-18.74,2.1,7.59,4.66,—,,,1.2,0.93,0.61,1.63
+BL,Blackline,,,,71,4,,,,,,,1/1/21,-39,nan,—,158.69,59.61,—,—,—,,49,10.3,-11.63,-3.87,-9.62
+BWA,BorgWarner,,,,65,,1,0,,8/4/18,Consumer Cyclical,Auto Parts,12/27/20,,,1.75,-9.66,-7.44,-0.65,1.73,7.45,,,1.1,4.11,3.43,7.86
+BX,Blackstone Group,,,,69,,1,0,no,8/4/18,Financial Services,Asset Management,12/27/20,,,3.21,20.76,29.56,19.65,18.96,—,,,0,17.86,2.72,12.09
+BXP,Boston Properties,,,,63,,1,0,,8/4/18,Real Estate,REIT - Office,12/27/20,,,3.99,-28.02,-6.23,-2.81,4.34,4.95,,,0,34.79,4.49,17.44
+CNI,Canadian National Railway,,,,57,,1,0,,8/4/18,Industrials,Railroads,12/27/20,,,1.56,23.21,11.89,15.5,13.86,12.87,,,0,24.83,7.65,18.06
+BZUN,Baozun Inc.,,,,,,,,,,Consumer Cyclical,Specialty Retail,1/1/21,302,nan,—,3.71,2.86,33.14,—,—,,—,0,3.8,4.6,11.89
+C,Citigroup,,,,53,3.5,0,0,no,9/8/19,Financial Services,Banks - Global,12/27/20,,,3.7,-20.33,-4.35,5.06,3.77,-8.97,,,0,14.23,0.51,6.14
+CCK,Crown Holdings,,,,57,,1,0,,8/4/18,Consumer Cyclical,Packaging & Containers,1/1/21,515,nan,—,38.13,21.22,14.6,11.62,11.52,,—,6.7,4.52,3.33,29.2
+CACC,Credit Acceptance,,,,64,3.8,1,0,yes,9/8/19,Financial Services,Credit Services,1/1/21,417,nan,—,-21.75,2.28,10.09,18.62,22.7,,—,0,25.91,5.75,17.76
+CAE,CAE Inc.,,,,55,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/27/20,60,,0.66,2,14.36,20.25,9.91,9.74,,116,0,1.91,0.82,2.66
+CAG,ConAgra Foods,,,,31,,,1,,8/4/18,Consumer Defensive,Packaged Foods,12/27/20,,,2.5,9.52,0.79,5.23,10.22,7.84,,,3.1,8.77,4.45,12.79
+CAH,Cardinal Health,,,,52,,1,0,,8/4/18,Healthcare,Medical Distribution,12/27/20,,,3.54,8.66,-1.61,-6.82,5.83,1.03,,,3.9,0.63,2.41,83.81
+CAKE,Cheesecake Factory,,,,60,,0,0,,8/4/18,Consumer Cyclical,Restaurants,12/27/20,,,1.92,-3.79,-6.68,-1.94,3.58,1.03,,,5.1,-9,-7.34,-44.65
+CAMP,CalAmp Corp.,,,,,,,,,,Technology,Communication Equipment,12/29/20,,,,6.52,-22.26,-13.54,12.31,-0.07,,,1.8,-30.51,-20.59,-71.32
+CAR,Avis Budget Group,,,,38,,,0,,8/4/18,Industrials,Rental & Leasing Services,12/29/20,,,,12.84,-6.35,0.24,9.34,-0.23,,,0,-7.28,-2.12,-215.75
+CASY,Casey's General Stores,,,,,,,,,,Consumer Defensive,Grocery Stores,12/27/20,,,0.7,12.94,17.75,8.64,15.83,14.5,,,1.4,4.49,8.03,19.21
+CAT,Caterpillar,,,,41,,,0,,8/4/18,Industrials,Farm & Construction Equipment,12/27/20,3316,,2.37,24.55,6.99,23.2,8.24,9.09,,1427,8.8,7.6,4.29,22.18
+CATO,Cato Corp,,,,,,,,,,,,12/27/20,,,8.19,-51.53,-11.23,-18.2,-3.09,0.52,,,0,-6.65,-6.54,-13.81
+TMO,Thermo Fisher Scientific,,,,57,,1,0,,8/4/18,Healthcare,Diagnostics & Research,12/28/20,4879,,0.18,40.57,34.22,26.71,23.6,19.89,,1067,1.6,17.12,8.08,15.95
+CB,Chubb Limited,,,,48,,1,0,yes,8/4/18,Financial Services,Insurance - Property & Casualty,12/27/20,,,2.07,-0.01,3.4,7.03,10.99,8.46,,,1.5,6.56,1.26,4.12
+CBRE,CBRE Group,,,,64,3.6,,,,9/8/19,Real Estate,Real Estate Services,12/29/20,,,,3.31,12.73,12.64,11.77,8.01,,,3.1,4.48,6.86,17.83
+CBRL,Cracker Barrel Old Country Store,,,,50,,0,0,,8/4/18,Consumer Cyclical,Restaurants,12/27/20,,,2.79,-12.4,-2.13,6.28,12.64,11.9,,,0,3.92,3.76,15.86
+CC,Chemours,,,,,,,,,,Basic Materials,Specialty Chemicals,12/27/20,,,4.11,51.74,-15.33,39.2,—,—,,,0,-2.35,-1.62,-14.91
+TEAM,Atlassian Corporation,,,,,,,,yes,,,,1/1/21,-442,nan,—,94.34,72.55,50.71,—,—,,820,9.3,-25.82,-12.07,-63.87
+CCJ,Cameo Corp,,,,,,,,,,,,12/27/20,,,0.61,53.4,13.55,2.82,-8.54,-3.83,,,0,-0.22,-0.06,-0.09
+DHR,Danaher,,,,57,,1,0,,8/4/18,Healthcare,Diagnostics & Research,12/27/20,3681,,0.32,45.02,33.76,21.43,18.06,15.7,,1246,2.1,17.82,5.41,11.08
+CCL,Carnival Corp.,,,,60,,0,0,maybe,8/4/18,Consumer Cyclical,Leisure,12/27/20,,,5.01,-58.11,-27.49,-12.2,-3.09,-2.26,,,0,-73.4,-16.01,-33.89
+CDK,CDK Global Inc,,,,,,,,,,,,12/27/20,,,1.25,-5.29,-9.39,2.41,—,—,,,0,,,
+CDW,CDW,,,,74,3.9,,,,9/8/19,Technology,Information Technology Services,12/27/20,,,1.18,-8.53,24.32,25.57,—,—,,,0,4.08,8.69,67.7
+CE,Celanese,,,,,,,,,,Basic Materials,Chemicals,12/27/20,575,,1.92,7.25,8.69,15.66,13.36,14.29,,71,3.9,10.46,5.99,21.88
+CEIX,Consol Energy,,,,36,,1,0,,8/4/18,Basic Materials,Coal,12/29/20,,,,-53.84,-44.05,—,—,—,,,0,-0.95,-0.34,-2.02
+LULU,Lululemon Athletica Inc.,,,,,,,,,,Consumer Cyclical,Apparel Stores,1/1/21,557,nan,—,50.23,64.22,46,26.11,—,,—,3.1,13.69,17.19,29.23
+CENX,Century Aluminum,,,,,,1,0,,,Basic Materials,Aluminum,12/29/20,,,,39.46,-19.6,17.51,-4.1,-6.11,,,0,-5.61,-6.39,-14.44
+CERN,Cerner,,,,69,,1,0,maybe,8/4/18,Technology,Health Information Services,12/27/20,793,,0.96,8.27,5.76,5.6,12.85,13.65,,739,3,14.28,11.09,17.98
+CF,CF Industries Holdings,,,,69,3.7,1,0,maybe,9/8/19,Basic Materials,Agricultural Inputs,12/27/20,,,3.22,-20.71,-1.05,-0.2,5.47,19.88,,,2.6,7,2.3,9.82
+CFG,Citizens Financial Group,,,,49,,1,0,,8/4/18,Financial Services,Banks - Regional - US,12/27/20,,,4.78,-9.45,-2.91,8.57,—,—,,,0,15.16,0.55,4.62
+CG,Carlyle Grou,,,,,,,,,,,,12/27/20,,,3.52,3.88,15.57,18.69,—,—,,,0,-15.09,-1.27,-11.55
+CGC,Canopy Growth Corporation,,,,,,,,,,Healthcare,Drug Manufacturers - Specialty & Generic,12/29/20,,,,28.47,0.66,63.69,—,—,,,0,-321.55,-20.74,-29.89
+BMI,Badger Meter,,,,58,,1,0,yes,8/4/18,Technology,Scientific & Technical Instruments,12/27/20,,,0.85,44.31,26.17,26.31,16.21,16.53,,,0,11.53,11.2,14.37
+VIR,Vir Biotech,,,,83,4.2,,,,,,,12/28/20,,,,127.24,—,—,—,—,,,0,-339.6,-37.6,-96.62
+HCA,HCA Holdings,,,,60,,1,0,maybe,8/4/18,Healthcare,Medical Care,12/28/20,,,0.55,11.28,23.46,19.46,,,,,1.3,,,
+CHK,Chesapeake Energy,,,,29,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/27/20,,,,75,32.64,11.71,—,—,,,0,,,
+CHKP,Check Point Software Technologies Ltd.,,,,,,,,,,Technology,Software - Application,12/29/20,848,,,23.07,9.89,10.76,11.62,13.57,,249,3.7,41.47,15.21,24.46
+CHRW,Burlington Stores,,,,43,,1,0,,8/4/18,Industrials,Integrated Shipping & Logistics,12/27/20,,,2.17,24.71,4.28,10.39,3.37,7.65,,,2.8,2.96,9.43,25.81
+CHS,CHS,,,,,,,,,,Consumer Cyclical,Apparel Stores,12/27/20,,,11.75,-61.65,-36.29,-23.22,-9.9,-14.35,,,0,-19.49,-19.07,-72.66
+ECL,Ecolab,,,,60,,1,0,,8/4/18,Basic Materials,Specialty Chemicals,12/27/20,,,0.85,13.87,18.26,14.16,16.4,13.22,,,5.4,-7.52,-5.53,-14.75
+TROW,T. Rowe Price,,,,60,,1,0,yes,8/4/18,Financial Services,Asset Management,12/28/20,,,2.41,23.48,14.35,17.37,10.38,11.16,,,2.9,34.93,21.26,29.72
+CI,Cigna,,,,56,3.5,0,0,maybe,9/8/19,Healthcare,Health Care Plans,12/27/20,,,0.02,-2.52,-0.73,6.33,18.45,11.75,,,0.9,3.37,3.37,11.43
+CINF,Cincinnati Financial,,,,68,,1,0,,8/4/18,Financial Services,Insurance - Property & Casualty,12/27/20,,,3.09,-15.14,7.53,10.09,12.68,6.31,,,0,11.34,3.1,8.3
+CIOXY,Cielo SA,,,,52,,1,0,,8/4/18,Technology,Software - Infrastructure,12/27/20,,,1.59,-62.84,-42.47,-22.27,-2.59,—,,,0,4.01,0.52,4.83
+CL,Colgate-Palmolive,,,,58,,0,0,,8/4/18,Consumer Defensive,Household & Personal Products,12/27/20,,,2.04,26.61,6.26,6.85,9.51,9.2,,,3.9,,,
+CLDR,"Cloudera, Inc.",,,,,,,,no,,Technology,Software - Application,,,,,,,,,,,,,,,
+CLF,Cliffs Natural Resources,,,,25,,0,0,,8/4/18,Basic Materials,Industrial Metals & Minerals,12/27/20,,,1.09,69.88,25.91,52.7,-13.3,-0.82,,,0,-3.38,-2.05,-20.98
+CLR,Continental Resources,,,,76,,,0,,8/4/18,Energy,Oil & Gas E&P,12/27/20,,,0.65,-51.49,-31.32,-6.74,-5.49,—,,,0,-10.54,-2.04,-4.89
+LAD,Lithia Motors,,,,51,3.5,,,maybe,9/8/19,Consumer Cyclical,Auto & Truck Dealerships,12/28/20,,,0.42,95.64,36.49,21.98,35.47,16.22,,,0.5,2.82,5.78,22.97
+CM,Canadian Imperial Bank of Commerce,,,,,,,,,,,,12/27/20,,,5.15,9.45,1.06,9.66,4.72,5.13,,,0,19.65,0.52,10.03
+CMA,Comerica,,,,29,,1,0,,8/4/18,Financial Services,Banks - Regional - US,12/27/20,,,5.51,-18.35,-10.39,9.01,4.93,1.84,,,0,17.34,0.66,7.04
+CMCM,Cheetah Mobile Inc,,,,,,1,0,no,8/4/18,Technology,Software - Application,12/29/20,,,,-3.67,-31.07,-24.61,—,—,,,0,-15.04,-6,-8.87
+CMCSA,Comcast,,,,58,,0,0,,8/4/18,Communication Services,Pay TV,12/27/20,,,1.79,15.16,9.01,13.5,17.53,13.12,,,1.4,9.9,3.93,12.56
+CME,CME Group,,,,56,,1,0,,8/4/18,Financial Services,Financial Exchanges,12/27/20,,,1.89,-8.1,9.93,17.54,13.21,7.64,,,5.2,43.68,2.1,8
+ABG,Asbury Automotive Group,,,,60,3.8,1,0,maybe,9/8/19,Consumer Cyclical,Auto & Truck Dealerships,1/1/21,209,nan,—,30.37,31.56,16.66,22.94,15.75,,—,0.4,3.08,6.58,29.59
+CMI,Cummins,,,,58,,1,0,,8/4/18,Industrials,Diversified Industrials,12/27/20,1588,,2.29,27.96,11.12,22.8,8.94,17.75,,922,2.4,8.12,7.58,20.48
+CMS,CMS Energy,,,,41,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/27/20,,,2.65,-4,9.84,12.65,13.9,11.16,,,2.8,11.44,2.76,14.87
+CNC,Centene,,,,53,3.1,1,0,no,9/8/19,Healthcare,Health Care Plans,12/29/20,,,,-7.57,4.57,12.24,24.72,15.7,,,0.8,2,3.95,10.67
+CNHI,CNH Industrial,,,,47,3.5,,,,9/8/19,Industrials,Farm & Construction Equipment,12/29/20,,,,15.65,-0.57,13.81,—,—,,,13,-2.15,-1.2,-10.03
+MRNA,Moderna,,,,87,4,,,,,,,1/1/21,-598,nan,—,434.1,—,—,—,—,,729,0,-242.34,-19.16,-29.81
+CNK,Cinemark Holdings,,,,42,,0,0,,8/4/18,Consumer Cyclical,Media - Diversified,12/27/20,,,4.53,-50.38,-18.42,-7.64,4.03,—,,,0,-25.23,-6.01,-27.89
+CNP,CenterPoint Energy,,,,77,,1,0,,8/4/18,Utilities,Utilities - Regulated Gas,12/27/20,,,3.19,-16.59,-4.33,8.06,6.92,6.72,,,0,-8.02,-2.89,-15.5
+CODI,Compass Diversified,,,,,,,,,,,,12/27/20,,,7.36,-13.12,12.2,10.77,6.97,—,,,0,3.46,2.36,6.16
+UBER,Uber,,,,,,1,0,too early,,Technology,Software - Application,1/1/21,-6895,nan,—,71.49,—,—,—,—,,2330,0,-53.11,-22.54,-57.45
+COF,Capital One Financial,,,,62,,1,0,,8/4/18,Financial Services,Credit Services,12/27/20,,,1.17,-4.52,0.33,7.33,9.89,1.57,,,0,3.4,0.24,1.63
+COG,Cabot,,,,55,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/27/20,,,2.28,-0.57,-13.37,0.55,7.18,7.96,,,3.9,14.7,4.88,9.98
+COLM,Columbia Sportswear,,,,50,,0,0,,8/4/18,Consumer Cyclical,Apparel Manufacturing,12/27/20,,,0.61,-9.64,8.82,14.98,12.18,9.98,,,0,4.97,4.67,7.28
+IR,Ingersoll-Rand PLC,,,,61,,1,0,,8/4/18,Industrials,Diversified Industrials,1/1/21,-159,nan,—,24.21,10.32,—,—,—,,—,2.3,-3.97,-1.58,-3.01
+COP,ConocoPhillips,,,,32,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/27/20,,,4.27,-36.32,-7.68,-1.2,1.07,2.34,,,0,-5.76,-1.81,-3.67
+CORE,Core Mark Holding,,,,42,,1,0,,8/4/18,Consumer Defensive,Food Distribution,12/27/20,,,1.57,14.7,1.2,-5.31,13.71,9.83,,,0,0.36,2.92,9.98
+WORK,Slack,,,,,,0,0,,,Technology,Software - Application,12/29/20,,,,92.32,—,—,—,—,,,0,-36.87,-17.59,-38.75
+COTY,Coty,,,,27,,1,0,,8/4/18,Consumer Defensive,Household & Personal Products,12/27/20,,,3.48,-33.23,-25.31,-19,—,—,,,0,-19.52,-4.93,-22.59
+CPB,Campbell Soup,,,,44,,0,0,,8/4/18,Consumer Defensive,Packaged Foods,12/27/20,1771,,2.8,1.46,2.65,0.78,5.9,5.32,,91,1.1,20.02,13.88,88.37
+ABNB,Airbnb,,,,56,4.2,,,,,,,1/1/21,-1048,nan,—,—,—,—,—,—,,974,0,-28.92,-12.01,-326.38
+CPT,Camden Property Trust,,,,,,1,0,,8/4/18,Real Estate,REIT - Residential,12/27/20,,,3.33,-3,6.01,9.2,9.44,6.17,,,0,18.1,2.71,5.35
+BAH,Booz Allen Hamilton Holding,,,,62,,1,0,,8/4/18,Industrials,Business Services,12/27/20,,,1.43,24.52,32.63,24.09,18.48,—,,,0,6.6,10.45,56.82
+BILI,Bilibili Inc,,,,,,,,maybe,,,,1/1/21,-2567,nan,—,360.37,—,—,—,—,,1274,0,-25.25,-12.77,-32.58
+ZEN,Zendesk,,,,,,,,,,,,12/29/20,,,,79.87,60.17,39.31,—,—,,,2.8,-18.89,-10.49,-42.5
+CSCO,Cisco Systems,,,,64,,0,0,,8/4/18,Technology,Communication Equipment,12/27/20,10462,,3.32,-3.79,7.81,12.99,10.44,7.75,,6293,2.9,21.76,11.16,28.83
+CHDN,Churchill Downs Incorporated,,,,,,1,0,yes,8/4/18,Consumer Cyclical,Gambling,12/27/20,,,0.32,55.51,40.24,34.85,30.69,20.63,,,0,-8.99,-3.26,-20.59
+HDB,HDFC Bank,,,,64,,1,0,yes,8/4/18,Financial Services,Banks - Regional - Asia,1/1/21,282856,nan,—,14.03,12.8,18.98,16.07,19.58,,—,0,33.91,1.88,15.75
+KLAC,KLA-Tencor,,,,64,,1,0,maybe,8/4/18,Technology,Semiconductor Equipment & Materials,12/28/20,1291,,1.39,47.43,34.92,31.46,22.36,12.54,,872,2.6,21.76,13.92,47.73
+ZG,"Zillow Group, Inc.",,,,78,4.2,,,maybe,,Real Estate,Real Estate Services,1/1/21,-309,nan,—,197.2,49.43,39.17,—,—,,516,0,-8.85,-4.79,-7.98
+CTL,CenturyLink,,,,30,,1,0,,8/4/18,Communication Services,Telecom Services,12/27/20,,,,-22.22,31.13,15.51,-3.53,-8.84,,,0,-28.73,-13.11,-17.42
+CTRE,CareTrust REIT,,,,,,1,0,no,8/4/18,Real Estate,REIT - Healthcare Facilities,12/27/20,,,5.02,13.79,13.41,19.15,—,—,,,0,46.03,5.38,8.7
+CTRP,"Ctrip.com International, Ltd.",,,,,,,,,,Consumer Cyclical,Leisure,12/27/20,,,,-14.56,-10.92,—,—,—,,,3.6,-9.17,-1.52,-3.12
+CTSH,Cognizant Technology Solutions,,,,59,,1,0,,8/4/18,Technology,Information Technology Services,12/27/20,,,1.13,31.33,5.23,6.7,8.72,13.18,,,2.7,8.78,8.5,13.47
+CTXS,Citrix Systems,,,,43,,1,0,,8/4/18,Technology,Software - Infrastructure,12/27/20,599,,1.13,21.05,15.59,15.36,8.53,11.79,,534,1.9,18.52,13.88,153.37
+CVE,Cenovus Energy Inc.,,,,,,,,,,Energy,Oil & Gas Integrated,12/27/20,,,1.85,-40.61,-10.67,-12.77,-10.41,—,,,0,-13.92,-6.16,-11.66
+CVGI,Commercial Vehicle Group,,,,,,,,,,,,12/29/20,,,,47.06,-5.35,26.73,-5.7,-4.54,,,0,-5.85,-9,-34.41
+CVS,CVS Health,,,,34,,0,0,,8/4/18,Healthcare,Health Care Plans,12/27/20,,,2.95,-6.09,0.25,-4.71,9.01,7.78,,,1.2,2.99,3.51,12.1
+CVX,Chevron,,,,51,,1,0,,8/4/18,Energy,Oil & Gas Integrated,12/27/20,,,5.92,-24.8,-7.25,3.31,3.45,6.14,,,0.8,-11.02,-4.79,-7.99
+CW,Curtiss-Wright,,,,68,,1,0,,8/4/18,Industrials,Diversified Industrials,12/27/20,237,,0.59,-20.57,-2.14,11,13.49,10.05,,72,0,9.96,6.36,13.53
+CWT,California Water Service Group,,,,47,,1,0,,8/4/18,Utilities,Utilities - Regulated Water,12/27/20,,,1.72,6.25,8.11,19.02,12.43,8.1,,,0,11.85,2.84,11.25
+TJX,TJX,,,,65,,1,0,,8/4/18,Consumer Cyclical,Apparel Stores,12/28/20,,,0.72,11.31,21.77,14.56,20.42,18.39,,,3.3,2.24,2.68,13.5
+CYH,Community Health Systems,,,,,,,,,,Healthcare,Medical Care,1/1/21,-173,nan,—,156.21,20.37,-16.5,-11.5,-7.98,,—,0,nan,nan,nan
+CCI,Crown Castle International,,,,65,,1,0,,8/4/18,Real Estate,REIT - Diversified,12/27/20,,,2.86,13.49,15.62,15.05,15.56,13.42,,,3,11.62,1.74,6.44
+CYRX,Cryoport,,,,,,,,,,,,12/29/20,,,,170.3,70.06,85.17,21.26,-15.99,,,0,-55.87,-11.41,-19.2
+DOCU,DocuSign,,,,93,4.7,0,0,,,Technology,Software - Application,12/29/20,,,,208.11,—,—,—,—,,,3.8,-16.83,-11.38,-43.85
+D,Dominion Energy,,,,71,,1,0,,8/4/18,Utilities,Utilities - Diversified,12/27/20,,,4.76,-4.52,1.73,5.96,9.02,7.08,,,27.2,-0.78,-0.13,-0.51
+DAL,Delta Air Lines,,,,79,4.1,0,0,maybe,9/8/19,Industrials,Airlines,12/27/20,,,2,-32.43,-8.48,-3.1,14.04,—,,,38.7,-42.88,-14.8,-114.32
+DAN,Dana,,,,,,,,,,Consumer Cyclical,Auto Parts,12/27/20,,,1.19,7.07,-14.07,7.86,2.28,—,,,0,0.2,0.19,0.8
+XLNX,Xilinx,,,,65,,1,0,maybe,8/4/18,Technology,Semiconductors,12/29/20,612,,1.04,45.33,28.67,25.47,18.12,12.85,,856,4.3,20.58,11.55,23.77
+SHW,Sherwin-Williams,,,,67,,1,0,,8/4/18,Basic Materials,Specialty Chemicals,12/28/20,,,0.72,27.21,21.84,23.24,24.69,20.83,,,3.6,10.41,8.98,45.49
+DBX,Dropbox,,,,,,1,0,no,,Technology,Software - Infrastructure,,,,,,,,,,,,,,,
+DCP,DCP Midstream,,,,,,,,,,Energy,Oil & Gas Midstream,12/27/20,,,12.07,-17.76,-9.59,5.68,2.68,5.85,,,6.3,-6.98,-3.34,-7.12
+DD,DuPont de Nemours,,,,,,,,,,Basic Materials,Chemicals,12/27/20,,,1.89,10.93,-12.14,0.25,5.59,2.59,,,271.3,-14.73,-4.21,-7.6
+PANW,"Palo Alto Networks, Inc.",,,,,,,,maybe,,Technology,Software - Application,1/1/21,-300,nan,—,53.68,34.85,15.07,—,—,,835,3,-8.36,-3.85,-26.47
+DDS,Dillard‚Äö√Ñ√∂‚àö√ë‚àö¬•s,,,,31,,1,0,,8/4/18,Consumer Cyclical,Department Stores,12/27/20,,,,-19.69,-1.89,-2.55,5.46,6.72,,,0,-1.48,-2,-4.74
+WDAY,Workday,,,,,,0,0,maybe,,Technology,Software - Application,1/1/21,-339,nan,—,45.7,33.05,24.63,—,—,,1704,3.2,-8.14,-4.84,-12.55
+DELL,Dell Technologies Inc.,,,,,,,,no,,Technology,Computer Systems,,,,,,,,,,,,,,,
+DEO,Diageo,,,,70,3.9,1,0,yes,9/8/19,Consumer Defensive,Beverages - Wineries & Distilleries,12/27/20,,,2.29,-2,5.84,9.94,9.85,8.63,,,1.2,11.99,4.36,18.62
+BYND,Beyond Meat,,,,,,1,0,maybe,,Consumer Defensive,Packaged Foods,12/29/20,,,,67.16,—,—,—,—,,,4.1,-6.97,-5.98,-7.44
+DFS,Discover Financial Services,,,,60,3.7,0,0,maybe,9/8/19,Financial Services,Credit Services,12/27/20,,,2.31,5.59,6.52,11.81,18.29,—,,,0.3,9.05,0.86,9.97
+ROKU,"Roku, Inc.",,,,81,4,,,maybe,,Communication Services,Pay TV,1/1/21,-101,nan,—,147.96,85.78,—,—,—,,340,0,-6.53,-6.7,-11.97
+DGX,Quest Diagnostics,,,,56,,0,0,,8/4/18,Healthcare,Diagnostics & Research,12/27/20,,,1.78,14.2,8.43,12.71,9.48,6.61,,,1.4,13.17,8.42,18.34
+DHI,D.R. Horton,,,,64,,1,0,no,8/4/18,Consumer Cyclical,Residential Construction,12/27/20,,,0.94,36.42,13.2,18.29,20.27,5.17,,,1,11.69,13.75,21.72
+DIS,Disney,,,,65,,0,0,maybe,8/4/18,Consumer Cyclical,Media - Diversified,12/27/20,,,0.59,19.57,17.7,11.24,17.25,14.58,,,2.8,-4.38,-1.45,-3.32
+ACN,Accenture plc,,,,70,,1,0,yes,8/4/18,Technology,Information Technology Services,12/24/20,,514000,1.32,23.66,19.98,20.98,19.16,16.39,,,3.5,11.74,14.7,31.75
+OLCLY,Oriental Land,,,,,,,,,,,,12/28/20,,,0.19,23.97,23.93,23.18,—,—,,,0,-3.98,-1.04,-1.35
+DISCA,Discovery Communications,,,,44,,0,0,no,8/4/18,Consumer Cyclical,Media - Diversified,,,,,,,,,,,,,,,
+DISCK,Discovery,,,,,,,,,,Consumer Cyclical,Media - Diversified,1/1/21,1424,nan,—,-14.1,7.35,0.76,3.62,—,,—,1,10.06,3.24,10.94
+DISH,DISH Network,,,,32,,1,0,no,8/4/18,Communication Services,Pay TV,,,,,,,,,,,,,,,
+DK,Delek US Holdings,,,,,,,,,,Energy,Oil & Gas Refining & Marketing,12/27/20,,,9.26,-52.43,-18.42,-4.72,12.2,—,,,0,-3.66,-4.24,-18.85
+DKS,Dicks Sporting Goods,,,,44,,0,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/27/20,,,2.13,19.74,25.64,10.25,5.6,9.36,,,1.9,4.2,5.15,19.86
+DLPH,Delphi Technologies,,,,67,,1,0,no,8/4/18,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,,,
+ATVI,Activision Blizzard,,,,70,,0,0,maybe,8/4/18,Technology,Electronic Gaming & Multimedia,12/24/20,2213,9080,0.52,55.36,12.59,18.94,22.35,19.17,,1098,1.9,28.89,11.24,16.63
+DLTR,Dollar Tree,,,,40,,0,0,,8/4/18,Consumer Defensive,Discount Stores,12/29/20,,,,16.25,-0.04,6.92,14.4,18.87,,,1.6,3.84,4.76,14.71
+DNN,Denison Mines,,,,,,,,,,,,1/1/21,-15,nan,—,55.9,5.56,5.37,-15.34,-13.82,,—,0,-102.81,-4.98,-7.11
+ALGN,AlignTech (Invisalign),2.1,-13%,"innovation, hiring, earnings",84,4.4,yes,0,yes,11/3/20,Healthcare,Medical Devices,1/1/21,1738,nan,—,91.51,33.98,52.01,39.22,34.21,,168,4,75.99,51.38,80.12
+TSM,Taiwan Semiconductor Manufacturing Co,,,"dividends, innovation",57,3.7,0,0,maybe,11/3/20,Technology,Semiconductors,12/28/20,499838,,1.74,84.52,40.93,37.56,25.23,18.33,,105181,2,38.6,20.96,29.63
+DOV,Dover,,,,60,,1,0,,8/4/18,Industrials,Diversified Industrials,12/27/20,,,1.61,9.31,13.45,19.21,11.39,10.27,,,2.1,10.02,7.58,21.37
+NEE,NextEra Energy,,,,71,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/28/20,,,1.9,27.03,26.79,25.41,20.46,15.23,,,0,21.43,3.24,10.56
+ZM,Zoom,,,,94,4.8,0,0,yes,,Communication Services,Telecom Services,1/1/21,427,nan,—,395.77,—,—,—,—,,132,1.5,21.74,20.08,37.44
+DRAD,Digirad Corp,,,,,,,,,,,,12/29/20,,,,5.15,-44.91,-30.86,-5.23,-7.16,,,0,-6.96,-9.24,-40.15
+DRI,Darden Restaurants,,,,58,,0,0,,8/4/18,Consumer Cyclical,Restaurants,12/27/20,,,1.09,9.74,9.07,14.95,12.07,9.48,,,2.8,-2.6,-1.92,-7.86
+DTE,DTE Energy,,,,69,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/27/20,,,3.22,-3.37,6.49,11.51,12.72,9.1,,,3,11.28,3.28,11.78
+DUK,Duke Energy,,,,56,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/27/20,,,4.12,3.61,6.22,8.38,8.74,5.26,,,4.1,8.37,1.28,4.57
+SHOP,Shopify,2.5,0%,earnings,81,4.2,,yes,yes,11/3/20,,,1/1/21,196,nan,—,184.71,123.79,113.03,—,—,140.51,496,0,7.99,3.69,4.37
+DVN,Devon Energy,,,,20,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/27/20,,,2.86,-39.68,-26.27,-11.94,-12,-6.19,,,4.1,-62.68,-26.05,-67.33
+DXC,DXC Technology,,,,,,,,,,Technology,Information Technology Services,12/27/20,,,1.92,-38.23,-29.65,0.95,4.49,2.94,,,0,-20.44,-14,-59.64
+MSFT,Microsoft,,,"innovation, hiring, earnings",75,4.3,0,0,yes,11/3/20,Technology,Software - Infrastructure,12/28/20,47496,,0.98,42.86,38.76,32.98,23.65,15.74,,19630,2.6,32.29,16.38,41.4
+DYNT,Dynatronics,,,,,,,,,,,,1/1/21,-4,nan,—,-2.42,-34.51,-22.83,-12.7,-13.55,,—,0,-9.81,-12.17,-47.88
+EA,Electronic Arts,,,,68,,0,0,maybe,8/4/18,Technology,Electronic Gaming & Multimedia,12/29/20,1314,,,29.94,10.19,15.28,24.19,6.8,,1650,4,23.51,11.91,17.25
+EADSF,Airbus,,,,55,4.1,0,0,yes,9/8/19,Industrials,Aerospace & Defense,1/1/21,-6234,nan,—,-22.93,5.18,11.53,18.02,—,,3240,0,-11.44,-5.48,-187.74
+EBAY,eBay,,,,50,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/27/20,5378,,1.27,40.18,10.77,13.16,12.14,4.72,,1293,0.8,45.56,28.96,173.76
+ECA,Encana Corporation,,,,,,,,,,Energy,Oil & Gas E&P,,,,,,,,,,,,,,,
+SQ,Square,2.4,-5%,"innovation, hiring, sustainability, earnings",74,4,yes,yes,maybe,11/3/20,,,1/1/21,310,nan,—,247.89,84.47,75.45,—,—,135.9366667,802,4.4,4.05,5.12,18.72
+ECPG,Encore Capital Group,,,,,,,,,,,,1/1/21,218,nan,—,10.15,-2.56,6.02,5.21,5.54,,—,0.2,14.84,4.61,21.28
+ED,Consolidated Edison,,,,54,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/27/20,,,4.01,-18.03,-2.18,5.53,6.95,5.77,,,4.6,11.06,2.34,7.42
+EDIT,Editas Medicine,,,,,,,,no,,,,,,,,,,,,,,,,,,
+XIACY,Xiaomi,,,,63,3.8,,,no,,Technology,Consumer Electronics,12/29/20,11628,,,193.53,—,—,—,—,,8115,1.7,5.45,6.52,13.97
+ADSK,Autodesk,,,,64,,,0,yes,8/4/18,Technology,Software - Application,1/1/21,429,nan,—,66.43,42.81,38.04,23.1,13.97,,900,1.8,nan,nan,nan
+NVDA,Nvidia,2.1,12%,"innovation, hiring, earnings",87,4.8,yes,0,yes,11/3/20,Technology,Semiconductors,12/28/20,3826,,0.12,118.08,38.75,73.58,42.74,28.27,76.80333333,3516,2.9,25.89,17.92,28.82
+EIX,Edison International,,,,46,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/27/20,,,4.16,-13.47,2.19,4.07,7.63,4.67,,,5.6,2.66,0.54,2.65
+AAPL,Apple,2,-3%,"innovation, hiring, sustainability, earnings",76,4.2,yes,0,yes,11/3/20,Technology,Consumer Electronics,12/24/20,57411,147000,0.68,85.59,44.94,37.7,27.96,30.12,56.07666667,18752,3.3,20.91,17.33,73.69
+EME,EMCOR Group,,,,,,,,,,Industrials,Engineering & Construction,12/27/20,,,0.37,5.33,4.13,14.36,12.35,12.05,,,0,1.57,2.99,7.04
+EMN,Eastman Chemical,,,,62,,1,0,,8/4/18,Basic Materials,Chemicals,12/27/20,472,,2.71,31.59,5.5,10.35,11.21,10.87,,229,5.9,5.56,2.94,7.8
+EMR,Emerson Electric,,,,56,,1,0,,8/4/18,Industrials,Diversified Industrials,12/27/20,,,2.61,7.73,7.24,13.21,5.49,6.87,,,2.8,11.71,9.06,23.62
+ENB,Enbridge,,,,23,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/27/20,,,7.8,-12.52,0.23,4.78,5.71,8.23,,,0,4.72,1.19,3.28
+ENLC,EnLink Midstream,,,,,,,,,,Energy,Oil & Gas Midstream,12/27/20,,,12.67,-30.71,-27.82,-12.06,2.47,-2.41,,,0,-30.26,-12.69,-49.59
+DE,Deere,,,,73,4.1,1,0,maybe,9/8/19,Industrials,Farm & Construction Equipment,12/27/20,2751,,1.16,56.02,20.83,29.11,13.35,15.27,,1644,1.8,7.8,3.72,22.6
+ENR,Energizer,,,,,,,,,,,,12/27/20,,,2.86,-12.13,-1.32,7.16,—,—,,,0,-3.99,-1.96,-25.68
+ENS,EnerSys,,,,48,,1,0,,8/4/18,Technology,Electronic Components,12/27/20,,,0.86,11.4,6.67,8.7,10.42,13.16,,,1.6,3.27,2.92,7.04
+EOG,EOG Resources,,,,57,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/27/20,,,3.01,-39.13,-21.01,-5.92,2.11,2.79,,,5.8,-2.72,-0.85,-1.48
+EPD,Enterprise Products,,,,72,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/27/20,,,9.18,-23.64,-1.66,1.8,5.48,8.42,,,67.9,16.09,7.26,18.28
+PYPL,PayPal Holdings,1.9,-1%,"innovation, hiring, earnings",78,4,0,0,yes,8/4/18,Financial Services,Credit Services,1/1/21,3142,nan,—,116.51,47.07,45.27,—,—,,—,2.3,15.48,5.43,17.97
+EQR,Equity Residential,,,,87,,1,0,,8/4/18,Real Estate,REIT - Residential,12/27/20,,,4.1,-24.64,0.59,-0.35,5.64,6.11,,,14.9,35.85,4.55,9.19
+EQT,EQT Corporation,,,,44,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/27/20,,,0.4,28.95,-17.94,-10.1,-3.18,-0.07,,,0,-82.74,-11.7,-22.36
+ERIC,Telefonaktiebolaget LM Ericsson,,,,,,,,,,,,12/27/20,14391,,1.3,34.53,22.3,5.3,2.71,-0.52,,39914,0.3,6.28,5.09,17.87
+ES,Eversource Energy,,,,79,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/27/20,,,1.91,1.58,12.77,12.47,12.15,11.78,,,3.1,13.57,2.84,9.07
+ESIO,Electroc Scientific Industries,,,,,,1,0,no,8/4/18,Technology,Semiconductors,,,,,,,,,,,,,,,
+NKE,Nike,,,"innovation, hiring, earnings",61,,0,0,yes,8/4/18,Consumer Cyclical,Footwear & Accessories,12/28/20,,,,42.41,31.63,18.19,21.27,19.07,,,1.9,7.2,9.04,29.2
+ESS,"Essex Property Trust, Inc.",,,,64,,1,0,,8/4/18,Real Estate,REIT - Residential,12/27/20,,,3.33,-18.77,2.21,2.42,9.92,8.39,,,27.7,39.89,4.56,9.78
+SNPS,Synopsys,1.9,2%,"innovation, hiring, earnings",77,4,,,yes,,,,1/1/21,664,nan,nan,86.24,44.88,41.56,25.42,18.6,43.34,1279,3.3,18.03,9.2,14.78
+ESV,Ensco plc,,,,,,1,0,,8/4/18,Energy,Oil & Gas Drilling,,,,,,,,,,,,,,,
+ET,Energy Transfer,,,,,,,,,,Energy,Oil & Gas Midstream,12/27/20,,,17.27,-42.56,-16.11,-1.84,5.21,—,,,1.2,-0.56,-0.25,-1.21
+TCEHY,Tencent Holdings Ltd,,,,76,4.3,,,yes,11/3/20,,,12/28/20,,,0.21,44.61,10.34,28.99,31.74,—,,,1.4,24.41,10.52,22.56
+ETP,Energy Transfer Partners L.P.,,,,66,,1,no,too early,8/4/18,,,,,,,,,,,,,,,,,
+ETR,Entergy,,,,58,,1,0,,8/4/18,Utilities,Utilities - Diversified,12/27/20,,,3.44,-17.04,9.81,10.52,6.14,5,,,3.8,13.57,2.6,13.32
+PAYC,Paycom Software,,,,89,4.5,,,,,,,1/1/21,164,nan,—,70.82,77.9,64.43,—,—,,83,4.6,20.2,8.07,29.7
+MTCH,"Match Group, Inc.",,,,70,3.8,,,too early,,Technology,Internet Content & Information,1/1/21,88,nan,—,69.26,51.08,47.67,30.96,14.73,,357,2.9,1.77,1.61,12.16
+EVH,Evolent Health Inc,,,,,,,,,,,,12/29/20,,,,85.65,8.68,5.54,—,—,,,0,-52.45,-33.34,-59.57
+NFLX,Netflix,,,,77,4,0,0,yes,11/3/20,Consumer Cyclical,Media - Diversified,1/1/21,2806,nan,—,67.11,41.23,36.44,35.93,39.01,,1752,2.3,11.78,8.07,32.64
+ADBE,Adobe Systems,1.8,10%,"innovation, hiring, earnings",87,4.3,0,0,yes,11/3/20,Technology,Software - Infrastructure,1/1/21,3861,nan,—,51.64,41.84,39.72,32.15,18.97,36.864,2130,2.5,31.05,18.18,35.17
+DXCM,"DexCom, Inc.",,,,78,3.9,,,no,,Healthcare,Diagnostics & Research,12/29/20,231,,,66.11,84.88,34.7,38.71,23.33,,320,2.6,12.69,7.68,20.42
+EXC,Exelon,,,,60,,1,0,,8/4/18,Utilities,Utilities - Diversified,12/27/20,,,3.73,-4.32,5.79,11.94,3.11,1.3,,,64.2,7.14,1.9,7.32
+EXEL,Exelixis,,,,,,,,,,,,12/29/20,152,,,12.58,-12.94,30.15,8.72,5.11,,488,0.6,15.88,7.81,8.8
+EXP,Eagle Materials Inc.,,,,,,,,,,Basic Materials,Building Materials,12/27/20,,,0.22,10.82,-2.77,10.71,13.96,6.62,,,0,9.56,5.77,13.77
+EXPD,Expeditors International of Washington,,,,50,,1,0,,8/4/18,Industrials,Integrated Shipping & Logistics,12/27/20,,,1.16,23.78,14.64,16.66,6.38,7.57,,,3,7.06,15.74,26.96
+EXPE,Expedia,,,,73,,0,0,yes,8/4/18,Consumer Cyclical,Leisure,12/27/20,,,0.55,17.04,2.62,0.86,12.09,8.61,,,34.6,-31.3,-10.71,-75.62
+EXPN,Experian PLC,,,,61,3.7,1,0,yes,9/8/19,Industrials,Business Services,12/27/20,,,,8.57,21.98,19.71,14.17,—,,,2,12.69,7.39,27.14
+EXPR,Express,,,,36,,0,0,,8/4/18,Consumer Cyclical,Apparel Stores,1/1/21,-494,nan,—,-81.31,-55.24,-44.5,-26.13,—,,—,0,-35.66,-26.34,-161.94
+EXR,Extra Space Storage,,,,76,,1,0,yes,8/4/18,Real Estate,REIT - Industrial,12/27/20,,,3.19,13.02,13.2,8.22,23.02,16.06,,,0,32.67,5.12,17.81
+EYE,National Vision Holdings,,,,,,,,,,,,12/29/20,,,,40.57,4.76,—,—,—,,,0,0.32,0.23,0.63
+F,Ford Motor,,,,54,,1,0,,8/4/18,Consumer Cyclical,Auto Manufacturers,12/27/20,,,3.3,-4.86,-6.33,-3.72,-2.12,3.78,,,0.4,-0.12,-0.06,-0.48
+FAF,First American Financial,,,,,,,,,,Financial Services,Insurance - Specialty,12/29/20,,,,-7.44,0.31,10.42,15.34,—,,,0,9.61,5.24,14.28
+ASML,ASML Holding ADR,,,innovation,79,,1,0,maybe,8/4/18,Technology,Semiconductor Equipment & Materials,12/24/20,3287,24749,0.65,64.77,41,40.11,26.04,20.84,,2161,2.2,24.25,14.46,25.86
+FB,Facebook,,,,91,,0,no,yes,8/4/18,Technology,Internet Content & Information,1/1/21,25276,nan,—,33.09,15.68,21.15,—,—,,17118,0.9,32.01,18.66,23.88
+EQIX,Equinix,,,,84,,1,0,,8/4/18,Real Estate,REIT - Diversified,12/27/20,,,1.52,25.01,18.09,20.36,25.37,21.72,,,3,7.58,1.8,4.59
+FCAU,Fiat Chrysler Automobiles N.V.,,,,,,,,,,,,12/29/20,,,,21.05,3.24,11.97,—,—,,,1.8,,,
+FCX,Freeport-McMoRan,,,,51,,1,0,,8/4/18,Basic Materials,Copper,12/27/20,,,0.21,91.22,11.65,27.18,-5.96,1.95,,,0,-0.76,-0.25,-1.1
+TTWO,Take-Two Interactive Software,,,,77,4,1,0,no,8/4/18,Technology,Electronic Gaming & Multimedia,12/28/20,474,,,61.58,22.43,41.26,32.14,17.64,,299,3.5,14.1,8.9,18.66
+FDX,FedEx,,,,62,,0,0,,8/4/18,Industrials,Integrated Shipping & Logistics,12/27/20,,,0.91,80.01,3.41,13.33,11.78,6.92,,,1,3.28,3.24,12.34
+FE,FirstEnergy,,,,52,,1,0,,8/4/18,Utilities,Utilities - Diversified,12/27/20,,,5.87,-35.56,3.91,2.61,2.31,0.93,,,3.1,6.67,1.73,10.08
+FFIV,F5 Networks,,,,49,,0,0,,8/4/18,Technology,Software - Infrastructure,1/1/21,307,nan,—,25.99,10.27,12.66,3.06,12.88,,441,1,13.08,7.62,15.4
+FGEN,"FibroGen, Inc.",,,,,,,,,,Healthcare,Biotechnology,12/29/20,,,,-13.32,-7.24,5.28,—,—,,,0,-191.78,-26.82,-43.74
+ETSY,Etsy,1.8,-7%,"innovation, earnings",68,3.9,,,yes,11/3/20,,,12/29/20,232,,,296,105.08,83.68,,,,165,3.9,16.83,12.49,43.94
+AMZN,Amazon.com,1.7,15%,"innovation, hiring, sustainability, earnings",71,3.9,yes,0,yes,11/5/20,Consumer Cyclical,Specialty Retail,1/1/21,17377,nan,—,76.26,40.69,36.96,33.58,32.62,51.30333333,40431,1.3,4.99,7.22,24.95
+FIS,Fidelity National Information Services,,,,52,,0,0,,8/4/18,Industrials,Business Services,12/27/20,,,0.94,3.13,15.38,19.2,18.64,10.13,,,1.3,-0.83,-0.12,-0.21
+FISV,Fiserv,,,,49,,1,0,,8/4/18,Industrials,Business Services,1/1/21,905,nan,—,-1.53,20.2,20.01,22.77,16.99,,—,1.3,6.01,1.2,2.81
+FIT,Fitbit,,,,29,,0,0,,8/4/18,Technology,Scientific & Technical Instruments,12/29/20,,,,4.63,4.68,-25.66,—,—,,,0,-19.7,-20.21,-52.99
+FITB,Fifth Third Bancorp,,,,43,3.3,1,0,,9/8/19,Financial Services,Banks - Regional - US,12/27/20,,,4.14,-7.53,-0.86,8.71,8.71,-0.22,,,0,19.44,0.78,7.15
+MNST,Monster Beverage,,,,63,,0,0,yes,8/4/18,Consumer Defensive,Beverages - Soft Drinks,1/1/21,1193,nan,—,45.52,13.48,13.25,26.64,24.92,,—,2.8,26.99,22.02,27.3
+FL,Foot Locker,,,,47,,0,0,,8/4/18,Consumer Cyclical,Footwear & Accessories,12/27/20,,,3.5,0.52,-2.91,-6.87,9.71,5.58,,,0,4.41,4.9,13.17
+FLEX,Flex Ltd.,,,,,,,,,,Technology,Contract Manufacturers,12/29/20,,,,41.96,-0.15,9.74,8.62,3.55,,,0,1.41,2.22,10.96
+FLIR,FLIR Systems,,,,67,3.7,1,0,maybe,9/8/19,Technology,Scientific & Technical Instruments,12/27/20,139,,1.78,-13.74,-0.58,10.68,5.23,10.26,,211,2.9,7.36,4.34,7.56
+FLR,Fluor,,,,44,,1,0,,8/4/18,Industrials,Engineering & Construction,12/27/20,,,1.16,-10.23,-29.17,-16.45,-9.89,-2.78,,,0,-4.22,-7.49,-42.24
+FLS,Flowserve,,,,33,,1,0,,8/4/18,Industrials,Diversified Industrials,12/27/20,,,2.32,-24.66,-1.8,-1.13,0.97,8.49,,,2.9,3.85,2.96,8.59
+FLT,Fleetcor Tech,,,,,,,,,,,,1/1/21,730,nan,—,-5.18,12.34,13.8,24.33,—,,—,1.2,29.54,6.34,21.35
+TSLA,Tesla,2.8,-64%,"innovation, hiring, sustainability, earnings",56,3.6,1,0,pass,11/3/20,Consumer Cyclical,Auto Manufacturers,1/1/21,556,nan,—,743.44,124.62,71.19,63.01,—,,1314,1.4,1.97,1.42,5.04
+FMCC,Freddie Mac,,,,62,,1,0,,8/4/18,Financial Services,Specialty Finance,1/1/21,7005,nan,—,-22.43,-2.58,7.54,22.56,-14.27,,—,0,nan,nan,nan
+FNF,Fidelity National Financial,,,,41,,1,0,,8/4/18,Financial Services,Insurance - Specialty,12/27/20,,,3.67,-11.02,2.96,10.84,16.76,7.4,,,0,10.31,3.2,15.73
+FNMA,Fannie Mae,,,,58,,1,0,,8/4/18,Financial Services,Specialty Finance,12/29/20,,,,-26.3,-5.15,5.95,22.01,-12.86,,,0,,,
+FOSL,Fossil Group Inc,,,,,,,,,,Consumer Cyclical,Footwear & Accessories,12/29/20,,,,18.35,6.05,-24.23,-18.57,-5.29,,,0,-5.51,-6.26,-21.25
+FOXA,Twenty-First Century Fox (Class A),,,,51,,0,0,,8/4/18,Consumer Cyclical,Broadcasting - TV,12/27/20,,,1.6,-22.87,—,—,—,—,,,0,13,7.46,15.21
+SGEN,"Seattle Genetics, Inc.",,,,90,4.1,,,,11/3/20,Healthcare,Biotechnology,1/1/21,472,nan,—,53.28,48.48,31.3,27.9,27.24,,812,0,25.34,18.52,23.4
+FRT,Federal Realty Investment Trust,,,,68,,1,0,,8/4/18,Real Estate,REIT - Retail,12/27/20,,,4.83,-28.47,-8.8,-6.31,4.74,5.28,,,32.4,20.5,2.45,7.83
+FSLR,First Solar,,,,48,,1,0,,8/4/18,Technology,Solar,1/1/21,223,nan,—,76.77,13.58,8.43,-2.71,—,,96,1.1,6.38,3.18,4.22
+ISRG,Intuitive Surgical,,,,94,,1,0,yes,8/4/18,Healthcare,Medical Instruments & Supplies,1/1/21,1053,nan,—,38.39,30.88,35.06,25.28,22.48,,602,6,24.45,10.67,12.38
+FTI,TechnipFMC,,,,31,,1,0,,8/4/18,Energy,Oil & Gas Equipment & Services,12/27/20,,,3.13,-54.92,-30.25,-14.14,-8.72,—,,,1,-42.41,-25.92,-79.37
+BLK,BlackRock,,,,69,,1,0,yes,8/4/18,Financial Services,Asset Management,12/27/20,,,2.03,44.44,13.41,17.82,15.55,14.37,,,2.7,29.83,2.85,14.14
+FBHS,Fortune Brands Home & Security,,,,100,,1,0,,8/4/18,Consumer Cyclical,Home Furnishings & Fixtures,12/27/20,,,1.15,37.85,10.2,10.58,—,—,,,1.7,8.36,7.71,19.89
+FTS,Fortis,,,,,,,,,,,,12/27/20,,,3.61,3.05,7.79,11.73,4.43,6.46,,,0,13.73,2.24,7.36
+FTV,Fortive,,,,72,3.8,,,,9/8/19,Technology,Scientific & Technical Instruments,12/27/20,591,,0.4,7.2,4.39,—,—,—,,442,42.1,7.25,3.08,7.03
+GBCI,"Glacier Bancorp, Inc.",,,,,,,,,,Financial Services,Banks - Regional - US,12/27/20,,,2.87,1.92,7.92,13.9,13.55,7.06,,,0,33.87,1.53,11.5
+GCI,Gannett Co,,,,23,,1,0,,8/4/18,Consumer Cyclical,Publishing,12/27/20,,,13.38,-56.49,-30.22,-15.46,—,—,,,0,-19.92,-26.89,-122.37
+GD,General Dynamics,,,,45,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/27/20,,,2.89,-14.25,-7.39,3.64,9.64,8.1,,,3.6,8.33,6.43,22.57
+BIP,Brookfield Infrastructure Partners,,,,,,,,,,,,12/27/20,,,4,12.78,10.89,19.82,17.4,—,,,0,-0.67,-0.11,-1.03
+SYK,Stryker,,,,,,1,0,,8/4/18,Healthcare,Medical Devices,12/28/20,1756,,0.99,13.13,16.44,21.18,16.71,12.04,,983,3.8,12.35,5.96,13.88
+GE,General Electric,,,,58,,1,0,,8/4/18,Industrials,Diversified Industrials,12/27/20,,,0.39,-4.47,-13.36,-15.82,-0.63,-3.29,,,6.7,3.96,1.29,10.87
+GEF,"Greif, Inc.",,,,,,,,,,Consumer Cyclical,Packaging & Containers,12/27/20,,,3.62,9.61,-5.02,11.52,0.16,5.09,,,0,2.41,1.99,9.52
+GERN,Geron Corporation,,,,,,,,,,Healthcare,Biotechnology,12/29/20,,,,13.77,-4.98,-20.23,-10.73,-10.35,,,0,,,
+GGP,General Growth Properties Inc.,,,,39,,1,0,no,8/4/18,Real Estate,Retail REITs,12/27/20,,,,2097.06,177.12,241.85,31.18,—,,,0,,,
+MTN,Vail Resorts,,,,,,,,,,,,12/28/20,,,1.28,13.39,10.57,18.36,19.01,15.8,,,0,2.82,0.98,4.18
+GIII,G-III Apparel Group,,,,,,,,,,,,1/1/21,34,nan,—,-29.13,-13.66,-11.71,3.05,11.59,,—,0,1.5,1.27,2.66
+GIL,Gildan Activewear Inc.,,,,,,,,,,Consumer Cyclical,Apparel Manufacturing,12/28/20,,,1.1,-3.23,-3.16,0.71,7.98,7.38,,,0,-13.34,-8.19,-15.13
+GILD,Gilead Sciences,,,,58,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Major,12/28/20,1268,,4.4,-10.39,-3.87,-7.93,14.43,11.5,,11152,0.4,5.48,2.11,6.67
+GIS,General Mills,,,,31,,0,0,,8/4/18,Consumer Defensive,Packaged Foods,12/28/20,,,3.26,15.35,2.65,3.23,7.84,8.14,,,3.9,13.16,7.67,29.6
+GL,Global Life Inc,,,,42,,1,0,yes,8/4/18,Financial Services,Insurance - Life,1/1/21,715,nan,—,-9.08,2.26,11.42,14.21,9.87,,—,0,15.38,2.65,9.2
+GLP,Global Partners,,,,44,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/28/20,,,11.24,-8.34,11.62,8.98,3.51,6.21,,,0,0.94,3.45,18
+TTD,"The Trade Desk, Inc.",,,"hiring, earnings",86,3.7,,,maybe,11/3/20,Technology,Software - Application,1/1/21,141,nan,—,208.34,159.7,—,—,—,,151,7.7,19.31,7.96,20.67
+GLW,Corning,,,,65,,1,0,,8/4/18,Technology,Electronic Components,12/28/20,292,,2.35,28.9,6.1,16.5,7.94,5.08,,1200,1.5,1.8,0.67,1.84
+GM,General Motors,,,,63,,1,0,,8/4/18,Consumer Cyclical,Auto Manufacturers,12/28/20,,,1.73,14.71,2.31,6.78,3.82,—,,,0.7,2.78,1.36,7.31
+GME,GameStop,,,,27,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,1/1/21,-275,nan,—,209.87,4.93,-3.27,2.18,3.94,,—,0,-5.32,-9.56,-57.9
+INFO,HIS Markit Ltd,,,,,,,,,,,,12/28/20,,,0.68,15.87,24.55,21.62,14.53,19.76,,,2.1,21.45,5.74,10.97
+GNTX,Gentex Corporation,,,,12,2.3,,,,9/8/19,Consumer Cyclical,Auto Parts,12/28/20,304,,1.46,18.57,19.01,17,9.67,9.39,,115,2,19.01,13.97,15.96
+GNW,Genworth Financial,,,,,,,,,,Financial Services,Insurance - Life,1/1/21,-106,nan,—,-14.09,6.72,0.27,-11.71,-12.26,,—,0,-1.26,-0.1,-0.73
+GOGO,Gogo,,,,,,,,,,,,12/29/20,,,,55.43,-5.25,-12.17,—,—,,,0,,,
+Gold,Barrick Gold,,,,,,,,,,,,12/28/20,,,1.34,26.76,17.59,24.86,-6.69,0.09,,,0,24.81,6.73,14.09
+AAGIY,AIA Group,,,,,,,,,,Financial Services,Insurance‚ÄîLife,12/24/20,,23000,1.51,16.34,13.89,14.93,—,—,,,0,12.87,2.01,10.28
+SPGI,S&P Global,,,,,,1,0,yes,8/4/18,Financial Services,Capital Markets,12/28/20,,,0.76,17.16,24.46,27.36,24.89,13.29,,,3.5,33.19,22.42,615.74
+GPC,Genuine Parts,,,,39,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/28/20,,,3.18,-2.84,4.47,5.73,9.32,7.6,,,2.4,-1.04,-1.37,-5.75
+GPI,Group 1 Automotive,,,,,,,,,,Consumer Cyclical,Auto & Truck Dealerships,12/28/20,,,0.75,17.89,17.52,10.16,11.67,9.71,,,0.6,2.06,4.39,17.78
+GPK,Graphic Packaging Holding,,,,,,,,,,Consumer Cyclical,Packaging & Containers,12/28/20,,,1.96,2.26,5.35,7.61,16.67,14.74,,,0,2.12,1.83,9.12
+YUMC,Yum China Holdings,,,,,,,,,,,,12/29/20,,,,17.88,12.72,—,—,—,,,2.8,9,8.46,16.09
+GPRO,"GoPro, Inc.",,,,,,,,,,Technology,Consumer Electronics,12/29/20,,,,99.07,3.6,-13.76,—,—,,,0,-1.45,-2.33,-11.2
+GPS,Gap,,,,40,,0,0,,8/4/18,Consumer Cyclical,Apparel Stores,12/28/20,,,1.16,17.19,-13.1,-0.74,2.61,3.47,,,0,-7.71,-7.6,-36.07
+SSNC,SS&C Technologies Holdings Inc,,,,,,,,,,,,12/28/20,570,,0.77,18.12,21.73,16.6,21.88,—,,399,2.3,12.2,3.63,11.17
+GRPN,Groupon,,,,36,,0,0,,8/4/18,Technology,Internet Content & Information,12/29/20,,,,-14.18,-26.62,-8.63,—,—,,,1.7,-13.34,-16.53,-112.72
+GRUB,GrubHub,,,,70,,0,0,yes,8/4/18,Technology,Internet Content & Information,1/1/21,-116,nan,—,52.69,1.13,25.14,—,—,,—,13.2,-6.99,-4.83,-7.81
+GS,Goldman Sachs Group,,,,53,,1,0,,8/4/18,Financial Services,Capital Markets,12/28/20,,,2.17,13.59,1.21,8.47,5.41,5.62,,,2,16.04,0.59,7.74
+GSK,GlaxoSmithKline,,,,,,,,,,,,12/28/20,6371,,5.51,-18.62,6.42,2.84,4.22,2.02,,4871,10.8,18.6,7.76,48.9
+GT,Goodyear Tire & Rubber,,,,50,,1,0,,8/4/18,Consumer Cyclical,Rubber & Plastics,12/28/20,,,3.07,-29.96,-29.04,-17.56,0.96,-2.1,,,0,-13.81,-9.91,-44.42
+ROP,Roper Industries,,,,,,1,0,yes,8/4/18,Industrials,Diversified Industrials,12/28/20,,,0.48,19.51,17.93,17.67,18.85,17.29,,,2.2,28.89,7.55,16.71
+H,Hyatt Hotels,,,,68,,1,0,,8/4/18,Consumer Cyclical,Lodging,12/28/20,,,0.54,-18.63,0.64,9.06,5.03,—,,,0,-6.14,-2.06,-5.04
+HAL,Halliburton,,,,46,,1,0,,8/4/18,Energy,Oil & Gas Equipment & Services,12/28/20,,,2.71,-21.46,-24.13,-8.61,-4.67,-1.18,,,2.5,-26.61,-18.31,-58.39
+HAS,Hasbro,,,,68,,0,0,,8/4/18,Consumer Cyclical,Leisure,12/28/20,385,,2.92,-8.78,2.59,9.24,8.8,12.32,,248,2.8,7.44,4.73,16.67
+HBAN,Huntington Bancshares,,,,52,,1,0,,8/4/18,Financial Services,Banks - Regional - US,12/28/20,,,4.97,-14.52,-1.72,5.53,8.52,-1.82,,,4,15.51,0.64,6.85
+HBI,Hanesbrands,,,,37,,1,0,,8/4/18,Consumer Cyclical,Apparel Manufacturing,12/28/20,,,4.23,3.26,-7.05,-9.66,11.17,—,,,2.1,6.68,5.54,37.11
+AYX,Alteryx,,,,,,,,,,,,12/29/20,,,,21.76,68.98,—,—,—,,,0,-3.2,-1.21,-3.82
+PTON,Peloton Interactive,,,earning,69,3.9,,,maybe,,,,1/1/21,48,nan,—,434.23,—,—,—,—,,108,0,2.02,1.62,2.81
+FTAI,Fortress Transportation and Infrastructure,,,,,,,,,,,,12/27/20,,,6.32,24.1,10.73,21.96,—,—,,,0,30.77,4.27,12.45
+CZR,Caesars Entertainment Corp,,,,,,1,0,,8/4/18,Consumer Cyclical,Resorts & Casinos,12/29/20,,,,24.48,30.68,45.66,—,—,,,0,-47.29,-5.74,-54.04
+VRSK,Verisk Analytics,,,,74,3.9,1,0,yes,1/2/21,Industrials,Business Services,12/28/20,,,0.53,40.71,29.62,22.17,19.86,—,,,0,24.33,9.9,29.82
+HDS,HD Supply Holdings,,,,40,,1,0,no,8/4/18,Industrials,Industrial Distribution,12/28/20,,,,38.59,12.46,13.01,—,—,,,10.4,31.55,37.23,88.29
+HES,Hess,,,,28,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/28/20,,,2.12,-18.89,6.35,2.97,-1.99,2.74,,,0,-63.99,-15.85,-43.42
+HFC,HollyFrontier,,,,38,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,,-48.18,-16.56,-5.12,8.3,7.72,,,34.8,-3.34,-3.56,-7.45
+HGG,hhgregg,,,,20,,1,0,,8/4/18,,,12/28/20,,,,145.83,18.73,12.12,-5.67,—,,,0,-0.01,-0.02,-0.04
+HI,"Hillenbrand, Inc.",,,,,,,,,,Industrials,Diversified Industrials,12/28/20,,,2.27,19.56,-2.83,7.57,8.51,—,,,1,-2.39,-1.93,-6.63
+HIG,Hartford Financial Services Group,,,,60,,1,0,,8/4/18,Financial Services,Insurance - Diversified,12/28/20,,,2.94,-17.23,-2.17,4.27,7.79,-2.12,,,0,8.4,2.42,10.4
+HII,Huntington Ingalls Industries,,,,64,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/28/20,,,2.64,-33.21,-9.45,6.92,—,—,,,1.2,6.61,7.63,33.25
+CYBR,CyberArk Software Ltd,,,,90,4.4,,,no,,,,12/29/20,3,,,38.61,57.78,29.19,—,—,,90,4.6,0.65,0.25,0.47
+HLF,Herbalife Nutrition Ltd.,,,,,,,,,,Consumer Defensive,Packaged Foods,1/1/21,356,nan,—,0.8,12.37,12.38,11.28,12.95,,—,0,nan,nan,nan
+HLT,Hilton Worldwide Holdings,,,,71,,0,0,no,8/4/18,Consumer Cyclical,Lodging,12/28/20,,,0.29,-3.89,10.9,15.33,—,—,,,3.7,,,
+HMI,Huami,,,,,,,,,,,,1/1/21,321,nan,—,-1.41,—,—,—,—,,549,0,4.88,5.72,12.92
+HMLP,Hoegh LNG Partners,,,,,,,,,,,,12/28/20,,,13.21,3.75,2.54,7.59,—,—,,,0,33.48,4.89,10
+HOG,Harley-Davidson,,,,26,,1,0,,8/4/18,Consumer Cyclical,Recreational Vehicles,12/28/20,,,1.97,-0.9,-7.88,-1.23,3.25,-0.03,,,12.3,2.53,0.96,6.17
+HOLX,Hologic,,,,62,,1,0,yes,8/4/18,Healthcare,Medical Instruments & Supplies,1/1/21,1115,nan,—,39.49,19.43,13.49,14.49,9.39,,223,0.5,29.53,16.35,46.27
+PH,Parker-Hannifin,,,,,,1,0,,8/4/18,Industrials,Diversified Industrials,12/28/20,,,1.32,32.23,11.92,23.29,13.17,13.41,,,2.3,8.75,6.04,18.83
+HP,"Helmerich & Payne, Inc.",,,,,,,,,,Energy,Oil & Gas Drilling,12/28/20,,,,-41.75,-20.94,-7.79,-0.89,2.52,,,0,-28.03,-9.32,-13.56
+HPE,Hewlett Packard Enterprise,,,,34,,1,0,,8/4/18,Technology,Communication Equipment,12/28/20,,,4.35,-23.12,-3.77,9.36,—,—,,,0.7,-1.19,-0.61,-1.94
+HPQ,HP,,,,70,,1,0,,8/4/18,Technology,Computer Systems,12/28/20,2844,,,21.33,7.24,18.37,0.34,2.99,,1478,1.1,,,
+HRB,H&R Block,,,,44,,1,0,,8/4/18,Consumer Cyclical,Personal Services,12/28/20,,,5.53,-29.26,-10.94,-9.41,6.66,0.71,,,0.4,,,
+HRL,Hormel Foods,,,,71,,1,0,,8/4/18,Consumer Defensive,Packaged Foods,12/28/20,,,1.97,6.06,10.6,5.01,15.08,13.35,,,5.3,9.45,10.08,14.71
+HRS,Harris,,,,48,,1,0,,8/4/18,Technology,Communication Equipment,12/28/20,,,,-14.52,9.81,15.23,17.08,10.58,,,1.1,10.37,5.53,10.25
+HSC,Harsco Corp,,,,,,,,,,,,1/1/21,19,nan,—,-21.86,-1.21,18,-2.44,-1.75,,4,2.3,1.09,0.7,2.7
+HSIC,Henry Schein,,,,56,,1,0,,8/4/18,Healthcare,Medical Distribution,12/28/20,,,,-1.05,6.75,1.92,10.76,9.62,,,2.1,6.14,7.93,19.75
+HST,Host Hotels & Resorts,,,,20,,1,0,,8/4/18,Real Estate,REIT - Hotel & Motel,12/28/20,,,2.85,-21.74,-6.71,2.45,1.44,1.4,,,0,-21.88,-4.49,-8.46
+HSY,Hershey,,,,45,,0,0,,8/4/18,Consumer Defensive,Confectioners,12/28/20,,,2.13,4.8,11.38,12.64,13.67,8.03,,,4.3,14.87,13.48,62.56
+HTHIY,Hitachi,,,,,,,,,,,,12/28/20,,,,-5.01,1.8,8.56,6.07,1.93,,,0,1.79,1.47,4.76
+HTZ,Hertz Global Holdings,,,,,,,,,,Industrials,Rental & Leasing Services,12/28/20,,,,-87.59,-54.74,-49.7,—,—,,,0,-24.32,-6.97,-139.41
+FICO,Fair Isaac,,,,,,,,yes,,,,12/29/20,236,,,34.22,48.82,39.62,36,17.6,,166,0,18.26,15.56,76.16
+HUN,Huntsman,,,,,,,,,,Basic Materials,Chemicals,12/28/20,994,,2.62,6.77,-6.01,20.07,6.97,4.19,,129,0,16.55,12.26,34.85
+HVT,Haverty Furniture,,,,,,,,,,,,12/28/20,,,2.83,53.7,13.08,10.39,10.91,7.69,,,0,5.52,6.23,14.86
+HXL,Hexcel,,,,49,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/28/20,124,,0.69,-33.78,-7.06,1.65,10.87,7.06,,49,0,7.02,4.06,8.52
+HXPN,Harris,,,,,,,,,,Energy,Oil & Gas E&P,,,,,,,,,,,,,,,
+IAC,"InterActiveCorp (Tinder, Match, USA Network,...)",,,,35,,0,0,no,8/4/18,Technology,Internet Content & Information,,,,,,,,,,,,,,,
+IBM,International Business Machines,,,,41,,1,0,,8/4/18,Technology,Information Technology Services,12/28/20,7905,,5.27,-2.8,-1.93,2.35,1.8,5.39,,6318,9.3,10.54,5.21,40.37
+IBN,ICICI Bank,,,,,,,,,,,,1/1/21,139214,nan,—,-1.52,15.35,16.29,5.52,7.81,,—,0,12.53,1.01,10.57
+EDU,New Oriental Education and Tech Ads,,,,60,8-Mar,,,yes,,,,12/29/20,,,,38.3,22.78,39.46,20.66,,,,1.4,,,
+ICON,Iconix Brand Group,,,,,,,,,,,,1/1/21,-88,nan,—,-6.67,-53.95,-55,-39.54,-25.39,,—,0,nan,nan,nan
+IDA,Idacorp,,,,,,,,,,,,12/28/20,,,,-7.71,4.27,9.25,11.85,9.81,,,0,18.6,3.68,9.82
+ATUS,Altice USA,,,,,,,,,,Communication Services,Telecom Services,12/29/20,,,,35.99,23.05,—,—,—,,,0.4,1.08,0.31,7.53
+IEP,Icahn Enterprises L.P.,,,,,,,,,,Industrials,Conglomerates,12/28/20,,,15.98,-4.14,11.83,5.87,12.08,7.56,,,0,-24.2,-8.32,-43.26
+IFF,Intl Flavors & Fragrances,,,,35,,1,0,,8/4/18,Basic Materials,Specialty Chemicals,12/28/20,383,,2.69,-8.99,-7.79,0.66,9.09,9.78,,342,4,7.5,2.93,6.31
+IGT,International Game Technology PLC,,,,,,1,0,,8/4/18,Consumer Cyclical,Gambling,12/28/20,,,3.18,11.17,-11.62,3.77,2.34,-1.99,,,0,-21.6,-6.19,-59.53
+IHRT,iHeartMedia,,,,31,,1,0,,8/4/18,Consumer Cyclical,Broadcasting - Radio,1/1/21,101,nan,—,-23.2,—,—,—,—,,—,4.6,nan,nan,nan
+FRCOY,Fast Retailing Co,,,,,,,,,,,,12/27/20,,,0.56,36.47,28.41,18.63,18.15,—,,,2.2,4.5,4.09,9.54
+BKI,Black Knight,,,,,,1,0,,8/4/18,Technology,Software - Infrastructure,1/1/21,230,nan,—,37.02,26.02,21.73,—,—,,—,4.4,19.21,4.53,10.33
+AVGO,Broadcom,,,,60,3.5,0,0,yes,9/8/19,Technology,Semiconductors,12/24/20,2960,21000,3.24,37.33,20.4,26,32.52,—,,4968,1.1,11.15,3.71,10.91
+INCY,Incyte Corporation,,,,,,,,,,,,1/1/21,-335,nan,—,-0.39,-2.8,-4.32,18.04,20.45,,2123,0.9,-13.62,-10.26,-13.9
+CRM,salesforce.com,,,,84,,0,0,yes,8/4/18,Technology,Software - Application,1/1/21,3557,nan,—,36.82,29.6,23.2,21.03,24.81,,3490,3.2,17.53,6.52,9.67
+INFN,Infinera Corporation,,,,,,,,,,,,1/1/21,-263,nan,—,31.99,18.3,-10.37,0.14,—,,270,0,-19,-17.12,-67.89
+RNW,Transalta Renewables,,,,,,,,,,,,12/28/20,,,,38.86,21.35,19.18,—,—,,,0,20.37,2.4,3.82
+FTNT,Fortinet Inc,,,,,,,,,,,,1/1/21,455,nan,—,39.13,50.36,36.65,24.82,—,,324,2.4,18.51,12.75,47.53
+INGR,Ingredion,,,,,,,,,,Consumer Defensive,Packaged Foods,12/28/20,,,3.28,-11.52,-14.84,-1.26,7.52,9.85,,,1.5,5.75,5.45,12.74
+INO,"Inovio Pharmaceuticals, Inc.",,,,,,,,no,,Healthcare,Biotechnology,,,,,,,,,,,,,,,
+INT,World Fuel Services,,,,43,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,1.41,-27.72,4.44,-3.52,-0.81,4.55,,,0,0.68,3.33,9.03
+INTC,Intel,,,,57,,0,0,maybe,8/4/18,Technology,Semiconductors,12/28/20,21947,,2.73,-18.55,2.88,8.65,10.66,5.74,,13285,1.8,28.1,15.73,29.47
+CPRT,Copart Inc,,,,,,,,,,,,1/1/21,682,nan,—,39.93,43.36,46.27,29.85,22.91,,—,0,30.39,20.68,29.41
+INTU,Intuit,,,,84,,0,no,yes,8/4/18,Technology,Software - Application,12/28/20,1967,,0.62,45.02,34.65,31.9,22.95,19.55,,1383,3.3,25.1,24.76,44.31
+INVA,Innoviva,,,,,,,,,,,,1/1/21,216,nan,—,-12.5,-4.42,3.29,-2.64,-1.06,,2,0,67.16,27.09,57.52
+IP,International Paper,,,,58,,1,0,,8/4/18,Consumer Cyclical,Packaging & Containers,12/28/20,,,4.14,12.43,-1.3,9.05,9.5,4.91,,,0,2.37,1.5,6.8
+IPG,Interpublic Group,,,,73,,1,0,,8/4/18,Consumer Cyclical,Advertising Agencies,12/28/20,,,4.58,6.6,8.88,3.25,10.53,7.63,,,11.5,6.03,3.54,21.87
+IPGP,IPG Photonics Corp,,,,,,,,,,,,1/1/21,106,nan,—,54.42,1.48,20.21,21.65,—,,126,0,9.04,3.83,4.36
+PKI,PerkinElmer,,,,,,1,0,,8/4/18,Healthcare,Diagnostics & Research,12/28/20,412,,0.21,43.65,24.38,21.43,18.51,12.93,,196,2,12.74,6.17,13.88
+MTD,Mettler-Toledo International,,,,,,1,0,,8/4/18,Healthcare,Diagnostics & Research,1/1/21,579,nan,—,43.67,22.53,27.43,22.38,22.36,,136,5.8,19.36,21.44,131.43
+IRM,Iron Mountain,,,,41,,1,0,,8/4/18,Real Estate,REIT - Diversified,1/1/21,133,nan,—,0.26,-0.85,8.72,8.28,4.67,,—,0,3.19,0.98,10.86
+IRT,"Independence Realty Trust, Inc.",,,,,,,,,,Real Estate,REIT - Residential,12/28/20,,,,1.16,15.27,16.93,—,—,,,0,12.09,1.51,4.21
+CLX,Clorox,,,,82,,0,0,yes,8/4/18,Consumer Defensive,Household & Personal Products,12/27/20,1151,,2.14,36.5,12.86,11.6,13.91,10.15,,147,4.6,16.14,18.91,138.26
+SHAK,Shake Shack,,,,,,,,,,,,12/28/20,,,,46.46,25.15,16.74,—,—,,,0,-4.8,-2.36,-7.01
+ITRI,Itron,,,,48,,1,0,,8/4/18,Technology,Scientific & Technical Instruments,1/1/21,-65,nan,—,14.23,12.03,21.53,5.63,6,,201,0,-2.85,-2.28,-8.59
+TAL,TAL Education Group,,,,,,,,,,,,1/1/21,26,nan,—,48.36,34.02,56.02,38.89,—,,—,0,0.71,0.46,1
+ITW,Illinois Tool Works,,,,59,,1,0,,8/4/18,Industrials,Diversified Industrials,12/28/20,,,2.06,14.77,8.62,18.42,15.58,11.51,,,2.8,16.77,14.1,74.46
+GLUU,Glu Mobile Inc,,,,,,1,0,,8/4/18,Technology,Electronic Gaming & Multimedia,1/1/21,7,nan,—,48.93,35.27,29.96,15.84,—,,115,1.1,1.44,1.41,2.55
+IVC,Invacare Corporation,,,,,,,,,,Healthcare,Medical Devices,12/28/20,,,0.29,-7.49,-20.06,-13.19,-11.39,-7.73,,,0,-4.87,-4.67,-12.96
+IVZ,Invesco Ltd.,,,,61,,1,0,,8/4/18,Financial Services,Asset Management,12/28/20,,,4.78,3.34,-17.19,-6.87,1.35,4.24,,,0,7.89,1.34,5.07
+JBHT,J.B. Hunt Transport Services,,,,58,,1,0,,8/4/18,Industrials,Integrated Shipping & Logistics,12/28/20,,,0.8,18.82,7.05,14.29,13.58,13.09,,,1.9,5.31,8.9,21.22
+JBL,Jabil Circuit,,,,54,,1,0,no,8/4/18,Technology,Contract Manufacturers,12/28/20,54,,0.84,4.32,17.97,13.22,8.73,1.59,,44,0,0.2,0.39,2.92
+JBLU,JetBlue Airways,,,,66,,0,0,no,8/4/18,Industrials,Airlines,,,,,,,,,,,,,,,
+JCI,Johnson Controls International,,,,42,,1,0,,8/4/18,Industrials,Engineering & Construction,12/28/20,,,2.26,14.23,8.78,10.21,7.33,2.7,,,1.4,2.83,1.52,3.39
+JCP,J.C. Penney,,,,33,,0,0,no,8/4/18,Consumer Cyclical,Department Stores,,,,,,,,,,,,,,,
+TW,Tradeweb,,,,90,4.4,1,0,yes,,Financial Services,Capital Markets,12/28/20,,,0.54,34.35,—,—,—,—,,,0,17.79,2.73,4.4
+MCHP,Microchip Technology,,,,74,,1,0,yes,8/4/18,Technology,Semiconductors,12/28/20,608,,1.09,31.6,16.65,24.97,15.98,10.97,,837,1.4,11.62,3.51,11.26
+JEC,Jacobs Engineering Group,,,,48,,1,0,,8/4/18,Industrials,Engineering & Construction,1/1/21,3,nan,nan,84.62,8.1,-2.33,-12.38,-6.88,,—,0,17.56,5.08,18.15
+JEF,Jefferies Financial Group,,,,,,,,,,Financial Services,Asset Management,12/28/20,,,2.64,14.7,0.98,9.73,-0.09,1.47,,,0,12.44,1.29,6.73
+JHG,Janus Henderson Group PLC,,,,,,1,0,no,8/4/18,Financial Services,Asset Management,12/28/20,,,5.05,37.47,-1.56,—,—,—,,,0,3.74,1.25,1.81
+JLL,Jones Lang LaSalle,,,,,,,,,,Real Estate,Real Estate Services,12/28/20,,,0.33,-10.43,1.29,-0.06,6.46,7.91,,,14.8,2.49,3.16,8.53
+MKTX,MarketAxess Holdings,,,,,,,,yes,,,,12/28/20,,,0.45,53.84,42.13,39.24,39.9,30.36,,,0,42.73,26.35,34.76
+CSGP,CoStar Group,,,,,,,,,,,,1/1/21,279,nan,—,54.48,46.01,34.93,32,22.66,,158,3.1,17.57,5.31,6.48
+YNDX,Yandex,,,,,,,,,,,,12/29/20,25650,,,55.35,27.95,34.27,—,—,,34413,0,12.93,6.41,9.94
+JNJ,Johnson & Johnson,,,,70,,0,0,,8/4/18,Healthcare,Drug Manufacturers - Major,12/28/20,16986,,2.75,7.21,5.33,10.41,11.4,7.93,,11503,2.8,21.01,10.41,27.69
+JNPR,Juniper Networks,,,,43,,1,0,,8/4/18,Technology,Communication Equipment,12/28/20,395,,3.67,-4.49,-5.08,-1.6,-3.44,1.05,,956,2,8.92,4.53,8.59
+JPM,J.P. Morgan Chase,,,,63,,0,0,maybe,8/4/18,Financial Services,Banks - Global,12/28/20,,,3.05,-6.88,7.61,15.65,13.12,9.15,,,8.3,20.03,0.79,9.98
+GOOG,Alphabet,,,,70,4.1,,,yes,9/8/19,Technology,Internet Content & Information,1/1/21,35713,nan,—,31.03,18.74,18.21,—,—,,27773,1.5,20.8,12.7,17.51
+JWN,Nordstrom,,,,51,,1,0,,8/4/18,Consumer Cyclical,Department Stores,12/28/20,,,2.85,-24.02,-10.86,-6.39,1.05,2,,,0,-4.57,-5.34,-96.28
+K,Kellogg,,,,33,,1,0,,8/4/18,Consumer Defensive,Packaged Foods,12/28/20,,,3.57,-7.07,0.21,-0.05,4.8,4.74,,,2,8.8,6.54,41.28
+KAMN,Kaman,,,,33,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/28/20,,,1.53,-14.2,0.6,7.91,8.11,8.32,,,0,0.14,0.08,0.15
+KBH,KB Home,,,,,,,,,,Consumer Cyclical,Residential Construction,12/28/20,,,1.19,6.67,5.12,23.65,10.67,-3.93,,,0,,,
+KDP,Keurig Dr Pepper,,,,40,3.1,,,,9/8/19,Consumer Defensive,Beverages - Soft Drinks,12/28/20,,,,13.37,12.69,8.62,15.24,—,,,2.2,11.4,2.64,5.64
+KEY,KeyCorp,,,,54,,1,0,,8/4/18,Financial Services,Banks - Regional - US,12/28/20,,,4.79,-16.81,-3.79,7.25,8.87,-2.28,,,2.7,17.33,0.71,7.24
+QTWO,Q2 Holdings,,,,,,,,,,,,1/1/21,-115,nan,—,56.06,50.86,36.84,—,—,,92,11.5,-30.34,-10.17,-22.66
+MOH,Molina Healthcare,,,,,,,,,,Healthcare,Health Care Plans,1/1/21,807,nan,—,56.74,40.5,28.74,27.61,18,,—,0,4.39,11.07,40.03
+KFRC,Kforce,,,,,,,,,,,,12/28/20,,,1.9,6.2,19.68,12.89,11.01,9.86,,,0,3.77,11.71,29.02
+KFY,Korn Ferry,,,,,,,,,,,,12/28/20,,,1,6.87,3.12,7.05,7.22,6.34,,,0,0.89,0.6,1.26
+KHC,Kraft Heinz,,,,29,,0,0,,8/4/18,Consumer Defensive,Packaged Foods,12/28/20,,,4.86,14.38,-19.59,-9.27,—,—,,,3.1,-1.92,-0.49,-0.98
+KIM,Kimco Realty,,,,63,,1,0,,8/4/18,Real Estate,REIT - Retail,12/28/20,,,4.57,-24.66,-0.82,-5.76,3.24,-0.62,,,31.5,80.28,7.7,16.78
+KYCCF,Keyence Corp,,,,,,,,,,,,1/1/21,183856,nan,—,58.92,26.56,32.69,27.56,—,,—,5.5,35.8,10.1,10.55
+KKR,KKR,,,,91,,1,0,no,8/4/18,Financial Services,Asset Management,12/28/20,,,1.4,39.21,25.14,21.7,13.09,—,,,0,29.57,1.52,9.61
+GOOGL,Alphabet (Google) (Class A),,,,83,,0,0,yes,8/4/18,Technology,Internet Content & Information,1/1/21,35713,nan,—,30.85,18.49,17.64,14.58,12.15,,27773,1.5,20.8,12.7,17.51
+KMB,Kimberly-Clark,,,,40,,1,0,,8/4/18,Consumer Defensive,Household & Personal Products,12/28/20,,,3.04,0.68,6.63,3.93,10.57,7.78,,,3.7,,,
+KMI,Kinder Morgan,,,,47,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/28/20,,,7.21,-29.64,-2.87,1.76,—,—,,,2.3,0.92,0.15,0.34
+KMX,CarMax,,,,57,,1,0,,8/4/18,Consumer Cyclical,Auto & Truck Dealerships,1/1/21,690,nan,—,7.74,13.78,11.85,11.47,13.66,,—,1.6,3.76,3.33,18.17
+KO,Coca-Cola,,,,48,,0,0,maybe,8/4/18,Consumer Defensive,Beverages - Soft Drinks,12/28/20,,,3.18,0.68,8.51,7.02,7.37,8.56,,,4.6,24.9,9.03,44.66
+KOPN,Kopin Corporation,,,,,,,,,,,,1/1/21,-13,nan,—,505.83,-8.77,-2.23,-5.23,-5.13,,6,0,-37.11,-29.13,-43.78
+AY,Atlantica Yield,,,,,,,,,,,,12/24/20,,425,4.83,62.1,29.26,19.82,—,—,,,0,6.37,0.64,4.26
+RP,Realpage,,,,,,,,,,,,1/1/21,53,nan,—,62.31,25.34,31.19,10.93,—,,123,0,4.79,1.86,3.9
+KR,Kroger,,,,35,3.1,1,0,,8/4/18,Consumer Defensive,Grocery Stores,12/28/20,,,2.06,10.69,5.53,-4.27,12.62,9.39,,,2,2.26,6.29,31.12
+KRA,Kraton Corp,,,,,,,,,,,,12/28/20,,,,8.75,-17.4,8.37,-1.18,—,,,0,-14.4,-8.45,-32.13
+KSS,Kohls,,,,50,,0,0,,8/4/18,Consumer Cyclical,Department Stores,12/28/20,,,4.27,-22,-5.88,0.75,0.42,0.93,,,0,-1.45,-1.55,-4.73
+KEYS,"Keysight Technologies, Inc.",,,,68,3.8,,,yes,9/8/19,Technology,Scientific & Technical Instruments,1/1/21,627,nan,—,28.71,46.98,36.06,—,—,,715,0,14.85,9.06,19.9
+PAGS,PagSeguro Digital Ltd,,,,,,,,,,,,1/1/21,1308,nan,—,66.51,—,—,—,—,,—,0,21.16,8.27,15.84
+L,Loews,,,,44,3.3,1,0,,9/8/19,Financial Services,Insurance - Property & Casualty,12/28/20,,,,-13.99,-3.41,3.3,1.78,2.71,,,0,-8.64,-1.37,-6.04
+TXN,Texas Instruments,,,,78,,0,0,maybe,8/4/18,Technology,Semiconductors,12/28/20,4977,,2.31,28.48,17.55,25.27,18.7,12.07,,1528,2.6,36.28,27.53,57.57
+COST,Costco,,,,69,,0,0,yes,8/4/18,Consumer Defensive,Discount Stores,12/27/20,,,0.7,28.24,26.97,19.41,18.99,15.14,,,3.9,2.5,7.75,28.15
+LB,L Brands,,,,60,,1,0,,8/4/18,Consumer Cyclical,Apparel Stores,12/28/20,,,1.55,115.48,-11.27,-12.5,7.83,8.19,,,0,,,
+LBTYA,Liberty Global,,,,,,1,0,no,8/4/18,Communication Services,Pay TV,,,,,,,,,,,,,,,
+LDOS,Leidos Holdings,,,,49,,1,0,,8/4/18,Technology,Information Technology Services,12/28/20,,,1.35,7.72,18.38,16.84,9.23,—,,,0,5.1,5.64,17.61
+LEA,Lear,,,,61,3.6,,,,9/8/19,Consumer Cyclical,Auto Parts,12/28/20,,,1.06,15.51,-2.11,6.37,13.28,—,,,3.1,0.66,0.85,2.62
+LEG,Leggett & Platt,,,,57,,1,0,,8/4/18,Consumer Cyclical,Home Furnishings & Fixtures,12/28/20,,,3.71,-13.4,0.07,3.12,9.29,6.59,,,0,5.45,4.86,18.1
+LEN,Lennar,,,,52,,1,0,,8/4/18,Consumer Cyclical,Residential Construction,12/28/20,,,0.82,42.73,8.34,11.26,16.56,2.26,,,0.7,9.86,7.59,13.71
+LEVI,Levis,,,,,,1,0,,,Consumer Cyclical,Apparel Manufacturing,12/28/20,,,0.87,5.81,—,—,—,—,,,0,-1.91,-1.83,-6.68
+LFC,China Life Insurance,,,,,,,,,,Financial Services,Insurance - Life,12/28/20,,,4.58,-16.6,-9.42,-6.15,-4.14,8.19,,,3.2,6.52,1.38,13.06
+LH,Laboratory Corp. of America,,,,40,,1,0,,8/4/18,Healthcare,Diagnostics & Research,1/1/21,845,nan,—,20.32,8.47,10.48,8.76,9.27,,—,1.9,6.79,4.62,10.92
+JD,"JD.com, Inc.",,,,53,3.6,,,maybe,11/3/20,Consumer Cyclical,Specialty Retail,1/1/21,28717,nan,—,149.5,28.51,22.19,—,—,,15237,1.1,4.15,9.26,25.36
+LILAK,Liberty Latin America Ltd,,,,,,1,0,,8/4/18,Communication Services,Telecom Services,1/1/21,-616,nan,—,-40.05,-16.8,-22.96,—,—,,—,0,-16.91,-4.38,-21.24
+LKQ,LKQ,,,,49,,1,0,,8/4/18,Consumer Cyclical,Auto Parts,12/28/20,,,,1.03,-3.87,4.22,12.36,15.15,,,1.5,5.12,4.87,11.71
+CTAS,Cintas,,,,61,,1,0,yes,8/4/18,Industrials,Business Services,12/27/20,,,0.99,27.19,30.24,30.72,28.73,15.46,,,3.5,13.18,11.78,27.8
+LLNW,Limelight Networks,,,,,,,,,,,,1/1/21,-9,nan,—,-2.21,-3.28,22.27,-3.69,—,,22,0,-3.62,-3.2,-5.07
+LLY,Lilly (Eli) & Co.,,,,72,4,1,0,,11/3/20,Healthcare,Drug Manufacturers - Major,12/28/20,5573,,2.03,29.37,27.05,15.77,18.25,8.55,,5829,1.2,24.01,13.62,135.76
+PWR,Quanta Services,,,,,,,,,,Industrials,Engineering & Construction,12/28/20,,,0.29,73.36,21.84,28.08,13.68,11.69,,,0,3.45,4.58,9.77
+LMT,Lockheed Martin,,,,60,,1,1,,8/4/18,Industrials,Aerospace & Defense,12/28/20,,,2.68,-7.28,6.02,12.46,19.67,13.53,,,1.8,10.18,13.07,147.84
+LNC,Lincoln Financial Group,,,,49,3.2,1,0,,9/8/19,Financial Services,Insurance - Life,12/28/20,,,3.39,-13.06,-11.36,2.14,7.58,1.13,,,0,4.47,0.23,3.79
+LNG,Cheniere Energy,,,,,,,,,,Energy,Oil & Gas Midstream,,,,,,,,,,,,,,,
+LNT,Alliant Energy,,,,71,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/28/20,,,2.89,-5.03,8.51,12.6,12.75,10.71,,,3.4,19.01,3.88,12.38
+LNVGY,Lenovo Group Limited,,,,,,,,,,,,12/28/20,877,,5.03,36.2,18.8,0,6.1,6.48,,1328,8,1.57,2.41,18.81
+GDS,GDS Holdings Ltd,,,,,,,,,,,,12/29/20,,,,73.69,58.76,—,—,—,,,0,-10.61,-1.57,-5.09
+LRCX,Lam Research,,,,78,,1,0,no,8/4/18,Technology,Semiconductor Equipment & Materials,12/28/20,2609,,1.05,64.78,38.27,43.94,25.33,19.03,,1321,1.5,23.6,19.05,50.16
+LSXMA,Liberty Media,,,,,,,,,,Consumer Cyclical,Broadcasting - Radio,1/1/21,264,nan,—,-10.65,2.88,—,—,—,,—,0,3.34,0.84,2.63
+LSXMK,Liberty SiriusXM,,,,,,,,,,,,1/1/21,264,nan,—,-8.12,3.7,—,—,—,,—,0,3.34,0.84,2.63
+LTC,LTC Properties,,,,,,,,,,,,12/28/20,,,6.16,-5.54,2.08,3.74,7.97,7.97,,,0,56.31,6.01,11.55
+LUK,Leucadia National,,,,100,,1,0,no,8/4/18,Financials,Multi-Sector Holdings,,,,,,,,,,,,,,,
+LUKOY,LukOil,,,,47,3.6,,,,9/8/19,Energy,Oil & Gas Integrated,12/28/20,,,12.08,-23.73,13.61,22.15,5.86,3.82,,,0,1.74,1.74,2.51
+PD,Pagerduty,,,,,,1,0,,,Technology,Software - Application,1/1/21,-57,nan,—,78.28,—,—,—,—,,61,0,-28.57,-9.55,-16.85
+LUV,Southwest Airlines,,,,81,4.3,0,0,maybe,9/8/19,Industrials,Airlines,12/28/20,,,0.78,-15.44,-10.2,2.05,14.31,7.55,,,28.4,-12.95,-5.33,-16.78
+LVS,Las Vegas Sands,,,,,,,,,,Consumer Cyclical,Resorts & Casinos,12/28/20,,,2.8,-16.58,-2.88,9.45,5.66,4.58,,,2.5,-12.67,-3.49,-17.69
+LYB,LyondellBasell,,,,58,,1,0,,8/4/18,Basic Materials,Specialty Chemicals,12/28/20,1184,,4.94,0.23,-2.17,4.49,14.44,—,,109,0,4.19,3.78,15.45
+HD,Home Depot,,,,65,3.8,0,0,yes,1/2/21,Consumer Cyclical,Home Improvement Stores,12/28/20,,,,25.49,15.05,17.11,23.97,14.21,,,2.3,,,
+LYV,Live Nation Entertainment,,,,64,,0,0,,8/4/18,Consumer Cyclical,Media - Diversified,1/1/21,-1441,nan,—,2.81,19.96,24.5,20.46,12.18,,—,0,-32.63,-14.12,-247.92
+M,Macys,,,,31,,0,0,,8/4/18,Consumer Cyclical,Department Stores,12/28/20,,,7.39,-30.97,-18.01,-13.53,-1.41,-2.18,,,0,-19.17,-18.03,-90.7
+NJDCY,Nidec Corp,,,,,,,,,,,,12/28/20,81640,,0.45,79.91,21.01,28.66,17.71,12.26,,72819,0,5.32,4.02,8.49
+MAA,Mid-America Apartments,,,,39,,1,0,,8/4/18,Real Estate,REIT - Residential,12/28/20,,,3.17,-0.59,10.92,9.42,9.6,8.48,,,0,18.97,2.83,5.32
+MAC,Macerich,,,,32,,1,0,,8/4/18,Real Estate,REIT - Retail,12/28/20,,,11.5,-54.3,-34.86,-21.67,-1.47,-1.27,,,0,-1.69,-0.16,-0.54
+MACK,"Merrimack Pharmaceuticals, Inc.",,,,,,,,,,Healthcare,Biotechnology,1/1/21,1,nan,—,118.73,-4.65,-24.42,—,—,,—,0,nan,nan,nan
+MAN,ManpowerGroup,,,,,,,,,,Industrials,Staffing & Outsourcing Services,12/28/20,,,,-3.23,-8.34,3.38,5.19,5.73,,,3.7,0.48,0.98,3.27
+MAR,Marriott International,,,,64,,0,0,,8/4/18,Consumer Cyclical,Lodging,12/28/20,,,,-14.7,-0.33,14.46,12.74,10.08,,,5.5,1.28,0.7,32.99
+TREX,Trex,,,,,,,,yes,,,,12/28/20,,,,84.83,45.02,54.83,39.36,23.88,,,0,20.53,26.04,34.69
+MAS,Masco,,,,54,,1,0,,8/4/18,Basic Materials,Building Materials,12/28/20,,,1.02,19.47,9.95,15.74,17.39,5.5,,,1.5,,,
+MAT,Mattel,,,,18,,1,0,,8/4/18,Consumer Cyclical,Leisure,1/1/21,-4,nan,—,28.78,4.3,-6.06,0.42,4.42,,—,0,-0.08,-0.07,-0.87
+MATW,Matthews International Corporation,,,,,,,,,,Industrials,Conglomerates,12/28/20,,,3.16,-23.72,-17.25,-10.45,-0.12,-0.48,,,0,-5.82,-4.09,-13.12
+MBT,Mobile Telesystems,,,,,,,,,,,,12/28/20,,,9.38,0.23,4.34,16.11,-0.82,3.28,,,0,10.91,6.03,153.83
+MCD,McDonalds,,,,40,,1,0,,8/4/18,Consumer Cyclical,Restaurants,12/28/20,,,,10.05,9.55,14.45,12.41,14.3,,,3,,,
+GWW,W.W. Grainger,,,,60,3.8,,,,,Industrials,Industrial Distribution,12/28/20,,,1.42,24.94,22.58,16.58,12.8,13.3,,,3.4,5.38,10.08,31.48
+MCK,McKesson,,,,42,,1,0,,8/4/18,Healthcare,Medical Distribution,12/28/20,,,0.92,24.23,3.47,-2.26,9.91,8.79,,,0,0.95,3.7,36.02
+EVBG,Everbridge,,,,,,,,,,,,12/29/20,,,,88.39,71.49,—,—,—,,,0,-32.43,-11.62,-35.85
+MD,"MEDNAX, Inc.",,,,,,,,,,Healthcare,Medical Care,1/1/21,-723,nan,—,-11.69,-22.85,-19.29,-3.11,0.69,,—,0,-20.6,-18.74,-63.29
+MDLZ,Mondelez International,,,,41,,1,0,,8/4/18,Consumer Defensive,Confectioners,12/28/20,,,2.04,7.33,12.05,6.62,9.78,7.76,,,3.1,11.73,4.72,11.43
+MDT,Medtronic plc,,,,62,,1,0,,8/4/18,Healthcare,Medical Devices,12/28/20,3537,,1.97,2.71,14.01,9.8,13.39,5.77,,2401,3.5,12.69,3.78,7.02
+MED,"Medifast, Inc.",,,,37,3,,,no,9/8/19,Consumer Cyclical,Specialty Retail,12/28/20,,,2.21,87.14,41.72,46.53,21.1,27.64,,,0,11.27,41.25,75.43
+ABMD,Abiomed Inc,,,,,,,,,,Healthcare,Medical Devices,1/1/21,208,nan,—,90.05,20.04,29.14,42.17,26.77,,108,0,25.88,16.95,19.12
+MET,MetLife,,,,40,,1,0,,8/4/18,Financial Services,Insurance - Life,12/28/20,,,3.94,-5.61,0.5,4.48,3.89,2.22,,,0,8.55,0.74,7.91
+MGLN,Magellan Health,,,,,,,,,,Healthcare,Health Care Plans,1/1/21,134,nan,—,5.87,-4.98,6.08,5.77,6.67,,—,0,1.88,4.11,9.11
+MGM,MGM Resorts International,,,,46,3.5,,,,9/8/19,Consumer Cyclical,Resorts & Casinos,12/28/20,,,1.01,-7.55,-1.46,7.51,8.23,-0.71,,,0,21.47,4.32,22.78
+MGNX,"MacroGenics, Inc.",,,,,,,,,,Healthcare,Biotechnology,1/1/21,-158,nan,—,110.11,6.36,-5.89,—,—,,203,0,-204.24,-43.55,-57.81
+MHK,Mohawk Industries,,,,64,,1,0,,8/4/18,Consumer Cyclical,Home Furnishings & Fixtures,1/1/21,532,nan,—,3.35,-20.06,-5.74,9.52,3.27,,—,0,5.7,3.92,6.68
+MHO,MI Homes,,,,,,,,,,,,1/1/21,202,nan,—,12.55,8.79,15.1,11.16,0.62,,—,0,6.99,8.76,18.93
+MHVYF,Mitsubishi Heavy Industries,,,,,,,,,,,,12/28/20,,,3.06,-25.88,-6.45,-6.43,-0.49,—,,,0,0.02,0.02,0.06
+MIDD,Middleby,,,,,,,,,,,,1/1/21,264,nan,—,17.71,-1.51,3.63,16.44,15.73,,—,0,10.28,5.32,13.61
+CHD,Church & Dwight,,,,71,,1,0,yes,8/4/18,Consumer Defensive,Household & Personal Products,12/27/20,,,1.09,24.83,21.42,16.07,18.2,17.53,,,3.4,16.44,11.4,27.04
+MKL,Markel,,,,,,,,,,Financial Services,Insurance - Property & Casualty,1/1/21,480,nan,—,-9.61,-3.2,3.19,10.58,8.19,,—,0,5.06,1.17,4.11
+VEEV,Veeva Systems Inc,,,,,,,,,,,,1/1/21,343,nan,—,93.55,70.14,56.66,—,—,,273,4.1,24.88,15.31,18.73
+MLHR,Herman Miller Inc,,,,,,,,,,,,12/28/20,16,,1.7,-18.66,-1.25,5.92,4.34,2.34,,71,0,0.64,0.85,2.11
+MLM,Martin Marietta Materials,,,,66,,1,0,,8/4/18,Basic Materials,Building Materials,12/28/20,,,0.84,1,10.03,14.86,12.18,9.43,,,1.7,14.37,6.47,12.09
+MLR,Miller Industries,,,,,,,,,,,,12/28/20,,,2.16,0.78,15.26,12.99,11.6,5.52,,,0,4.36,7.37,11.35
+MMC,Marsh & McLennan,,,,53,,1,0,,8/4/18,Financial Services,Insurance Brokers,12/28/20,,,1.61,4.84,14.24,17.24,16.71,9.66,,,2.3,11.91,6.38,25.08
+MMLP,Martin Midstream Partners L.P.,,,,44,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/28/20,,,8.33,-57.71,-28.94,-13.52,-3.93,1.74,,,0,,,
+MMM,3M,,,,64,,1,0,maybe,8/4/18,Industrials,Diversified Industrials,12/28/20,4964,,3.4,2.11,-6.54,5.83,9.55,7.27,,1943,3.2,15.65,11.29,43.96
+MMP,Magellan Midstream Partners,,,,76,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/28/20,,,9.99,-24.25,-7.61,-2.02,10.1,11.1,,,0,35.61,11.12,36.32
+ROK,Rockwell Automation,,,,69,3.9,1,0,maybe,8/4/18,Industrials,Diversified Industrials,12/28/20,,,1.62,24.61,10.19,20.74,14.45,10.99,,,3.6,16.15,15.29,142.79
+MNDO,MIND CTI Ltd (Israel) Ord,,,,27,,1,0,,8/4/18,Technology,Software - Infrastructure,12/28/20,5,,9.88,14.57,6.58,9.57,7.72,7.28,,4,0,21.96,17.82,25.34
+NOW,ServiceNow,,,,,,,,,,,,1/1/21,701,nan,—,94.97,61.62,44.77,—,—,,942,3.1,16.6,11.24,34.15
+MO,Altria Group,,,,67,,1,0,,8/4/18,Consumer Defensive,Tobacco,12/28/20,,,8.49,-10.26,-10.68,-0.7,10.19,4.57,,,6.3,3.53,1.46,10.61
+MOD,Modine Manufacturing,,,,,,,,,,,,1/1/21,-6,nan,—,63.12,-14.65,6.77,-2.08,-5.28,,—,0,-0.31,-0.36,-1.06
+VIPS,Vipshop Holdings Limited,,,,,,,,,,Consumer Cyclical,Specialty Retail,1/1/21,3829,nan,—,98.38,33.86,12.98,—,—,,—,0,4.23,9.54,18.68
+MOMO,Momo Inc,,,,,,1,0,no,8/4/18,Technology,Internet Content & Information,,,,,,,,,,,,,,,
+MOS,Mosaic,,,,,,,,,,Basic Materials,Agricultural Inputs,12/28/20,,,0.91,3.31,-4.2,-4.1,-8.86,4.78,,,0.2,-13.04,-5.51,-11.62
+GRMN,Garmin Ltd.,,,,71,,1,0,maybe,8/4/18,Technology,Scientific & Technical Instruments,12/28/20,1020,,2.02,24.55,28.97,28.79,16.52,10.06,,668,3.3,25.89,16.57,21.5
+MPC,Marathon Petroleum,,,,72,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,5.97,-28.6,-10.55,-0.88,—,—,,,0,-10.44,-10.62,-34.41
+MRK,Merck,,,,48,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Major,12/28/20,11517,,3.04,-9.65,15.51,11.38,10.58,8.32,,10269,1.2,24.32,13.3,41.11
+STNE,StoneCo,,,,,,,,,,Technology,Software - Application,1/1/21,803,nan,—,110.38,—,—,—,—,,—,0,27.26,3.41,7.97
+MRO,Marathon Oil,,,,48,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/28/20,,,2.2,-50.73,-25.07,-11.62,-1.62,0.89,,,0,-32.3,-5.8,-9.78
+MS,Morgan Stanley,,,,65,,1,0,,8/4/18,Financial Services,Capital Markets,12/28/20,,,2.26,37.09,10.89,17.74,10.59,3.03,,,0,21.86,1,12.12
+ADI,Analog Devices,,,,78,,,0,yes,8/4/18,Technology,Semiconductors,12/24/20,1221,15900,1.73,22.26,19.01,22.1,15.55,10.42,,1051,2.2,21.79,5.7,10.3
+MSI,Motorola Solutions,,,,53,,1,0,,8/4/18,Technology,Communication Equipment,12/28/20,780,,1.49,5.83,24.6,21.01,12.65,1.73,,687,1.7,,,
+MTB,M&T Bank Corp.,,,,,,1,0,,8/4/18,Financial Services,Banks - Regional - US,12/28/20,,,3.78,-23.61,-7.49,2.98,6.3,2.93,,,42.1,21.88,0.98,8.85
+RNG,RingCentral Inc,,,,,,,,,,,,1/1/21,-106,nan,—,124.68,98.57,74.27,—,—,,172,9.5,-9.66,-6.7,-31.9
+IIVI,II-VI Inc,,,,,,,,,,,,1/1/21,5,nan,—,125.6,17.4,32.56,12.6,15.34,,381,0,-0.04,-0.02,-0.05
+DLR,Digital Realty Trust,,,,79,,,0,yes,8/4/18,Real Estate,REIT - Office,12/27/20,,,3.29,21.56,10.63,15.83,13.27,14.59,,,5.3,14.74,1.82,4.27
+MTZ,MasTec,,,,,,,,,,Industrials,Engineering & Construction,1/1/21,311,nan,—,6.27,11.68,31.44,16.67,13.3,,—,0,4.86,6.18,17.51
+MU,Micron Technology,,,,,,1,0,no,8/4/18,Technology,Semiconductor Memory,,,,,,,,,,,,,,,
+MUSA,Murphy USA,,,,28,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/28/20,,,0.2,9.24,17.78,15.99,—,—,,,0,3.14,13.79,44.51
+MXIM,Maxim Integrated Products,,,,33,,1,0,maybe,8/4/18,Technology,Semiconductors,12/28/20,684,,2.31,43.61,19.92,20.02,15.4,6.87,,447,2.6,30.03,18.65,39.17
+MYL,Mylan N.V.,,,,,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Specialty & Generic,12/28/20,,,,100,13.57,30.86,-2.05,—,,,0,,,
+ESTC,Elastic,,,,,,,,,,,,12/29/20,,,,134.24,—,—,—,—,,,0,-24.21,-15.12,-28.22
+NAPRF,Naspers Ltd,,,,,,,,,,,,12/28/20,,,0.19,24.41,-10.8,7.32,—,—,,,0,63.34,7.47,12.57
+NAV,Navistar International,,,,,,,,,,Industrials,Truck Manufacturing,1/1/21,-347,nan,—,51.9,0.83,37.82,-2.72,2.9,,321,0,nan,nan,nan
+NAVI,Navient,,,,,,,,,,Financial Services,Credit Services,12/28/20,,,6.83,-25.27,-4.33,0.56,—,—,,,0,23.5,0.43,14.52
+NCR,NCR,,,,,,,,,,Technology,Information Technology Services,1/1/21,467,nan,—,6.85,3.39,8.96,9.35,4.26,,243,0,6.84,4.84,46.02
+CSIQ,Canadian Solar,,,,,,,,,,,,12/29/20,208,,,135.25,44.75,11.86,15.28,—,,45,0,6.19,3.61,14.7
+NDAQ,Nasdaq,,,,66,,1,0,yes,8/4/18,Financial Services,Financial Exchanges,12/28/20,,,1.5,22.37,20.79,18.72,19.31,9.09,,,3.2,17.42,6.55,16.07
+DASTY,Dassault Systemes SE ADR,,,,84,3.9,0,0,yes,9/8/19,Technology,Software - Application,12/27/20,470,,0.42,21.48,23.92,20.24,18.4,14.04,,914,3.2,10.65,3.76,9.09
+MCO,Moodys,,,,63,,1,0,yes,8/4/18,Financial Services,Capital Markets,12/28/20,,,0.79,18.03,24.68,23.52,27.22,10.93,,,2.4,34.32,17.25,185.22
+NEM,Newmont Goldcorp,,,,,,,,,,Basic Materials,Gold,12/28/20,2570,,1.33,45.85,19.83,28.08,1.22,2,,140,0.8,23.19,6.32,11.66
+NEWR,New Relic Inc,,,,,,,,,,,,1/1/21,-132,nan,—,-0.47,4.22,12.41,—,—,,165,181.7,-20.65,-11.07,-34.92
+RCUS,Arcus Biosciences,,,,,,,,,,,,1/1/21,-88,nan,—,157.03,—,—,—,—,,131,0,-112.63,-17.04,-24.28
+NGL,NGL Energy Partners,,,,18,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,40.83,-68.6,-22.23,-1.9,—,—,,,0,-5.43,-4.96,-14.52
+NHI,National Health Investors,,,,,,1,0,,8/4/18,Real Estate,REIT - Healthcare Facilities,12/28/20,,,6.74,-8.45,2.64,7.76,8.74,10.24,,,0,56.93,6.17,12.86
+NI,NiSource,,,,,,1,0,,8/4/18,Utilities,Utilities - Regulated Gas,12/28/20,,,3.47,-16.41,-1.03,6.01,12.9,7.62,,,3.6,-6.09,-1.32,-6.23
+NILSY,Public Joint Stock Company Mining and Metallurgical Company Norilsk Nickel,,,,,,,,,,,,12/28/20,,,6.37,7.5,27.77,25.54,7.21,29.89,,,0,20.53,14.58,86.69
+WIX,Wix.com,,,,80,4.3,,,maybe,,,,1/1/21,-175,nan,—,104.25,63.16,61.5,—,—,,297,0,-19.25,-12.38,-75.2
+DDOG,Datadog,,,,87,4.2,,,yes,,,,1/1/21,-7,nan,—,160.56,—,—,—,—,,179,0,-1.39,-0.53,-0.88
+ADYEY,Adyen,,,,,,,,,,Technology,Software - Infrastructure,1/1/21,190,nan,—,181.82,—,—,—,—,,—,4,6.18,7.23,23.18
+NLOK,NortonLifeLock,,,,,,,,,,,,12/28/20,3258,,2.74,30.61,6.48,13.25,9.39,5.85,,270,1.3,131.8,28.91,115.61
+NLS,Nautilus,,,,,,,,,,,,1/1/21,34,nan,—,936.57,10.76,1.64,26.13,0.06,,15,0,7.36,14.73,33.09
+NLY,Annaly Capital,,,,,,1,0,,8/4/18,Real Estate,REIT - Diversified,12/28/20,,,11.75,-3,-1.03,7.63,2.19,7.04,,,0,,,
+NNN,National Retail Properties,,,,,,1,0,,8/4/18,Real Estate,REIT - Retail,12/28/20,,,5.49,-15.25,4.38,5.55,8.71,8.11,,,0,31.59,2.78,5.34
+NNVC,NanoViricides,,,,,,,,,,,,1/1/21,-14,nan,—,14.34,-45.37,-34.39,-30.08,-18.55,,5,0,nan,nan,nan
+NOC,Northrop Grumman,,,,68,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/28/20,,,1.88,-12.05,1.23,11.15,18.04,12.51,,,1.1,6.94,5.74,24.26
+NOV,National Oilwell Varco,,,,,,1,0,,8/4/18,Energy,Oil & Gas Equipment & Services,12/28/20,,,0.82,-45.67,-26.71,-15.76,-8.27,-0.57,,,0,-36.63,-21.35,-38.16
+LMND,Lemonade,,,,97,4.8,,,,,,,1/1/21,-121,nan,—,—,—,—,—,—,,—,0,-124.46,-14.56,-21.28
+CRSP,CRISPR Therapeutics,,,,69,3.3,,,,,,,12/29/20,,,,155.92,99.58,—,—,—,,,0,-273.1,-19.16,-21.84
+JMIA,Jumia Technologies,,,,56,3.6,,,,,,,1/1/21,-177,nan,—,499.55,—,—,—,—,,—,0,-120.5,-64.97,-110.72
+NRG,NRG Energy,,,,28,3.4,,,,9/8/19,Utilities,Utilities - Independent Power Producers,12/28/20,4066,,3.66,-9.05,9.05,26.24,7.25,3.48,,8,0,,,
+NRZ,New Residential Investment Corp,,,,,,1,0,no,8/4/18,Real Estate,REIT - Residential,12/28/20,,,8.64,-33.96,-6.57,7.58,—,—,,,0,-661.32,-3.68,-23.45
+MELI,MercadoLibre,,,,89,4.4,1,0,yes,8/4/18,Consumer Cyclical,Specialty Retail,1/1/21,-4,nan,—,192.9,74.61,71.09,38.08,—,,294,0,-0.39,-0.25,-0.69
+NSIT,Insight Enterprises,,,,,,,,,,Technology,Information Technology Services,1/1/21,162,nan,—,8.25,25.72,24.81,19.18,9.46,,—,1.2,1.94,4.15,13.71
+NSRGY,Netsle,,,,59,3.9,0,0,yes,9/8/19,Consumer Defensive,Packaged Foods,12/28/20,,,2.49,7.09,12.79,11.18,8.77,11.02,,,4.8,15.27,10.74,28.67
+NTAP,NetApp,,,,,,1,0,,8/4/18,Technology,Data Storage,12/28/20,687,,3.6,7.73,7.88,22.18,3.03,6.67,,868,1.6,12.44,8.65,151.66
+NTES,NetEase,,,,,,1,0,yes,8/4/18,Technology,Internet Content & Information,12/28/20,14141,,1.73,55.53,9.45,21.46,29.85,26.53,,9607,2.1,20.31,11.29,19.03
+NTRS,Northern Trust,,,,,,1,0,,8/4/18,Financial Services,Asset Management,12/28/20,,,3.01,-11.55,-0.02,6.93,6.95,5.15,,,2.5,23.62,0.92,12.29
+NUE,Nucor,,,,,,,,,,Basic Materials,Steel,12/28/20,,,3,-4.61,-3.97,7.94,4.24,5.68,,,0,2.14,2.25,4.12
+NVAX,Novavax,,,,,,,,,,,,1/1/21,-273,nan,—,2701.76,65.05,-7.85,8.66,2.5,,375,0,nan,nan,nan
+AMWL,Amwell,,,,81,3.7,,,,,,,1/1/21,-197,nan,—,—,—,—,—,—,,73,0,-85.51,-13.9,-15.42
+NVGS,Navigator Holdings,,,,,,,,,,,,1/1/21,-7,nan,—,-18.71,3.59,-4.31,7.46,—,,—,0,-2.06,-0.36,-0.7
+NVR,NVR,,,,,,,,,,Consumer Cyclical,Residential Construction,1/1/21,852,nan,—,7.13,5.16,19.95,19.43,12.45,,—,0,11.85,18.25,32.22
+NVS,Novartis,,,,,,,,,,,,12/28/20,7103,,3.4,-3.36,9.51,5.75,8.01,6.56,,9500,2.7,14.33,5.78,13.28
+NWL,Newell Brands Inc.,,,,,,,,,,Consumer Defensive,Household & Personal Products,12/28/20,,,4.33,14.18,-7.87,-10.09,4.54,1.79,,,,-1.11,-0.67,-2.63
+NWS,News Corp.,,,,,,,,,,Consumer Cyclical,Broadcasting - TV,12/28/20,,,1.12,25.12,2.85,5.59,—,—,,,2.5,-11.47,-6.58,-12.33
+NWSA,News Corp. (Class A),,,,51,,0,0,,8/4/18,Consumer Cyclical,Broadcasting - TV,12/28/20,,,1.13,28.9,3.91,6.68,—,—,,,2.5,-11.47,-6.58,-12.33
+BLDP,Ballard Power Systems,,,,,,,,,,,,1/1/21,-47,nan,—,225.91,74.42,71.88,31.62,12.17,,34,0,-39.92,-10.32,-12.48
+NXPI,NXP Semiconductors,,,,57,,1,0,no,8/4/18,Technology,Semiconductors,12/28/20,,,0.95,22.93,11.23,13.19,23.1,—,,,1.7,-1.7,-0.67,-1.57
+SEDG,SolarEdge,,,,,,,,,,,,1/1/21,175,nan,—,235.6,104.07,62.49,—,—,,151,2,11.55,9.7,19.89
+NYMT,New York Mortgage Trust Inc,,,,,,1,0,,8/4/18,Real Estate,REIT - Residential,12/28/20,,,9.25,-37.9,-4.21,5.18,6.52,-7.12,,,0,,,
+O,Realty Income Corporation,,,,88,,1,0,,8/4/18,Real Estate,REIT - Retail,12/28/20,,,4.66,-11.71,7.3,7.58,9.4,9.93,,,10.3,24.94,2.2,4.12
+DASH,DoorDash,,,,62,4,,,too early,,,,1/1/21,-283,nan,—,—,—,—,—,—,,146,0,nan,nan,nan
+OBSV,Observa SA,,,,,,,,,,,,1/1/21,-85,nan,—,-45.55,-40.27,—,—,—,,70,0,nan,nan,nan
+OC,Owens Corning,,,,68,,1,0,,8/4/18,Basic Materials,Building Materials,12/28/20,,,1.32,21.61,-3.93,11.83,10.26,—,,,0,-7.94,-5.6,-13.01
+OCIP,OCI Partners LP,,,,,,1,0,no,8/4/18,Basic Materials,Chemicals,,,,,,,,,,,,,,,
+ODP,Office Depot,,,,,,0,0,,8/4/18,Consumer Cyclical,Specialty Retail,12/28/20,,,1.74,13.25,-3.53,-10.38,-5.07,-14.08,,,0,-2.84,-4.31,-14.38
+OI,Owens-Illinois,,,,,,,,,,Consumer Cyclical,Packaging & Containers,12/28/20,308,,0.88,-1.95,-19.17,-7.83,-9.1,-3.6,,63,1.4,4.95,3.39,122.71
+OKE,Oneok,,,,66,3.6,1,0,,9/8/19,Energy,Oil & Gas Midstream,12/28/20,,,,-43.73,-2.5,17.71,10.23,12.25,,,2.5,7.23,2.83,10.09
+PINS,Pinterest,,,,,,1,0,,,Technology,Internet Content & Information,12/28/20,,,,284.42,—,—,—,—,,,0,-26.81,-16.23,-19.12
+CRWD,"CrowdStrike Holdings, Inc.",,,,,,,,,,Technology,Software - Infrastructure,1/1/21,-102,nan,—,324.74,—,—,—,—,,187,28.2,-13.4,-6.79,-13.33
+SNOW,Snowflake,,,,90,4.3,,,,,,,1/1/21,-423,nan,nan,—,—,—,—,—,,174,0,-86.54,-7.41,-8.52
+OLN,Olin Corporation,,,,,,,,,,Basic Materials,Specialty Chemicals,12/28/20,,,3.65,51.56,-6.42,10.08,4.95,4.46,,,0,-18.47,-11.59,-49.06
+OMC,Omnicom Group,,,,59,,1,0,,8/4/18,Consumer Cyclical,Advertising Agencies,12/28/20,,,4.13,-20.95,-2.18,-0.74,5.75,4.52,,,5.5,7.1,4.06,37.72
+ON,ON Semiconductor Corporation,,,,,,,,no,,Technology,Semiconductors,,,,,,,,,,,,,,,
+OPK,OPKO Health,,,,,,,,,,,,1/1/21,-114,nan,—,168.71,-6.93,-17.04,0.74,16.3,,81,0,-9.79,-4.81,-6.99
+ORC,Orchid Island Capital Inc,,,,,,1,0,,8/4/18,Real Estate,REIT - Diversified,12/28/20,,,15.05,4.48,-4.66,3.11,—,—,,,0,28.9,0.11,1.11
+ORCL,Oracle,,,,52,3.6,1,0,,8/4/18,Technology,Software - Infrastructure,12/28/20,10380,,1.66,23.35,12.59,13.24,8.46,12.41,,6169,1.6,26.34,9.96,88.42
+ORI,Old Republic International,,,,,,,,,,Financial Services,Insurance - Diversified,12/28/20,,,4.63,-9.89,3.85,6,7.69,2.78,,,0,4.85,1.45,5.3
+ORLY,OReilly Automotive,,,,,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,1/1/21,1684,nan,—,3.27,23.45,12.3,22.31,19.31,,—,1.2,14.96,14.72,384.78
+OSK,Oshkosh,,,,,,,,,,Industrials,Truck Manufacturing,12/28/20,,,1.53,-8.46,-0.91,17.84,10.13,5.09,,,0,4.73,5.7,11.91
+OSTK,Overstock.com,,,,39,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,1/1/21,16,nan,—,580.43,-9.12,31.39,11.3,3.63,,—,0,0.57,2.05,5.51
+OTELLO.ST,Otello Corp,,,,,,0,0,no,8/4/18,,,,,,,,,,,,,,,,,
+OTTR,Otter Tail Corporation,,,,,,,,,,Utilities,Utilities - Diversified,12/28/20,,,3.72,-14.46,1.49,12.67,9.07,4.94,,,0,11.1,4.14,12.13
+OXY,Occidental Petroleum Corporation,,,,,,,,,,Energy,Oil & Gas E&P,12/28/20,,,10.15,-53.65,-30.29,-15.04,-7.78,1.17,,,0,-79.47,-14.96,-86.24
+SE,Sea Limited,,,,,,,,,,,,12/28/20,,,,393.81,144.36,—,—,—,,,0,-38.43,-24.96,-138.26
+PAA,Plains All American Pipeline,,,,,,,,,,,,12/28/20,,,11.34,-48.36,-16.42,-6.93,-0.87,4.1,,,0,-9.27,-9.33,-21.65
+PAG,Penske Automotive Group,,,,,,,,,,Consumer Cyclical,Auto & Truck Dealerships,12/28/20,,,2.27,15.49,8.47,8.64,14.64,8.82,,,1.1,2.17,3.33,15.61
+PAGP,Plains GP Holdings,,,,,,,,,,Energy,Oil & Gas Midstream,12/28/20,,,11.35,-47.84,-16.92,-8.44,—,—,,,0,-1.89,-1.81,-27.57
+RUN,Sunrun,,,,,,,,,,,,1/1/21,8,nan,—,402.39,127.4,42.59,—,—,,19,0,1,0.14,0.86
+SBUX,Starbucks,,,,56,3.9,0,0,yes,1/2/21,Consumer Cyclical,Restaurants,12/28/20,,,1.71,17.14,22.95,12.44,21.1,14.13,,,1.6,,,
+EW,Edwards Lifesciences,,,,75,,1,0,yes,8/4/18,Healthcare,Medical Devices,12/29/20,794,,,15.83,33.37,27.76,20.99,24.26,,759,3.4,18.18,12.44,19.79
+PAYX,Paychex,,,,64,,1,0,,8/4/18,Industrials,Business Services,12/28/20,,,2.66,14.81,14.24,14.4,13.82,7.45,,,6.3,26.66,12.23,38.8
+PBF,PBF Energy,,,,72,,1,0,no,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,8.26,-77.45,-35.06,-20.07,—,—,,,0,-5.86,-10.9,-42.12
+PBYI,Puma Biotech,,,,,,,,,,,,1/1/21,-56,nan,—,17.26,-53,-33.42,—,—,,104,0,-23.87,-22.77,-671.97
+PCAR,Paccar,,,,63,,1,0,,8/4/18,Industrials,Truck Manufacturing,12/28/20,1424,,1.47,10.82,10.1,15.25,6.51,8.91,,286,0,7.39,5.18,14.14
+PCG,PG&E Corp.,,,,37,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,1/1/21,-5121,nan,—,14.63,-34.74,-21.42,-6.27,-0.81,,—,0,-27.81,-5.66,-34.75
+OLED,Universal Display Corporation,,,,73,3.4,,,,,,,12/28/20,106,,0.24,15.26,10.11,34.82,22.61,22.9,,82,1.9,27.01,9.19,12.62
+ENPH,Enphase Energy,,,,47,3,,,yes,,,,12/29/20,178,,,555.91,313.06,117.69,—,—,,51,0,24.69,21.99,62.51
+PEG,Public Service Enterprise Group,,,,61,,1,0,,8/4/18,Utilities,Utilities - Diversified,12/28/20,,,3.33,1.03,7.13,11.38,8.85,5.99,,,4.5,19.74,3.97,12.42
+PENN,Penn National Gaming Inc,,,,,,,,,,,,1/1/21,-773,nan,—,237.91,40.22,40.07,14.11,9.67,,—,0,-19.86,-5.31,-33.98
+PEP,PepsiCo,,,,53,,0,0,,8/4/18,Consumer Defensive,Beverages - Soft Drinks,12/28/20,,,2.74,8.91,9.68,10.09,10.25,7.78,,,3.9,10.27,8.31,51
+PER,Sandridge Permian Trust,,,,,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/28/20,,,,0,12.4,-17.58,—,—,,,0,43.33,16.21,41.37
+PETS,PetMed,,,,,,,,,,,,12/28/20,,,3.62,48.43,-6.76,17.29,8.76,7.08,,,0,9.82,19.72,22.92
+PFE,Pfizer,,,,62,,0,0,,8/4/18,Healthcare,Drug Manufacturers - Major,12/28/20,8686,,3.97,2.01,5.87,6.82,11.03,5.71,,9039,5.3,17.85,4.97,13.33
+PFG,Principal Financial,,,,,,1,0,,8/4/18,Financial Services,Insurance - Diversified,12/28/20,,,4.48,-7.31,-8.27,5.07,6.79,2.2,,,0,8.15,0.45,8.04
+PFGC,Performance Food Group,,,,41,,1,0,,8/4/18,Consumer Defensive,Food Distribution,1/1/21,-151,nan,—,-7.52,12.88,15.52,—,—,,—,0.9,-0.58,-2.17,-9
+PG,Procter & Gamble,,,,52,,0,0,yes,8/4/18,Consumer Defensive,Household & Personal Products,12/28/20,,,2.25,12.47,16.76,13.76,9.65,7.39,,,4.5,18.56,11.5,28.93
+CODX,Co-Diagnostics,,,,na,na,,,,,,,1/1/21,28,nan,—,938.87,52.16,—,—,—,,2,0,58.79,95.57,99.58
+PGR,Progressive,,,,69,,1,0,,8/4/18,Financial Services,Insurance - Property & Casualty,12/28/20,,,0.46,37.35,22.32,26.64,18.57,9.21,,,3.7,12.07,8.66,32.44
+NIO,Nio Inc,,,,52,3.4,,,too early,,,,1/1/21,-7012,nan,—,1112.44,—,—,—,—,,2685,0,-56.26,-27.37,-314.06
+PHM,PulteGroup,,,,,,,,,,Consumer Cyclical,Residential Construction,12/28/20,,,1.1,16.73,11.72,21,20.58,1.16,,,0,11.9,11.95,22.63
+PII,Polaris Industries,,,,40,,1,0,,8/4/18,Consumer Cyclical,Recreational Vehicles,12/28/20,25,,2.58,-0.29,-5.39,5.12,11.54,11.34,,295,1.3,0.38,0.54,2.55
+DOMO,Domo,,,,86,4.4,,,too early,,Technology,Software - Application,1/1/21,-95,nan,—,193.6,—,—,—,—,,67,0,nan,nan,nan
+MA,MasterCard,,,,76,,0,0,yes,8/4/18,Financial Services,Credit Services,12/28/20,,,0.48,13.49,31.1,28.21,31.71,,,,2,43.13,23.36,125.19
+PKG,Packaging Corp. of America,,,,,,,,,,Consumer Cyclical,Packaging & Containers,12/28/20,,,2.43,24.23,6.64,18.54,19.87,13.9,,,0,7.05,6.45,15.06
+LII,Lennox International,,,,70,,1,0,maybe,8/4/18,Industrials,Diversified Industrials,12/28/20,,,1.07,13.34,11.05,17.66,19.58,16.75,,,4,,,
+PKX,Posco,,,,,,,,,,,,12/28/20,981123,,2.92,22.01,-5.1,13.16,-2.81,3.9,,105148,0,1.65,1.21,2.19
+PLD,Prologis,,,,,,1,0,,8/4/18,Real Estate,REIT - Industrial,12/28/20,,,2.27,13.32,17.52,20.31,13.78,6.13,,,5.3,38,3.32,5.79
+PLNT,Planet Fitness,,,,,,,,,,,,1/1/21,6,nan,—,3.95,30.88,38.76,—,—,,—,0,nan,nan,nan
+PLT,Plantronics,,,,,,,,,,,,12/28/20,,,1.1,-4.17,-19.3,-10.31,-2.13,0.6,,,0,-54.36,-31.8,-328.66
+PLUG,Plug Power,,,,,,,,,,,,1/1/21,-104,nan,—,973.1,143.11,74.26,24.77,-2.72,,41,0,-33.76,-10.1,-34.43
+PM,Philip Morris International,,,,61,,1,0,,8/4/18,Consumer Defensive,Tobacco,12/28/20,,,6.22,1.32,-2.71,3.34,7.62,—,,,2.2,,,
+PNC,PNC Financial Services Group,,,,54,,0,0,maybe,8/4/18,Financial Services,Banks - Regional - US,12/28/20,,,3.33,-6.03,2.72,11.12,11.05,7.15,,,0,39.81,1.65,13.96
+PNW,Pinnacle West Capital,,,,,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/28/20,,,3.88,-8.79,0.67,7.44,9.45,6.76,,,3.9,18.03,3.33,11.13
+POST,Post Holdings,,,,39,2.7,,,,9/8/19,Consumer Defensive,Packaged Foods,1/1/21,1,nan,—,-7.42,8.43,10.36,—,—,,—,2.8,0.01,0.01,0.03
+V,Visa,,,,74,3.8,0,0,yes,11/3/20,Financial Services,Credit Services,12/28/20,,,0.58,11.92,23.42,22.19,28.73,,,,3.5,49.74,14.16,36.01
+PPG,PPG Industries,,,,50,,1,0,,8/4/18,Basic Materials,Specialty Chemicals,12/28/20,1079,,1.43,10.15,9.11,8.96,14.51,12.32,,388,26.3,7.85,5.93,20.44
+PPL,PPL,,,,,,,,,,Utilities,Utilities - Regulated Electric,12/28/20,,,5.83,-19.85,0.75,0.39,5.52,3.73,,,0,20.22,3.34,12.06
+PRU,"Prudential Financial, Inc.",,,,,,,,no,,Financial Services,Insurance - Life,12/28/20,,,5.82,-13.51,-8.58,2.75,5.76,2.55,,,2.2,-0.16,-0.01,-0.14
+PSO,Pearson,,,,25,,1,0,,8/4/18,Consumer Cyclical,Publishing,12/28/20,,,2.83,11.48,0.8,-0.3,-0.74,2.63,,,0,7.5,3.42,6.26
+PSX,Phillips 66,,,,72,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,5.94,-36.1,-7.86,-0.06,—,—,,,2.6,-3.52,-4.79,-12.14
+ILMN,Illumina,,,,69,,1,0,maybe,8/4/18,Healthcare,Diagnostics & Research,1/1/21,638,nan,—,11.53,19.19,14.03,19.3,30.22,,644,2.4,19.7,8.8,13.96
+ARRY,Array BioPharma Inc.,,,,,,,,too early,,,,1/1/21,96,nan,—,—,—,—,—,—,,—,2.3,8.44,14,20.5
+PVH,PVH,,,,,,,,,,Consumer Cyclical,Apparel Manufacturing,12/28/20,,,0.09,-10.33,-11.5,5.32,3.78,7.44,,,3.9,-14.99,-8.4,-21.49
+DF,Dean Foods,,,,,,,,,,Consumer Defensive,Packaged Foods,1/1/21,-15,nan,nan,nan,nan,nan,nan,nan,,—,0,nan,nan,nan
+PXD,Pioneer Natural Resources,,,,,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/28/20,,,2.08,-24.52,-12.24,-1.52,2.98,5.56,,,0.9,2.26,0.93,1.47
+SYMC,Symantec,,,,48,,0,0,,8/4/18,Technology,Software - Application,1/1/21,3258,nan,nan,nan,nan,nan,nan,nan,,270,1.2,131.8,28.91,115.61
+PZN,Pzena Investment Management,,,,,,,,,,,,12/28/20,,,8.26,-7.71,-6.5,2.11,4.51,—,,,0,2.46,2.01,12.42
+PZZA,Papa Johns,,,,43,,0,0,no,8/4/18,Consumer Cyclical,Restaurants,12/28/20,,,1.12,37.69,16.62,10.66,21.03,12.96,,,5.2,,,
+QCOM,Qualcomm,,,,45,,0,0,maybe,8/4/18,Technology,Semiconductors,12/28/20,5198,,1.73,70.51,34.15,26.51,12.95,9.37,,5975,0.9,22.09,15.17,94.63
+PIR,Pier 1 Imports,,,,40,,0,0,,8/4/18,Consumer Cyclical,Specialty Retail,1/1/21,19263,nan,nan,nan,nan,nan,nan,nan,,—,1.5,3.51,1.62,10.55
+QRTEA,Qurate Retail,,,,,,,,,,Consumer Cyclical,Specialty Retail,1/1/21,679,nan,—,65.72,-16.99,-12.55,1.34,—,,—,0,4.89,4.02,16.52
+QRVO,Qorvo,,,,,,1,0,no,8/4/18,Technology,Semiconductors,,,,,,,,,,,,,,,
+QSR,Restaurant Brands International,,,,,,1,0,no,8/4/18,Consumer Cyclical,Restaurants,12/28/20,,,3.62,-2.35,2.81,12.81,—,—,,,0,11,2.5,23.82
+QTRH,Quarterhill Inc,,,,,,,,,,,,12/28/20,36,,,57.52,5.53,8.51,-5,11.11,,6,0,18.79,10.77,12.72
+QTT,Qutoutiao,,,,,,,,,,,,1/1/21,-1574,nan,—,-53.37,—,—,—,—,,1036,0,nan,nan,nan
+AAL.L,Anglo American plc,,,,,,,,,,Basic Materials,Other Industrial Metals & Mining,,,,,,,,,,,,,,,
+R,Ryder System,,,,,,,,,,Industrials,Rental & Leasing Services,12/28/20,,,3.78,22.93,-5.93,5.14,4.71,4.79,,,0,-2.37,-1.43,-8.7
+RAD,Rite Aid,,,,,,,,,,Consumer Defensive,Pharmaceutical Retailers,1/1/21,-350,nan,—,2.33,-26.21,-36.78,-1.09,-9.4,,—,0,-1.51,-3.45,-44.76
+RAMP,LiveRamp Holdings,,,,,,,,,,,,1/1/21,-88,nan,—,52.26,38.48,28.46,15.62,8.07,,114,0,-21.33,-6.75,-7.85
+RCL,Royal Caribbean Cruises Ltd,,,,72,3.8,0,0,maybe,9/8/19,Consumer Cyclical,Leisure,12/28/20,,,1.98,-46.27,-14,-4.14,6.23,4.45,,,0,-88.6,-13.49,-40.95
+ADANIPORTS.NS,Adani Ports and Special Economic Zone Limited,,,,,,,,,,Industrials,Marine Shipping,,,,,,,,,,,,,,,
+REGN,Regeneron Pharmaceuticals,,,,70,,1,0,,8/4/18,Healthcare,Biotechnology,1/1/21,3156,nan,—,28.66,8.72,-2.31,30.85,25.56,,3130,0.9,34.14,21.02,30.6
+AGN,"Allergan, Plc",,,,46,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Specialty & Generic,,,,,,,,,,,,,,,
+RF,Regions Financial,,,,45,3.2,1,0,,9/8/19,Financial Services,Banks - Regional - US,12/28/20,,,4.06,-3.66,0.29,13.38,10.77,-2.7,,,4.7,12.7,0.56,4.88
+RGA,Reinsurance Group of America,,,,,,,,,,Financial Services,Insurance - Reinsurance,12/28/20,,,2.43,-28.08,-7.89,7.61,9.08,7.05,,,0,3.64,0.66,4.19
+RHI,Robert Half International,,,,,,1,0,,8/4/18,Industrials,Staffing & Outsourcing Services,12/28/20,,,2.12,2.2,5.79,7.53,8.69,4.43,,,2.5,6.08,13.32,28.16
+AKS,AK Steel Holding,,,,,,,,,,Basic Materials,Steel,,,,,,,,,,,,,,,
+RIO,Rio Tinto,,,,53,3.6,,,no,9/8/19,Basic Materials,Industrial Metals & Minerals,12/28/20,,,5.94,35.23,20.43,25.81,4.34,6.9,,,0,17.21,8.4,18.27
+RJF,Raymond James Financial,,,,,,,,,,Financial Services,Capital Markets,12/28/20,,,1.63,4.64,2.24,11.11,11.82,9.82,,,3.5,10.36,1.89,11.93
+RL,Ralph Lauren,,,,41,,1,0,,8/4/18,Consumer Cyclical,Apparel Manufacturing,12/28/20,,,1.6,-13.56,1.73,-0.48,0.59,5.14,,,4,-1.74,-1.09,-2.99
+RLGY,Realogy Holdings,,,,,,,,,,Real Estate,Real Estate Services,1/1/21,-423,nan,—,35.54,-19.64,-17.18,—,—,,—,0,-7.68,-5.73,-21.65
+AMTD,TD Ameritrade Holding,,,,57,,0,0,maybe,8/4/18,Financial Services,Capital Markets,,,,,,,,,,,,,,,
+ANTHM,Anthem,,,,,,,,,,,,,,,,,,,,,,,,,,
+RNWK,RealNetworks,,,,,,,,,,,,1/1/21,-19,nan,nan,30,-23.02,-18.16,-10.47,-10.83,,32,0,-11.12,-11.7,-48.09
+ASNA,Ascena Retail Group,,,,,,,,,,Consumer Cyclical,Apparel Stores,,,,,,,,,,,,,,,
+AXE,Anixter International,,,,,,,,,,Industrials,Industrial Distribution,,,,,,,,,,,,,,,
+BF-B,Brown-Forman,,,,83,,1,0,yes,8/4/18,Consumer Defensive,Beverages - Wineries & Distilleries,,,,,,,,,,,,,,,
+ROST,Ross Stores,,,,45,,1,0,,8/4/18,Consumer Cyclical,Apparel Stores,12/28/20,,,0.5,2.77,14.33,17.45,22.76,20.64,,,3.4,2.39,2.76,9.64
+BITA,Bitauto Holdings Limited,,,,,,,,,,Consumer Cyclical,Advertising Agencies,,,,,,,,,,,,,,,
+ROYT,Pacific Coast Oil Trust,,,,,,1,0,,8/4/18,Energy,Oil & Gas E&P,,,,,,,,,,,,,,,
+BKS,Barnes & Noble,,,,27,,0,0,,8/4/18,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,,,
+RRC,Range Resources Corp.,,,,37,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/28/20,,,0.27,46.46,-24.12,-21.34,-15.62,-7.11,,,0,-134.04,-33.44,-85.42
+RRD,R.R. Donnelley & Sons Company,,,,,,,,,,Industrials,Business Services,12/28/20,,,4.29,-51.18,-35.72,-9.21,-1.96,-3.76,,,0,,,
+RS,Reliance Steel & Aluminum,,,,,,,,,,Basic Materials,Steel,12/28/20,,,2.12,-0.02,13.08,16.89,10.11,10.23,,,0,4.44,5.02,8.01
+RSG,Republic Services,,,,,,1,0,,8/4/18,Industrials,Waste Management,12/28/20,,,1.7,8.58,14.4,18.26,13.56,10.32,,,3,10.05,4.49,12.49
+RTN,Raytheon,,,,71,,1,0,no,8/4/18,Industrials,Aerospace & Defense,,,,,,,,,,,,,,,
+CA,CA Technologies Inc,,,,40,,1,0,,8/4/18,Information Technology,Systems Software,,,,,,,,,,,,,,,
+SABR,Sabre Corporation,,,,,,,,,,,,12/28/20,,,2.49,-49.32,-15.29,-13.32,—,—,,,0,-48.89,-15.81,-121.4
+SAFT,Safety Insurance Group,,,,41,3.5,1,0,yes,9/8/19,Financial Services,Insurance - Property & Casualty,12/28/20,,,5.05,-12.8,3.01,10.93,7.98,6.85,,,0,13.52,5.53,13.84
+SAH,Sonic Automotive,,,,,,,,,,Consumer Cyclical,Auto & Truck Dealerships,12/28/20,,,0.99,26.76,27.14,11.43,11.56,4.09,,,0.4,-0.64,-1.64,-7.45
+SAM,"The Boston Beer Company, Inc.",,,,,,,,no,,Consumer Defensive,Beverages - Brewers,,,,,,,,,,,,,,,
+SAN,Santander,,,,,,,,,,Financial Services,Banks - Global,12/28/20,,,,-19.21,-16.5,-3.33,-2.85,-0.78,,,3,-17.96,-0.45,-7.64
+SANM,Sanmina,,,,,,,,,,Technology,Electronic Components,1/1/21,140,nan,nan,-6.86,-1.13,9.15,10.76,1.49,,23,0,2.01,3.64,8.54
+SAVE,Spirit Airlines,,,,55,,1,0,no,8/4/18,Industrials,Airlines,,,,,,,,,,,,,,,
+SBGI,Sinclair Broadcast Group,,,,46,,1,0,,8/4/18,Consumer Cyclical,Broadcasting - TV,12/28/20,,,,-2.64,-4.2,1.43,16.66,10.41,,,0,,,
+SBNY,Signature Bank,,,,69,3.1,,,no,9/8/19,Financial Services,Banks - Regional - US,12/28/20,,,2,0.01,0.17,-1.87,10.57,11.21,,,0,33.66,0.89,10.36
+CATX,Credit Acceptance Corp,,,,,,,,,,,,,,,,,,,,,,,,,,
+CELG,Celgene,,,,69,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Major,,,,,,,,,,,,,,,
+SCHW,Charles Schwab,,,,64,,0,0,,8/4/18,Financial Services,Capital Markets,12/28/20,,,1.48,8.36,1.16,10.53,12.59,9.4,,,0,27.61,0.8,12.52
+SCI,Service Corporation International,,,,,,,,,,Consumer Cyclical,Personal Services,12/28/20,,,1.54,8.36,10.89,14.65,20.51,13.37,,,1.5,13.62,3.41,26.26
+CGROU,Collective Growth Corp,,,,,,,,,,,,,,,,,,,,,,,,,,
+COMP,NASDAQ Composite Index,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEB,Seaboard,,,,,,,,,,Industrials,Conglomerates,12/28/20,,,0.28,-26,-9.54,1.02,4.68,4.56,,,0,2.78,3.24,5.57
+CYOU,Changyou.com Limited,,,,,,1,0,,8/4/18,Technology,Electronic Gaming & Multimedia,,,,,,,,,,,,,,,
+SEE,Sealed Air,,,,,,1,0,,8/4/18,Consumer Cyclical,Packaging & Containers,12/28/20,,,1.42,16.04,-0.73,2.38,7.4,4.5,,,3.4,,,
+SFM,Sprouts Farmers Market,,,,,,1,0,,8/4/18,Consumer Defensive,Grocery Stores,1/1/21,251,nan,—,3.88,-6.19,-5.44,—,—,,—,0.9,4.02,9.04,36.65
+SFUN,Fang Holdings Limited,,,,,,,,no,,Technology,Internet Content & Information,,,,,,,,,,,,,,,
+DHXM,DHX Media,,,,,,,,,,,,,,,,,,,,,,,,,,
+DPS,Dr Pepper Snapple Group,,,,36,,0,0,,8/4/18,Consumer Defensive,Beverages - Soft Drinks,,,,,,,,,,,,,,,
+SHI,Sinopec,,,,,,,,,,Energy,Oil & Gas Refining & Marketing,12/28/20,,,7.75,-25.15,-19.42,-3.12,0.2,2.34,,,0,-0.83,-1.39,-2.15
+SHLD,Sears Holdings,,,,13,,1,0,no,8/4/18,Consumer Cyclical,Department Stores,,,,,,,,,,,,,,,
+EICHERMOT.NS,Eicher Motors Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVHC,Envision Healthcare,,,,29,,1,0,,8/4/18,Healthcare,Medical Care,,,,,,,,,,,,,,,
+SINA,SINA Corporation,,,,,,,,,,Technology,Internet Content & Information,12/28/20,,,,10.03,-25.88,0.45,-3.07,5.03,,,0,-4.67,-1.42,-3.78
+SIRI,Sirius XM Holdins Inc,,,,,,1,0,,8/4/18,Consumer Cyclical,Broadcasting - Radio,12/28/20,,,,-10.93,6.32,9.75,15.07,-0.27,,,1.4,,,
+SIX,Six Flags Entertainment Group,,,,,,0,0,yes,8/4/18,Consumer Cyclical,Leisure,12/28/20,,,3.51,-26.72,-15.77,-3.65,14.19,—,,,0,,,
+SJI,"South Jersey Industries, Inc.",,,,,,,,,,Utilities,Utilities - Diversified,12/28/20,,,5.13,-29.1,-6.87,2.68,1.76,5.77,,,0,8.39,2.05,8.37
+SJM,JM Smucker,,,,,,1,0,,8/4/18,Consumer Defensive,Packaged Foods,12/28/20,,,3.04,15.33,0.31,1.17,8.09,8.7,,,14.7,10.87,5.2,10.56
+SJR,Shaw Communications,,,,,,,,,,,,12/28/20,,,5.07,-8.78,-4.03,4.93,2.41,6.98,,,0,12.56,4.27,10.85
+SKT,Tanger Factory Outleet Centers,,,,,,1,0,,8/4/18,Real Estate,REIT - Retail,12/28/20,,,11.3,-24.49,-18.22,-12.88,-1.64,3.61,,,0,-12.34,-2.19,-12.25
+SKX,Sketchers,,,,,,,,,,,,1/1/21,105,nan,—,-16.79,-1.7,3.53,18.35,13.89,,—,0,2.28,2.04,4.58
+SLM,SLM Corp,,,,,,1,0,,8/4/18,Financial Services,Credit Services,12/28/20,,,1.13,36.45,2.49,13.96,9.15,-3.64,,,0,31.06,1.87,25.2
+EXAS,Exact Sciences Corporation,,,,,,,,,,Healthcare,Diagnostics & Research,,,,,,,,,,,,,,,
+SMLP,Summit Midstream Partners LP,,,,,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/28/20,,,41.14,-70.05,-38.78,-12.64,—,—,,,0,-63.09,-9.2,-26.65
+SNA,Snap-on,,,,48,3.3,1,0,,9/8/19,Industrials,Tools & Accessories,12/28/20,,,2.54,3.15,1.3,1.71,13.08,11.73,,,2.3,15.44,9.92,17.01
+SNAP,Snap,,,,86,,0,0,no,8/4/18,Technology,Internet Content & Information,12/28/20,,,,221.27,49.03,—,—,—,,,0,-49.74,-24.7,-47.42
+SNDL,Sundial Growers,,,,,,,,,,,,1/1/21,-321,nan,—,-84.27,—,—,—,—,,1,0,-432.64,-74.64,-159.64
+SNE,Sony,,,,,,,,,,,,12/28/20,,,0.5,43.6,28.95,31.82,10.84,6.49,,,2.4,11.27,3.99,20.93
+FDC,First Data,,,,,,,,,,,,,,,,,,,,,,,,,,
+FINL,Finish Line,,,,44,,0,0,,8/4/18,,,,,,,,,,,,,,,,,
+SNR,New Senior Investment Group Inc,,,,,,1,0,no,8/4/18,Real Estate,REIT - Diversified,12/28/20,,,7.05,-26.24,-2.65,-2.18,—,—,,,0,-2.65,-0.45,-3.93
+SNX,Synnex,,,,,,,,,,Industrials,Business Services,12/28/20,,,0.25,29.32,7.62,12.59,18.47,17.25,,,0.6,2.03,3.93,12.6
+SNY,Sanofi,,,,,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Major,12/28/20,11037,,3.39,-2.5,7.09,5.37,7.16,3.11,,5738,3,29.28,9.75,18.45
+SO,Southern,,,,,,,,,,Utilities,Utilities - Regulated Electric,12/28/20,,,4.24,-1.25,11.47,8.77,7.89,6.48,,,3.5,15.73,2.64,11.37
+SOHU,Sohu.com Limited,,,,,,1,0,,8/4/18,Technology,Internet Content & Information,1/1/21,-113,nan,nan,42.58,-28.36,-22.55,-12.91,-0.93,,422,0,-6.04,-3.86,-24.09
+SONO,Sonos,,,,,,,,no,,,,,,,,,,,,,,,,,,
+FTR,Frontier Communications,,,,18,,1,0,,8/4/18,Communication Services,Telecom Services,,,,,,,,,,,,,,,
+SPG,Simon Property Group,,,,49,,0,0,,8/4/18,Real Estate,REIT - Retail,12/28/20,,,8.24,-38.01,-13.92,-9.16,4.67,5.28,,,0,27.15,4.12,62.11
+GHDX,"Genomic Health, Inc.",,,,,,,,,,Healthcare,Diagnostics & Research,,,,,,,,,,,,,,,
+SPLK,Splunk,,,,,,,,no,,,,,,,,,,,,,,,,,,
+SPOT,Spotify,,,,,,0,0,no,,Technology,Internet Content & Information,,,,,,,,,,,,,,,
+SPPI,"Spectrum Pharmaceuticals, Inc.",,,,,,,,,,Healthcare,Biotechnology,1/1/21,-160,nan,nan,-6.32,-43.54,-10.77,-6.36,-1.14,,85,0,nan,nan,nan
+SPR,Axel Springer SE,,,,,,,,,,Industrials,Aerospace & Defense,12/28/20,,,0.44,-48.25,-23.37,-3.96,6.71,—,,,0,-11.29,-7.62,-36.36
+SPTN,SpartanNash,,,,,,,,,,Consumer Defensive,Food Distribution,12/28/20,,,4.07,26,-9.81,-1.14,2.64,5.14,,,0,0.74,2.9,9.54
+SPWH,Sportsman Warehouse,,,,,,,,,,,,1/1/21,71,nan,—,118.56,38.47,6.35,—,—,,—,0,5.62,10.44,52.2
+GNC,GNC Holdings,,,,26,,1,0,,8/4/18,Consumer Defensive,Pharmaceutical Retailers,,,,,,,,,,,,,,,
+SR,Spire Inc.,,,,,,,,,,Utilities,Utilities - Regulated Gas,12/28/20,,,3.89,-19.89,-1.46,4.66,8.56,7.78,,,3.5,3.97,0.93,3.22
+SRE,Sempra Energy,,,,,,,,,,Utilities,Utilities - Diversified,12/28/20,,,3.22,-13.01,8.5,8.42,11.59,8.94,,,2.8,34.08,5.76,20.82
+SRI,"Stoneridge, Inc.",,,,,,,,,,Consumer Cyclical,Auto Parts,1/1/21,-7,nan,nan,3.1,9.76,15.35,6.71,10.66,,50,0,-1.13,-1.25,-2.71
+SRLP,Sprague Resources LP,,,,,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,15.48,22.36,1.35,8.38,—,—,,,0,1.29,3.42,42.3
+SRNE,Sorrento Therapeutics,,,,,,,,,,,,1/1/21,-290,nan,nan,101.92,21.56,-4.76,-7.57,—,,106,0,-698.01,-49.83,-230.59
+HCLTECH.NS,HCL Technologies Limited,,,,,,,,maybe,,,,,,,,,,,,,,,,,,
+SSNLF,Samsung Electron,,,,,,,,,,,,1/1/21,24873372,nan,—,2,1.43,18.95,14.26,11.52,,20808619,0,9.3,6,8.36
+SSY,Sysco,,,,,,,,,,Healthcare,Medical Care,1/1/21,-1,nan,—,18.69,-7.22,6.69,-2.4,-13.24,,—,0,-2.62,-4.51,-8.64
+SSYS,Stratasys Ltd,,,,,,,,,,Technology,Computer Systems,1/1/21,-458,nan,—,2.45,1.25,-2.47,-4.44,3.42,,89,0,-84.95,-39.78,-48.89
+ST,Sensata Technologies Holding plc,,,,31,3.2,,,,9/8/19,Technology,Scientific & Technical Instruments,1/1/21,96,nan,—,-2.1,1.05,2.75,5.77,—,,137,2.3,3.22,1.34,3.71
+HCP,HCP,,,,82,,1,0,,8/4/18,Real Estate,REIT - Healthcare Facilities,,,,,,,,,,,,,,,
+HINDUNILVR.NS,Hindustan Unilever,,,,,,,,,,,,,,,,,,,,,,,,,,
+STL,Sterling Bancorp,,,,,,,,,,Financial Services,Banks - Regional - US,12/28/20,,,1.75,-13.81,-9.8,3.28,7.03,4.44,,,0,24.82,0.82,5.64
+STLD,Steel Dynamics,,,,,,,,,,Basic Materials,Steel,12/28/20,,,2.73,7.91,-3.4,17.2,8.79,11.13,,,10.9,5.18,5.85,11.73
+IMB.L,Imperial Brands Plc,,,,,,,,,,,,,,,,,,,,,,,,,,
+STOR,STORE Capital,,,,,,,,,,,,12/28/20,,,4.33,-6.51,13.21,11.43,—,—,,,0,31.24,2.63,4.71
+STT,State Street Corp.,,,,,,1,0,,8/4/18,Financial Services,Asset Management,12/28/20,,,2.95,-7.26,-7.49,3.69,6.1,2.9,,,1.8,20.95,0.87,10.09
+STX,Seagate Technology,,,,20,,0,0,,8/4/18,Technology,Data Storage,12/28/20,1027,,4.42,10.22,18.76,15.6,18.82,9.94,,941,5.2,10.02,11.67,57.2
+STZ,"Constellation Brands (Corona, Svedka,...)",,,,68,,0,0,yes,8/4/18,Consumer Defensive,Beverages - Wineries & Distilleries,12/28/20,,,,17.12,0.11,9.78,26.22,15.65,,,2.5,13.45,4.05,9.48
+SU,Suncor Energy,,,,,,,,,,Energy,Oil & Gas Integrated,12/28/20,,,5.92,-44.65,-16.73,-3.61,-3.88,-1.09,,,0,-23.56,-7.34,-15.91
+SUN,Sunoco LP,,,,,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,11.88,2.51,10.58,2.99,—,—,,,0,1.73,3.99,30.35
+INDUSINDBK.NS,IndusInd Bank Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+SWI,Solarwinds,,,,,,,,,,,,1/1/21,39,nan,—,-19.41,—,—,—,—,,122,0,3.86,0.73,1.44
+SWIR,"Sierra Wireless, Inc.",,,,,,,,,,Technology,Communication Equipment,1/1/21,-61,nan,—,52.98,-10.6,-1.48,-0.21,1.85,,90,0,-9.88,-9.4,-16.75
+SWK,Stanley Black & Decker,,,,60,,0,0,,8/4/18,Industrials,Tools & Accessories,12/28/20,,,1.51,10.67,3.93,12.49,11.67,10.19,,,2.3,6.87,4.29,11.61
+INFY.NS,Infosys Limited,,,,,,,,maybe,,,,,,,,,,,,,,,,,,
+SWN,Southwestern Energy,,,,19,,1,0,,8/4/18,Energy,Oil & Gas E&P,,,,,,,,,,,,,,,
+SYF,Synchrony Financial,,,,,,1,0,no,8/4/18,Financial Services,Credit Services,12/28/20,,,2.89,-4.07,-2.06,4.01,—,—,,,0.3,8.86,1.34,10.16
+INTL,INTL FCStone,,,,,,,,,,Financial Services,Capital Markets,,,,,,,,,,,,,,,
+ITC.BO,ITC Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+SYY,Sysco,,,,57,,1,0,,8/4/18,Consumer Defensive,Food Distribution,12/28/20,,,,-13.07,8.34,14.07,11.38,7.13,,,2.2,-0.04,-0.1,-1.14
+T,AT&T,,,,47,,1,0,no,8/4/18,Communication Services,Telecom Services,12/28/20,,,7.23,-21.02,-3.67,2.22,5.03,5.55,,,7.3,6.34,2.02,6.11
+TA,TravelCenters of America,,,,,,,,,,Consumer Cyclical,Specialty Retail,1/1/21,35,nan,—,90.09,16.72,-7.06,5.63,—,,—,0,0.69,1.08,5.99
+TAK,Takeda Pharmaceuticals,,,,,,,,,,,,12/28/20,56051,,4.76,-5.06,-10.28,-1.9,1.22,—,,486996,0.1,1.74,0.44,1.18
+ITV.L,ITV Plc,,,,,,,,,,,,,,,,,,,,,,,,,,
+TAP,Molson Coors Brewing,,,,,,,,,,Consumer Defensive,Beverages - Brewers,12/28/20,,,2.48,-13.59,-15.09,-10.85,1.63,4.47,,,13.9,5.94,2.04,4.38
+ITX.MC,Industria de Diseno Textil SA,,,,,,,,,,,,,,,,,,,,,,,,,,
+JE/:LN,Just Eat PLC,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCS,Tata Consultancy Services,,,,60,,1,0,yes,8/4/18,Consumer Cyclical,Specialty Retail,1/1/21,18,nan,—,126.07,26.26,3.07,—,—,,—,0,2.12,1.64,6.73
+TD,The Toronto-Dominion Bank,,,,,,,,,,Financial Services,Banks - Global,12/28/20,,,4.3,4.49,2.95,10.69,7.25,7.58,,,0,26.86,0.74,13.54
+JMAT.L,Johnson Matthey Plc,,,,,,,,,,,,,,,,,,,,,,,,,,
+TDOC,Teladoc,,,,,,1,0,no,,Technology,Health Information Services,,,,,,,,,,,,,,,
+JMEI,Jumei International Holding Limited,,,,,,,,,,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,,,
+JSWSTEEL.NS,JSW Steel Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+KEY.TO,Keyera Corp.,,,,,,,,,,,,,,,,,,,,,,,,,,
+TECK,Teck Resources Limited,,,,,,,,,,Basic Materials,Industrial Metals & Minerals,12/28/20,,,0.93,2.43,-10.72,35.55,-9.24,-0.27,,,0,-24.72,-5.45,-10.12
+TEL,TE Connectivity Ltd.,,,,47,3.5,1,0,,9/8/19,Technology,Electronic Components,12/28/20,,,1.67,27.86,9.67,14.46,14.09,—,,,1.8,-1.98,-1.24,-2.42
+TEN,Tenneco,,,,,,,,,,Consumer Cyclical,Auto Parts,1/1/21,-2001,nan,—,-19.08,-41.28,-22.48,-10.99,-2.78,,275,nan,-13.45,-15.88,-322.48
+TER,Teradyne,,,,,,1,0,no,8/4/18,Technology,Semiconductor Equipment & Materials,12/28/20,713,,0.36,72.89,41.02,41.22,23.72,15.07,,361,0,23.63,23.24,41.02
+TEVA,Teva Pharmaceutical Industries,,,,,,1,0,,8/4/18,Healthcare,Drug Manufacturers - Specialty & Generic,1/1/21,-4031,nan,—,-1.53,-20.14,-28.98,-10.19,-4.99,,936,0.7,-24.18,-7.54,-34.48
+TGI,Triumph Group,,,,17,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/28/20,,,0.61,-53.07,-22.44,-17.58,-11.2,-2.04,,,0,,,
+TGNA,TEGNA,,,,49,,1,0,,8/4/18,Consumer Cyclical,Broadcasting - TV,12/28/20,,,1.94,-18.72,0,-1.96,7.68,-3.31,,,0.9,11.97,4.66,19.42
+TGT,Target,,,,47,,0,0,,8/4/18,Consumer Defensive,Discount Stores,12/28/20,,,1.49,38.37,40.76,20.66,12.47,8.86,,,1.8,4.31,8.1,30.74
+THC,Tenet Healthcare,,,,,,,,,,Healthcare,Medical Care,1/1/21,-35,nan,—,5,38.1,5.67,4.08,1.78,,—,0.9,nan,nan,nan
+THO,Thor Industries,,,,,,,,,,Consumer Cyclical,Recreational Vehicles,12/28/20,,,1.67,37.67,-11.1,14.07,12.76,7.54,,,0,3.34,4.98,12.68
+THS,TreeHouse Foods,,,,,,,,,,Consumer Defensive,Packaged Foods,1/1/21,-5,nan,—,-12.39,-4.94,-11.54,-1.83,5.62,,—,1.9,-0.12,-0.1,-0.28
+TIF,Tiffany,,,,46,,1,0,,8/4/18,Consumer Cyclical,Luxury Goods,12/28/20,,,1.76,-0.08,10.28,12.98,8.73,9.44,,,4.9,7.84,4.36,8.99
+KIO.JO,Kumba Iron Ore Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+KORS,Michael Kors Holdings,,,,40,,1,0,,8/4/18,Consumer Cyclical,Apparel Manufacturing,,,,,,,,,,,,,,,
+TKC,TeurkcellIletisimHizmetlieri AS,,,,,,,,,,,,12/28/20,,,2.41,-8.06,-15.5,-4.46,-6.56,-0.77,,,0,13.22,7.61,19.6
+TLRY,Tilray Cannabis,,,,,,,,,,,,1/1/21,-487,nan,—,-51.78,—,—,—,—,,4,0,-242.6,-50.56,-161.76
+KOTAKBANK.NS,Kotak Mahindra Bank,,,,,,,,,,,,,,,,,,,,,,,,,,
+TMUS,T-Mobile,,,,,,1,0,no,8/4/18,Communication Services,Telecom Services,,,,,,,,,,,,,,,
+TOL,"Toll Brothers, Inc.",,,,,,,,,,Consumer Cyclical,Residential Construction,12/28/20,,,0.93,15.7,-0.27,6.71,9.29,1.91,,,0.5,6.31,4.08,8.98
+TOUR,Tuniu Corporation,,,,,,,,,,Consumer Cyclical,Leisure,12/28/20,,,,-18.3,-37.52,-35.17,—,—,,,0,-37.54,-12.01,-26.28
+TPR,Tapestry,,,,,,,,,,Consumer Cyclical,Luxury Goods,12/28/20,,,,16.63,-8.6,2.3,-2.69,1.75,,,0.5,-9.22,-5.31,-15.68
+TPX,"Tempur Sealy International, Inc.",,,,,,,,,,Consumer Cyclical,Home Furnishings & Fixtures,1/1/21,250,nan,—,24.05,19.88,8.92,10.43,16.14,,—,0,7.17,7.63,64.19
+LAZR,Luminar Tech,,,,,,,,,,,,,,,,,,,,,,,,,,
+TRGP,Targa Resources,,,,,,,,,,Energy,Oil & Gas Midstream,12/28/20,,,5.15,-33.66,-10.78,9.74,6.87,—,,,0,-22.4,-10.46,-44.85
+TRIP,TripAdvisor,,,,38,,0,0,,8/4/18,Consumer Cyclical,Leisure,1/1/21,-201,nan,—,-5.27,-2.15,-17.65,—,—,,—,20.1,-24.42,-9.01,-15.73
+LLL,L3 Technologies,,,,42,,1,0,,8/4/18,Industrials,Aerospace & Defense,,,,,,,,,,,,,,,
+TRP,TC Energy,,,,,,,,,,,,12/28/20,,,5.38,-19.74,-1.12,8.92,4.48,5.11,,,0,34.25,4.41,16.21
+TRV,Travelers Cos.,,,,71,,1,0,,8/4/18,Financial Services,Insurance - Property & Casualty,12/28/20,,,2.58,4.21,3.13,6.33,11.42,9.34,,,1.3,7.09,1.98,8.4
+TRXC,TransEnterix,,,,,,,,,,,,1/1/21,-59,nan,—,-57.48,-70.79,-54.55,-40.4,-30.17,,18,0,nan,nan,nan
+TS,Tenaris S.A.,,,,,,,,,,Energy,Oil & Gas Equipment & Services,12/28/20,,,2.64,-27.41,-17.42,-4.17,-6.89,1.12,,,0,-10.24,-4.08,-5.09
+MARUTI.NS,Maruti Suzuki India Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+MNDI.L,Mondi Plc,,,,,,,,,,,,,,,,,,,,,,,,,,
+TSLX,TPG Speciality Lending,,,,,,,,,,,,12/28/20,,,7.86,6.93,9.85,12.1,—,—,,,0,86.14,7.71,14.43
+MOTHERSUMI.NS,Motherson Sumi Systems Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+TSN,Tyson Foods,,,,59,,0,0,,8/4/18,Consumer Defensive,Farm Products,12/28/20,,,2.62,-27.71,-5.46,5.66,15.25,10.06,,,1.2,4.96,6.31,14.49
+MYOK,MyoKardia,,,,,,,,,,,,,,,,,,,,,,,,,,
+NDA-FI.HE,Nordea Bank Abp,,,,,,,,,,,,,,,,,,,,,,,,,,
+TTM,Tata Motors Ltd,,,,,,,,no,,,,,,,,,,,,,,,,,,
+TTMI,"TTM Technologies, Inc.",,,,,,,,no,,Technology,Contract Manufacturers,,,,,,,,,,,,,,,
+NDRO,Enduro Royalty Trust,,,,,,1,0,,8/4/18,,,,,,,,,,,,,,,,,
+TU,Telus Corp,,,,61,,1,0,,8/4/18,Communication Services,Telecom Services,12/28/20,,,4.47,8.18,6,11.48,9.5,7.39,,,0,8.71,3.37,11.49
+TUP,Tupperware Brands Corporation,,,,,,,,,,Consumer Cyclical,Packaging & Containers,1/1/21,19,nan,—,277.51,-16.95,-5.76,0.86,6.36,,—,0,nan,nan,nan
+NOVN.SW,Novartis AG,,,,,,,,,,,,,,,,,,,,,,,,,,
+NOVO-B.CO,Novo Nordisk AS,,,,,,,,,,,,,,,,,,,,,,,,,,
+TWTR,Twitter,,,,64,,0,0,no,8/4/18,Technology,Internet Content & Information,,,,,,,,,,,,,,,
+NXP,Nuveen Select Tax-Free Income Portfolio,,,,,,,,,9/8/19,Financial Services,Asset Management,,,,,,,,,,,,,,,
+NXT.L,Next Plc,,,,,,,,,,,,,,,,,,,,,,,,,,
+TXT,Textron,,,,50,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/28/20,,,0.18,6.9,-5.23,2.57,7.44,1.9,,,0,2.26,1.76,4.86
+UA,Under Armour,,,,67,,0,0,,8/4/18,Consumer Cyclical,Apparel Manufacturing,12/28/20,,,,-22.29,1.9,—,—,—,,,4.2,-16.6,-15.77,-41.33
+UAL,United Continental Holdings,,,,67,,0,0,no,8/4/18,Industrials,Airlines,,,,,,,,,,,,,,,
+OA,Orbital ATK,,,,66,,1,0,,8/4/18,,,,,,,,,,,,,,,,,
+UBS,UBS Group AG,,,,,,,,,,Financial Services,Banks - Global,12/28/20,,,2.58,18.46,-4.22,-2.26,1.44,-5.04,,,0.9,18.1,0.55,9.76
+UBSI,"United Bankshares, Inc.",,,,,,,,,,Financial Services,Banks - Regional - US,12/28/20,,,4.78,-11.92,1.22,0.8,4.23,2.37,,,0,27.96,1.14,6.8
+UBX,Unity Biotechnology,,,,,,,,,,Healthcare,Biotechnology,1/1/21,-92,nan,—,-27.32,—,—,—,—,,72,0,nan,nan,nan
+UDR,UDR Inc,,,,71,,1,0,,8/4/18,Real Estate,REIT - Residential,12/28/20,,,3.7,-14.88,2.63,3.36,7.71,5.9,,,0,10.55,1.44,4.06
+UGI,UGI,,,,,,,,,,Utilities,Utilities - Regulated Gas,12/28/20,,,3.69,-18.87,-6.46,3.48,7.71,8.52,,,0,8.11,3.89,13.39
+UHS,Universal Health Services,,,,47,,1,0,,8/4/18,Healthcare,Medical Care,12/28/20,,,,-4.62,6.39,3.03,12.64,12.71,,,,7.72,7.15,15.47
+P,Pandora,,,,37,3.7,0,0,,11/3/20,,,,,,,,,,,,,,,,,
+UIVAX,USAA,,,,,,,,no,,,,12/28/20,,,0.88,-1.96,2.11,6.85,8.67,—,,,,,,
+UL,Unilever,,,,68,4,0,0,yes,9/8/19,Consumer Defensive,Household & Personal Products,12/28/20,,,3.03,5.63,5.29,9.23,9.19,8.82,,,2.8,11.45,8.75,41.65
+ULTA,Ulta Beauty,,,,47,,1,0,,8/4/18,Consumer Cyclical,Specialty Retail,1/1/21,227,nan,—,13.44,8.69,9.19,23.83,—,,—,4.4,3.63,4.63,12.27
+PCLN,Priceline Group,,,,36,,0,0,,8/4/18,Consumer Discretionary,Internet & Direct Marketing Retail,,,,,,,,,,,,,,,
+UNFI,United Natural Foods,,,,31,,0,0,no,8/4/18,Consumer Defensive,Food Distribution,,,,,,,,,,,,,,,
+PGNX,"Progenics Pharmaceuticals, Inc.",,,,,,,,,,Healthcare,Biotechnology,,,,,,,,,,,,,,,
+UNM,Unum Group,,,,70,,1,0,,8/4/18,Financial Services,Insurance - Life,12/28/20,,,5.13,-19.45,-22.87,-4.23,1.97,2.16,,,0,8,1.4,9.29
+POWERGRID.NS,Power Grid Corporation of India Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+UNVR,Univar,,,,,,,,,,Basic Materials,Chemicals,1/1/21,32,nan,—,-21.58,-15,2.25,—,—,,—,0,0.38,0.48,1.8
+UPS,United Parcel Service,,,,54,,0,0,,8/4/18,Industrials,Integrated Shipping & Logistics,12/28/20,,,2.36,47.47,15.38,14.31,10.73,6.99,,,2.2,5.71,7.92,82.22
+URBN,Urban Outfitters,,,,35,,0,0,no,8/4/18,Consumer Cyclical,Apparel Stores,,,,,,,,,,,,,,,
+URI,United Rentals,,,,68,,1,0,no,8/4/18,Industrials,Rental & Leasing Services,,,,,,,,,,,,,,,
+USAC,Usa Compression Partners LP,,,,84,,1,0,,8/4/18,Energy,Oil & Gas Equipment & Services,12/28/20,,,17.86,-17.41,4.34,16.84,—,—,,,0,-92.03,-18.71,-48.86
+USB,U.S. Bancorp,,,,62,,1,0,,8/4/18,Financial Services,Banks - Regional - US,12/28/20,,,3.89,-19.07,-1.96,4.37,7.74,4.92,,,4.8,19.89,0.9,9.78
+USFD,US Foods Holding,,,,43,3.2,,,no,9/8/19,Consumer Defensive,Food Distribution,,,,,,,,,,,,,,,
+UTX,United Technologies,,,,51,,1,0,,8/4/18,Industrials,Aerospace & Defense,12/28/20,,,,1.63,4.91,5.85,6.46,5.01,,,0,-3.01,-1.67,-4.61
+PUSH,Publix Super Markets,,,,,,,,,,,,,,,,,,,,,,,,,,
+VAC,Marriott Vacations Worldwide,,,,68,,0,0,yes,8/4/18,Consumer Cyclical,Resorts & Casinos,12/28/20,,,0.85,4.18,0.61,20,—,—,,,0,-4.89,-1.82,-5.68
+VAR,Varian Medical Systems,,,,60,,1,0,,8/4/18,Healthcare,Medical Instruments & Supplies,1/1/21,269,nan,—,23.24,16.34,18.16,10.39,9.11,,281,3.7,8.5,6.29,14.01
+VC,Visteon,,,,34,,1,0,,8/4/18,Consumer Cyclical,Auto Parts,1/1/21,-39,nan,—,44.96,0.1,8.09,8.57,—,,—,0,-1.56,-1.8,-9.08
+VEDL,Vedanta Limited,,,,,,,,,,,,12/28/20,,,10.99,11.28,-17.59,18.51,—,—,,,0,-9.08,-3.93,-12.33
+QQQ,Invesco QQQ Trust Series 1 NASDAQ ETF,,,,,,0,0,yes,,,,,,,,,,,,,,,,,,
+VFC,V.F. Corp.,,,,55,,1,0,,8/4/18,Consumer Cyclical,Apparel Manufacturing,12/28/20,,,2.3,-12.59,9.46,10.11,17.12,14.67,,,3.6,-0.53,-0.39,-1.26
+VGR,Vector Group Ltd.,,,,,,,,,,Consumer Defensive,Tobacco,12/28/20,,,8.9,-2.58,-7.97,-1.1,8.15,7.91,,,0,,,
+RELIANCE.NS,Reliance Industries Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+RHT,Red Hat Inc,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROX,Castle Brands,,,,,,,,,,,,,,,,,,,,,,,,,,
+VIRT,Virtu Financial,,,,,,,,,,,,12/28/20,,,4.21,62.45,15.07,5.98,—,—,,,0,16.96,5.42,42.64
+VIV,Telefonica Brasil,,,,,,,,,,,,12/28/20,,,,-35.45,-9.32,5.73,-1.32,3.39,,,0.7,10.97,4.32,6.77
+SCC.BK,Siam Cement Public Company Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+VLO,Valero Energy,,,,69,,1,0,,8/4/18,Energy,Oil & Gas Refining & Marketing,12/28/20,,,7.29,-36.68,-10.66,0.11,12.67,2.73,,,8.6,-0.01,-0.02,-0.05
+VMC,Vulcan Materials,,,,62,,1,0,,8/4/18,Basic Materials,Building Materials,12/28/20,,,0.97,2.53,5.51,9.62,13.2,5.88,,,1.4,12.55,5.52,10.65
+VNO,Vornado Realty Trust,,,,58,,1,0,,8/4/18,Real Estate,REIT - Office,12/28/20,,,6.12,-40.26,-15.88,-12.48,-0.62,0.8,,,0,3.3,0.3,0.91
+VOD,Vodafone Group Plc,,,,,,,,,,,,12/28/20,,,5.94,-9.43,-13.77,-5.79,3.28,2.91,,,0,5.67,1.59,4.33
+SDRL,Seadrill,,,,,,,,,,,,,,,,,,,,,,,,,,
+VOYA,Voya Financial,,,,48,3.4,0,0,,9/8/19,Financial Services,Asset Management,12/28/20,,,1.04,-3.04,5.6,9.68,—,—,,,0,-17.68,-0.76,-12.65
+VRS,Verso Corp,,,,,,,,,,,,12/28/20,,,1.85,-11.76,-2.71,—,—,—,,,0,8.03,8.68,16.44
+SMDS.L,DS Smith Plc,,,,,,,,,,,,,,,,,,,,,,,,,,
+VRSN,Verisign Inc.,,,,74,,1,0,no,8/4/18,Technology,Internet Content & Information,,,,,,,,,,,,,,,
+VRTV,Veritiv,,,,,,,,,,Industrials,Business Equipment,12/28/20,,,,5.43,-10.85,-11.66,—,—,,,0,0.09,0.22,1.05
+VRTX,Vertex Pharmaceuticals Inc,,,,76,3.8,1,0,maybe,8/4/18,Healthcare,Biotechnology,12/28/20,2691,,,5.2,15.43,13.4,20.76,15.12,,1843,0.4,44.91,28.6,40.2
+VSAT,Visasat,,,,,,,,,,,,1/1/21,-2,nan,—,-55.39,-24.16,-11.75,-3.03,1.34,,118,0,-0.1,-0.05,-0.11
+VST,Vistra Energy,,,,,,,,,,Utilities,Utilities - Independent Power Producers,12/28/20,,,,-13.85,4.02,—,—,—,,,0.9,7.63,3.46,11.07
+VTR,Ventas,,,,76,,1,0,,8/4/18,Real Estate,REIT - Healthcare Facilities,12/28/20,,,5.19,-10.35,-1.26,2.59,4.97,7.49,,,315.3,8.81,1.39,3.26
+VTRS,Viatris,,,,,,,,no,,,,,,,,,,,,,,,,,,
+VZ,Verizon,,,,48,,0,0,,8/4/18,Communication Services,Telecom Services,12/28/20,,,4.09,-0.13,7.43,8.67,8.6,7.65,,,4,14.26,6.29,29.53
+W,Wayfair,,,,,,,,no,,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,,,
+WAT,Waters,,,,77,,1,0,,8/4/18,Healthcare,Diagnostics & Research,1/1/21,504,nan,—,5.89,8.6,12.95,12.28,13.34,,138,3.3,nan,nan,nan
+WB,Weibo Corporation,,,,,,,,,,Technology,Internet Content & Information,1/1/21,379,nan,—,-11.56,-26.55,16.02,—,—,,309,0,23.07,7.17,15.81
+WBA,Walgreens Boots Alliance,,,,40,,0,0,,8/4/18,Consumer Defensive,Pharmaceutical Retailers,12/28/20,,,4.87,-29.67,-14.88,-10.97,3.12,1.56,,,0,0.33,0.59,2.07
+WBAI,500.com Limited,,,,,,,,,,Consumer Cyclical,Gambling,1/1/21,-542,nan,—,4.65,-3.8,-14.85,—,—,,40,0,nan,nan,nan
+WBK,Westpac Banking Group,,,,,,,,,,Financial Services,Banks - Global,12/28/20,,,5.34,-10.19,-10.29,-2.86,1.93,4.48,,,0.6,11.5,0.25,3.43
+WCC,WESCO International,,,,26,,1,0,,8/4/18,Industrials,Industrial Distribution,1/1/21,134,nan,—,32.18,4.83,12.44,4.05,4.14,,—,0.8,1.14,1.39,4.35
+STFGX,State Farm Insurance,,,,,,,,yes,,,,,,,,,,,,,,,,,,
+STI,SunTrust Banks,,,,,,1,0,,8/4/18,Financial Services,Banks - Regional - US,,,,,,,,,,,,,,,
+WDC,Western Digital,,,,51,,0,0,,8/4/18,Technology,Data Storage,12/28/20,,,2.23,-17.82,-12.21,-0.41,6.51,8.63,,,0.7,-0.2,-0.13,-0.36
+WEC,WEC Energy Group,,,,8,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/28/20,,,2.66,0.76,13.68,14.39,13.82,12.27,,,2.7,16.6,3.45,11.72
+WEN,Wendys,,,,,,,,,,,,12/28/20,,,1.32,3.38,12.71,17.4,18.46,3.3,,,3.5,6.26,2.09,18.04
+WFC,Wells Fargo,,,,54,,1,1,,8/4/18,Financial Services,Banks - Global,12/28/20,,,4.46,-42.23,-17.27,-7.13,3.28,2.74,,,0,2.17,0.08,0.97
+WHR,Whirlpool,,,,44,,1,0,,8/4/18,Consumer Cyclical,Home Furnishings & Fixtures,12/28/20,,,2.49,30.24,5.31,6.85,9.32,6.94,,,0,4.58,4.5,27.25
+WIN,Windstream Holdings,,,,21,,1,0,,8/4/18,Communication Services,Telecom Services,12/28/20,,,,-10.26,-10.61,-11.09,3.42,-13.64,,,0,-43.42,-7.22,-18.22
+SVU,Supervalu,,,,,,1,0,,8/4/18,Consumer Defensive,Grocery Stores,,,,,,,,,,,,,,,
+TATN.ME,PJSC Tatneft,,,,,,,,,,,,,,,,,,,,,,,,,,
+WLK,Westlake Chemical,,,,,,,,,,Basic Materials,Specialty Chemicals,12/29/20,,,1.42,16.45,-7.87,9.14,15.13,12.84,,,0,3.91,2.16,4.93
+WLTW,Willis Towers Watson,,,,53,,1,0,,8/4/18,Financial Services,Insurance Brokers,1/1/21,1064,nan,—,5.69,13.17,11.57,9.98,6.48,,—,0.9,11.47,2.89,10.43
+WM,Waste Management,,,,58,,0,0,,8/4/18,Industrials,Waste Management,12/29/20,,,1.8,5.6,12.9,18.79,13.91,10.72,,,3.1,10.04,5.8,21.59
+WMB,Williams,,,,42,,1,0,,8/4/18,Energy,Oil & Gas Midstream,12/29/20,,,,-7.84,-6.9,2.08,5.36,4.28,,,0.7,2.79,0.48,1.69
+WMC,Western Asset Mortgage Capital Corp,,,,51,,1,0,,8/4/18,Real Estate,REIT - Diversified,12/29/20,,,11.73,-67.24,-15.7,-4.43,—,—,,,0,,,
+WMT,Walmart,,,,47,3.3,0,0,maybe,11/3/20,Consumer Defensive,Discount Stores,12/29/20,,,1.41,23.24,15.1,20.7,11.83,8.79,,,3.9,3.6,8.05,25.79
+TECD,Tech Data,,,,56,3.3,,,maybe,9/8/19,Technology,Computer Distribution,,,,,,,,,,,,,,,
+WPC,W.P. Carey,,,,39,,1,0,,8/4/18,Real Estate,REIT - Diversified,12/29/20,,,6.02,-5.57,5.5,8.2,12.82,10.74,,,0,37.1,3.18,6.5
+WPG,Washington Prime Group Inc,,,,29,,1,0,,8/4/18,Real Estate,REIT - Retail,12/29/20,,,,-74.34,-25.98,-14.32,—,—,,,0,-19.32,-2.49,-19.79
+WRB,W.R. Berkley,,,,,,,,,,Financial Services,Insurance - Property & Casualty,12/29/20,,,0.71,-2.93,13.32,14.17,15,8.74,,,1.6,4.34,1.24,5.61
+WRK,WestRock,,,,43,,1,0,,8/4/18,Consumer Cyclical,Packaging & Containers,12/29/20,,,2.52,5.48,-8.42,3.67,7.87,15.41,,,1.9,-3.93,-2.34,-6.2
+WSM,"Williams-Sonoma, Inc.",,,,,,,,,,Consumer Cyclical,Specialty Retail,12/29/20,,,,45.29,27.76,13.81,12.65,6.96,,,1.3,8.49,13,42.45
+TECHM.NS,Tech Mahindra Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+WTR,Aqua America Stock,,,,,,,0,yes,,Utilities,Utilities - Regulated Water,1/1/21,-1,nan,nan,300,-37.13,-25.56,-35.08,—,,—,0,nan,nan,nan
+TIVO,TiVo Corporation,,,,,,,,,,Technology,Software - Application,,,,,,,,,,,,,,,
+WU,Western Union,,,,48,,1,0,,8/4/18,Financial Services,Credit Services,12/29/20,,,,-17.39,8.22,6.94,4.31,—,,,0.9,,,
+TSS,Total System Services,,,,44,,1,0,,8/4/18,Technology,Software - Infrastructure,,,,,,,,,,,,,,,
+WY,Weyerhaeuser,,,,56,,1,0,,8/4/18,Real Estate,REIT - Diversified,12/29/20,491,,,14.14,1.53,5.2,8.76,4.16,,6,0.5,7,2.96,5.73
+WYN,Wyndham Worldwide,,,,43,,0,0,,8/4/18,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",1/1/21,6,nan,nan,15.87,-7.75,-6.57,4.14,5.02,,—,0,1.36,3.54,6.58
+WYNN,Wynn Resorts,,,,64,,1,0,,8/4/18,Consumer Cyclical,Resorts & Casinos,12/29/20,,,1.99,-16.69,-9.96,13.19,4.59,8.38,,,0,-61.07,-13.73,-209.01
+X,United States Steel,,,,13,,1,0,,8/4/18,Basic Materials,Steel,12/29/20,,,,46.77,-22.32,15.62,-11.01,-5.28,,,0,-18.81,-16.62,-49.22
+XEC,Cimarex Energy,,,,73,,1,0,,8/4/18,Energy,Oil & Gas E&P,12/29/20,,,,-26.95,-31.61,-14.84,-7.08,0.12,,,0,-133.64,-38.94,-87.62
+XEL,Xcel Energy,,,,38,,1,0,,8/4/18,Utilities,Utilities - Regulated Electric,12/29/20,,,2.52,6.22,13.44,15.09,12.83,10.43,,,3.6,12.98,2.84,10.97
+TWX,Time Warner,,,,46,,0,0,,8/4/18,Consumer Discretionary,Broadcasting & Cable TV,,,,,,,,,,,,,,,
+ULTI,Ultimate Software,,,,93,,1,0,,8/4/18,Technology,Software - Infrastructure,,,,,,,,,,,,,,,
+VIAC,ViacomCBS,,,,39,,1,0,,8/4/18,Consumer Cyclical,Media - Diversified,,,,,,,,,,,,,,,
+VLDR,Velodyne Lidar,,,,,,,,too early,,,,,,,,,,,,,,,,,,
+XOM,Exxon Mobil,,,,58,,1,0,,8/4/18,Energy,Oil & Gas Integrated,12/29/20,,,9.13,-35.3,-14.85,-5.96,-0.48,2.17,,,2.7,1.7,0.93,1.81
+XPO,XPO Logistics,,,,67,3.8,,,maybe,9/8/19,Industrials,Integrated Shipping & Logistics,12/29/20,,,,46.74,8.85,34.31,29.22,28.44,,,2.5,0.51,0.54,3.11
+XRAY,Dentsply Sirona,,,,51,,1,0,,8/4/18,Healthcare,Medical Instruments & Supplies,12/29/20,,,0.79,-7.27,-7,-2.44,4.83,4.98,,,0,-2.35,-0.92,-1.61
+XRX,Xerox,,,,22,,1,0,,8/4/18,Technology,Information Technology Services,12/29/20,933,,,-34.92,-4.03,-10.99,-4.88,-4.35,,329,0,12.19,6.12,17.84
+XYF,X Financials,,,,,,,,,,,,1/1/21,-573,nan,—,-60.55,—,—,—,—,,—,0,-30.61,-7.3,-14.43
+VOO,Vanguard SP 500 ETF,,,,,,,,,,,,,,,,,,,,,,,,,,
+Y,Alleghany,,,,,,,,,9/8/19,Financial Services,Insurance - Property & Casualty,1/1/21,-26,nan,—,-22.62,1.25,5.3,7.49,6.17,,—,0,-0.3,-0.09,-0.29
+YELP,Yelp Inc.,,,,,,,,,,Technology,Internet Content & Information,12/29/20,,,,-11.39,-9.91,2.07,—,—,,,0,-2.57,-2.16,-3.08
+WCG,WellCare Health Plans,,,,66,3.8,1,0,maybe,9/8/19,Healthcare,Health Care Plans,,,,,,,,,,,,,,,
+YEXT,Yext,,,,,,,,,,,,1/1/21,-107,nan,—,9.02,9.33,—,—,—,,57,0,-31.11,-21.38,-51.79
+WIPRO.BO,Wipro Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+YUM,Yum Brands,,,,60,,0,0,,8/4/18,Consumer Cyclical,Restaurants,12/29/20,,,,9.58,11.56,14.21,11.81,13.24,,,2.4,,,
+WTB.L,Whitbread Plc,,,,,,,,,,,,,,,,,,,,,,,,,,
+YY,YY Inc,,,,,,1,0,no,8/4/18,Technology,Internet Content & Information,12/29/20,9861,,0.35,41.54,-11.95,4.15,—,—,,3028,0.4,32.23,18.66,26
+WUBA,58.com Inc.,,,,,,,,,9/8/19,Technology,Internet Content & Information,,,,,,,,,,,,,,,
+ZBH,Zimmer Biomet Holdings,,,,33,,1,0,,8/4/18,Healthcare,Medical Devices,12/29/20,,,,-0.11,7.62,8.52,11.23,5.68,,,38.4,-2.15,-0.63,-1.27
+XHW,Sherwin-Williams,,,,,,,,yes,,,,,,,,,,,,,,,,,,
+XL,XL Catlin,,,,53,,1,0,,8/4/18,Financials,Property & Casualty Insurance,,,,,,,,,,,,,,,
+ZION,Zions Bancorp,,,,63,,1,0,,8/4/18,Financial Services,Banks - Regional - US,12/29/20,,,3.52,-13.17,-2.87,11.56,7.05,-2.39,,,3.1,14.37,0.54,5.7
+YESBANK.NS,Yes Bank Limited,,,,,,,,,,,,,,,,,,,,,,,,,,
+ZNGA,Zynga Inc,,,,,,1,0,no,8/4/18,Technology,Electronic Gaming & Multimedia,,,,,,,,,,,,,,,
+ZAYO,Zayo,,,,,,,,,,,,,,,,,,,,,,,,,,
