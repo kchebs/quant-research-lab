@@ -1,0 +1,3 @@
+martingale uncapped={'hit_rate': 1.0, 'expected_terminal': 80.0, 'median_terminal': 80.0, 'std_terminal': 0.0}
+martingale capped={'hit_rate': 0.63, 'expected_terminal': -44.32, 'median_terminal': 80.0, 'std_terminal': 162.22224754946532}
+best4={'lin': {'lr_rmse': 1.0533736146618496e-13, 'dt_rmse': 22.165612379672236}, 'dt': {'lr_rmse': 0.27619009333126343, 'dt_rmse': 0.22360679774997896}}

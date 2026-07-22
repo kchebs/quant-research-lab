@@ -18,3 +18,9 @@ fitness_conversion_sample_data.csv
 rough_drafts/
 **/rough_drafts/
 bin/
+data/prices/
+*.egg-info/
+.pytest_cache/
+third_party/abides/log/
+third_party/abides/**/__pycache__/
+third_party/abides/data/trades/
