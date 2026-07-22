@@ -77,6 +77,16 @@
 \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
 \newsavebox\pandoc@box
@@ -110,9 +120,6 @@
 \begin{document}
 \maketitle
 
-\section{Quant Research Lab --- Research
-Report}\label{quant-research-lab-research-report}
-
 This report is the single narrative for the lab: alternative-data stock
 screening, probability and learner diagnostics, market simulation,
 technical indicators, rule-based and machine-learned trading strategies,
@@ -139,17 +146,16 @@ Figures are embedded inline from \href{img/}{\texttt{docs/img/}} and
 \href{../notebooks/}{\texttt{notebooks/}}.
 
 \textbf{Formats:} Markdown
-(\href{RESEARCH_REPORT.md}{\texttt{RESEARCH\_REPORT.md}}), LaTeX
+(\href{RESEARCH_REPORT.md}{\texttt{RESEARCH\_REPORT.md}}) and LaTeX
 (\href{RESEARCH_REPORT.tex}{\texttt{RESEARCH\_REPORT.tex}}; compile with
-\texttt{xelatex\ RESEARCH\_REPORT.tex}), and PDF
-(\href{RESEARCH_REPORT.tex}{\texttt{RESEARCH\_REPORT.tex}}).
+\texttt{xelatex\ RESEARCH\_REPORT.tex}).
 
 \textbf{Disclaimer.} Educational and personal research only. Nothing
 here is investment advice; known limitations are documented in §12.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{Abstract}\label{abstract}
+\section{Abstract}\label{abstract}
 
 Can alternative data and machine learning find --- and exploit --- an
 edge in equities once transaction costs and out-of-sample evaluation are
@@ -168,22 +174,38 @@ year-consistent. The durable product of the work is therefore the
 evaluation discipline itself: in-sample results flatter every method;
 only cost-aware, walk-forward comparison is trustworthy.
 
-Strategy (MSFT OOS 2020-2023) \textbar{} Cum. return \textbar{} Sharpe
-\textbar{} Max DD \textbar{} Final value \textbar{}
-
-\textbar------------------------------\textbar------------:\textbar-------:\textbar-------:\textbar------------:\textbar{}
-\textbar{} ML learner (bagged random trees) \textbar{} \textbf{+185.4\%}
-\textbar{} \textbf{1.02} \textbar{} \textbf{−27.0\%} \textbar{}
-\textbf{\$285,412} \textbar{} \textbar{} Buy \& hold \textbar{} +143.0\%
-\textbar{} 0.85 \textbar{} −37.2\% \textbar{} \$242,714 \textbar{}
-\textbar{} Manual rules \textbar{} +33.1\% \textbar{} 0.38 \textbar{}
-−45.4\% \textbar{} \$133,046 \textbar{} \textbar{} Q-learner \textbar{}
-+6.1\% \textbar{} 0.17 \textbar{} −31.4\% \textbar{} \$106,103
-\textbar{}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1579}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2105}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Strategy (MSFT OOS 2020-2023)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Cum. return
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Sharpe
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Max DD
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Final value
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+ML learner (bagged random trees) & \textbf{+185.4\%} & \textbf{1.02} &
+\textbf{−27.0\%} & \textbf{\$285,412} \\
+Buy \& hold & +143.0\% & 0.85 & −37.2\% & \$242,714 \\
+Manual rules & +33.1\% & 0.38 & −45.4\% & \$133,046 \\
+Q-learner & +6.1\% & 0.17 & −31.4\% & \$106,103 \\
+\end{longtable}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{1. Preface}\label{preface}
+\section{1. Preface}\label{preface}
 
 \textbf{Research question.} Can alternative data and machine learning
 find --- and exploit --- an edge in equities, once costs and
@@ -198,16 +220,16 @@ installable \texttt{quantlab} package with unit tests.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{2. Stock investment and Glassdoor alternative
+\section{2. Stock investment and Glassdoor alternative
 data}\label{stock-investment-and-glassdoor-alternative-data}
 
-\subsubsection{2.1 Goal}\label{goal}
+\subsection{2.1 Goal}\label{goal}
 
 Develop a database and model for stock investment decisions by compiling
 public-company information (fundamentals plus employee-sourced outlook)
 and turning it into auditable screens and statistical tests.
 
-\subsubsection{2.2 Hypothesis}\label{hypothesis}
+\subsection{2.2 Hypothesis}\label{hypothesis}
 
 Does Glassdoor \emph{Positive Business Outlook} correlate with long-run
 company ROI?
@@ -254,7 +276,7 @@ separators, yes/no/ESG flags, and trend labels. Notebook
 reproduces the verdict; provenance for the original scraper is under
 \href{archive/}{\texttt{docs/archive/}}.
 
-\subsubsection{2.3 Data pipeline}\label{data-pipeline}
+\subsection{2.3 Data pipeline}\label{data-pipeline}
 
 \textbf{First implementation.} Web scraping assembled monthly
 fundamentals + outlook tables (examples committed as
@@ -266,7 +288,7 @@ snapshots; prices come from Yahoo Finance with a deterministic local
 cache (\texttt{quantlab.data.prices}). Notebook
 \href{../notebooks/02_data_pipeline.ipynb}{\texttt{02\_data\_pipeline.ipynb}}.
 
-\subsubsection{2.4 Screening rules}\label{screening-rules}
+\subsection{2.4 Screening rules}\label{screening-rules}
 
 \textbf{First test.} Eight auditable rules compressed roughly
 \textbf{1,170} names to about a \textbf{15-name} list (e.g.~AAPL, MSFT,
@@ -313,8 +335,7 @@ one draw from one period --- whether rule sets like this hold under
 transaction costs is exactly what the backtesting notebooks (06-08)
 test.
 
-\subsubsection{2.5 Practical / business
-use}\label{practical-business-use}
+\subsection{2.5 Practical / business use}\label{practical-business-use}
 
 \textbf{Alt-data diligence and universe compression.} A research or
 equity diligence desk can treat Glassdoor outlook as one auditable
@@ -327,10 +348,10 @@ reproducible research workflows.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{3. Martingale (American
+\section{3. Martingale (American
 roulette)}\label{martingale-american-roulette}
 
-\subsubsection{3.1 Abstract / setup}\label{abstract-setup}
+\subsection{3.1 Abstract / setup}\label{abstract-setup}
 
 A martingale is a stochastic process where the expectation of the next
 value equals the present value. Here the scenario is gambling: a
@@ -339,7 +360,7 @@ idea is that because you cannot lose every time, you increase the stake
 after losses in anticipation of a future win that recovers prior losses.
 
 \textbf{Setup.} Always bet on black on an American roulette wheel (0 and
-00): 38 pockets, 18 black $\Rightarrow$
+00): 38 pockets, 18 black =\textgreater{}
 \(P(\text{win}) = 18/38 \approx 47.7\%\). Double the stake after each
 loss; quit at +\$80 or after 1000 sequential bets.
 
@@ -351,11 +372,11 @@ Single-bet expected value (unit stake):
 
 so the house edge is about five cents per dollar bet.
 
-\subsubsection{3.2 Experiment 1 --- unlimited bankroll (first
+\subsection{3.2 Experiment 1 --- unlimited bankroll (first
 test)}\label{experiment-1-unlimited-bankroll-first-test}
 
 \textbf{Estimated probability of winning \$80 within 1000 bets.}\\
-All 1000 simulations achieved +\$80 $\Rightarrow$ estimated
+All 1000 simulations achieved +\$80 =\textgreater{} estimated
 probability \textbf{100\%}. Repeated doubling with an unlimited bank
 account always recovers to the prior high and then freezes at the +\$80
 target.
@@ -373,11 +394,11 @@ then falls as more paths lock in.
 
 Median ± SD plots behave similarly under the unlimited-bankroll freeze.
 
-\subsubsection{3.3 Experiment 2 --- \$256 bankroll cap (first
+\subsection{3.3 Experiment 2 --- \$256 bankroll cap (first
 test)}\label{experiment-2-256-bankroll-cap-first-test}
 
 \textbf{Estimated probability of winning \$80 within 1000 bets.}\\
-666 of 1000 simulations succeeded $\Rightarrow$ \textbf{66.6\%}. The
+666 of 1000 simulations succeeded =\textgreater{} \textbf{66.6\%}. The
 capital cap blocks recovery after a deep losing streak. With single-spin
 win rate \textasciitilde{} 47.7\%, more trials would be expected to push
 this estimate somewhat lower.
@@ -399,17 +420,21 @@ No.~First-test plateaus were roughly: mean+SD \textasciitilde{}
 remains at −\$256, SD never approaches 0 and the bands \textbf{do not
 converge}.
 
-\subsubsection{3.4 After improvements}\label{after-improvements}
+\subsection{3.4 After improvements}\label{after-improvements}
 
 Clean API in \texttt{quantlab.sim.martingale} with seeded RNG. Re-run
 (200 sims, seed 42) via \texttt{scripts/generate\_report\_assets.py}:
 
-Setting \textbar{} Hit rate \textbar{} Expected terminal \textbar{}
-
-\textbar---------\textbar---------:\textbar------------------:\textbar{}
-\textbar{} Unlimited \textbar{} 1.00 \textbar{} 80.0 \textbar{}
-\textbar{} Cap \$256 \textbar{} 0.63 \textbar{} \textasciitilde{} −44.3
-\textbar{}
+\begin{longtable}[]{@{}lrr@{}}
+\toprule\noalign{}
+Setting & Hit rate & Expected terminal \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Unlimited & 1.00 & 80.0 \\
+Cap \$256 & 0.63 & \textasciitilde{} −44.3 \\
+\end{longtable}
 
 \begin{figure}
 \centering
@@ -427,7 +452,7 @@ negative EV with a finite bankroll). Differences vs 1000-sim first-test
 figures are Monte Carlo noise. Notebook
 \href{../notebooks/12_martingale_and_gridworld.ipynb}{\texttt{12\_martingale\_and\_gridworld.ipynb}}.
 
-\subsubsection{3.5 Practical / business
+\subsection{3.5 Practical / business
 use}\label{practical-business-use-1}
 
 \textbf{Risk and probability education.} The martingale is a clean
@@ -440,45 +465,61 @@ strategies with impact costs.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{4. Portfolio optimization}\label{portfolio-optimization}
+\section{4. Portfolio optimization}\label{portfolio-optimization}
 
-\subsubsection{4.1 Method}\label{method}
+\subsection{4.1 Method}\label{method}
 
 Maximize the Sharpe ratio of a long-only, fully invested portfolio with
 SciPy SLSQP. Daily returns of the weighted book are used; the objective
 is typically minimizing the negative Sharpe.
 
-\subsubsection{4.2 First implementation}\label{first-implementation}
+\subsection{4.2 First implementation}\label{first-implementation}
 
 \textbf{Parameters}
 
-Parameter \textbar{} Value \textbar{}
-
-\textbar-----------\textbar--------\textbar{} \textbar{} Start
-\textbar{} 2008-06-01 \textbar{} \textbar{} End \textbar{} 2009-06-01
-\textbar{} \textbar{} Symbols \textbar{} JPM, GLD, X, IBM \textbar{}
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parameter & Value \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Start & 2008-06-01 \\
+End & 2009-06-01 \\
+Symbols & JPM, GLD, X, IBM \\
+\end{longtable}
 
 \textbf{Optimizer / portfolio results (first test)}
 
-Metric \textbar{} Value \textbar{}
+\begin{longtable}[]{@{}lr@{}}
+\toprule\noalign{}
+Metric & Value \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Current function value & −0.026653247 \\
+Iterations & 7 \\
+Function evaluations & 42 \\
+Gradient evaluations & 7 \\
+Allocations & \textasciitilde{} {[}1, 0, 0, 0{]} (100\% JPM) \\
+Sum of allocations & 1.00 \\
+Sharpe ratio & −1.0939 \\
+Average daily return & 0.0018367 \\
+Cumulative return & −0.1148 \\
+\end{longtable}
 
-\textbar--------\textbar------:\textbar{} \textbar{} Current function
-value \textbar{} −0.026653247 \textbar{} \textbar{} Iterations
-\textbar{} 7 \textbar{} \textbar{} Function evaluations \textbar{} 42
-\textbar{} \textbar{} Gradient evaluations \textbar{} 7 \textbar{}
-\textbar{} Allocations \textbar{} \textasciitilde{} {[}1, 0, 0, 0{]}
-(100\% JPM) \textbar{} \textbar{} Sum of allocations \textbar{} 1.00
-\textbar{} \textbar{} Sharpe ratio \textbar{} −1.0939 \textbar{}
-\textbar{} Volatility (daily) \textbar{} reported alongside objective
-\textbar{} \textbar{} Average daily return \textbar{} 0.0018367
-\textbar{} \textbar{} Cumulative return \textbar{} −0.1148 \textbar{}
+The original write-up listed ``volatility'' as −0.02665; that number is
+the optimizer's objective value (negative Sharpe under the
+maximize-Sharpe formulation), not the standard deviation of daily
+returns.
 
 Normalized optimal portfolio vs S\&P 500 was plotted for the crisis
 window. The takeaway: in-sample ``optimal'' weights in a crash do not
 imply a good absolute outcome --- here the Sharpe-maximizing book was
 essentially all JPM and still lost money.
 
-\subsubsection{4.3 After improvements}\label{after-improvements-1}
+\subsection{4.3 After improvements}\label{after-improvements-1}
 
 Notebook
 \href{../notebooks/05_portfolio_optimization.ipynb}{\texttt{05\_portfolio\_optimization.ipynb}}
@@ -514,7 +555,7 @@ Concentration into a few names is expected behavior of unconstrained
 Sharpe maximization and is a reason to impose diversification priors
 (weight bounds) in production.
 
-\subsubsection{4.4 Practical / business
+\subsection{4.4 Practical / business
 use}\label{practical-business-use-2}
 
 \textbf{Portfolio construction as a tilt engine.} Use the optimizer to
@@ -526,9 +567,9 @@ strategy in §§6-9.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{5. Assess learners}\label{assess-learners}
+\section{5. Assess learners}\label{assess-learners}
 
-\subsubsection{5.1 Abstract and
+\subsection{5.1 Abstract and
 introduction}\label{abstract-and-introduction}
 
 Compare from-scratch learners that accept tabular (non-time-series)
@@ -549,7 +590,7 @@ use MAE and wall-clock time.
   because they choose splits by correlation rather than at random.
 \end{enumerate}
 
-\subsubsection{5.2 Methods}\label{methods}
+\subsection{5.2 Methods}\label{methods}
 
 Data: \texttt{Istanbul.csv} (also accepted: any similar numeric matrix).
 Shuffle, then \textbf{60\%} train / \textbf{40\%} test. Leaf sizes swept
@@ -560,13 +601,13 @@ Split rule: decision trees pick the feature with highest absolute
 correlation with the target and split at the median; random trees pick a
 random feature.
 
-\subsubsection{5.3 Experiment 1 --- leaf size vs overfitting (decision
+\subsection{5.3 Experiment 1 --- leaf size vs overfitting (decision
 tree)}\label{experiment-1-leaf-size-vs-overfitting-decision-tree}
 
 Overfitting means fitting training data so closely that the model fails
 on new data. Gauge it by \textbf{in-sample vs out-of-sample RMSE}.
 
-Smaller leaf size $\Rightarrow$ deeper trees $\Rightarrow$ more
+Smaller leaf size =\textgreater{} deeper trees =\textgreater{} more
 overfit. The smallest in/out RMSE \emph{gap} occurred near \textbf{leaf
 size \textasciitilde{} 21}; at that point and smaller, overfit was
 visible. Larger leaves constrain depth and improve generalization.
@@ -583,7 +624,7 @@ in-sample RMSE near zero while out-of-sample error stays high --- the
 classic overfit signature. Bagging narrows the gap but does not
 eliminate the overfit region at very small leaves.
 
-\subsubsection{5.4 Experiment 2 --- bagging}\label{experiment-2-bagging}
+\subsection{5.4 Experiment 2 --- bagging}\label{experiment-2-bagging}
 
 Bagging draws bootstrap subsets, trains a learner per bag, and averages
 predictions to reduce variance. With 20 bags, RMSE fell at both low and
@@ -593,7 +634,7 @@ overfit impact but does \textbf{not} eliminate it (an overfit region
 remained for leaf size \textless= 81). Varying bag count would not
 remove that region entirely.
 
-\subsubsection{5.5 Experiment 3 --- decision tree vs random
+\subsection{5.5 Experiment 3 --- decision tree vs random
 tree}\label{experiment-3-decision-tree-vs-random-tree}
 
 Metrics: MAE and time to fit + query train and test \(X\).
@@ -614,20 +655,20 @@ and random trees across leaf sizes. Decision trees win on MAE; random
 trees win on speed --- the tradeoff that motivates bagging random trees
 as weak learners in the strategy section.
 
-\subsubsection{5.6 Non-experiment component ---
+\subsection{5.6 Non-experiment component ---
 InsaneLearner}\label{non-experiment-component-insanelearner}
 
 InsaneLearner = \textbf{20} bag learners, each a bag of \textbf{20}
 linear regressors (400 linear models), implemented compactly. Linear
 regression uses least squares with an intercept column.
 
-\subsubsection{5.7 First-test summary}\label{first-test-summary}
+\subsection{5.7 First-test summary}\label{first-test-summary}
 
 Inverse relationship between leaf size and overfitting; RMSE gap
 diagnoses overfit; bagging helps; DT vs RT is an accuracy/speed
 tradeoff; \textbf{no single model wins everywhere}.
 
-\subsubsection{5.8 After improvements}\label{after-improvements-2}
+\subsection{5.8 After improvements}\label{after-improvements-2}
 
 Same experiments in \texttt{quantlab.experiments} + notebook
 \href{../notebooks/11_assess_learners.ipynb}{\texttt{11\_assess\_learners.ipynb}}.
@@ -637,7 +678,7 @@ Synthetic \textbf{best-for-}* datasets
 (near-zero RMSE vs large tree error); axis-aligned thresholds favor
 trees --- concrete proof that ``best learner'' depends on data geometry.
 
-\subsubsection{5.9 Practical / business
+\subsection{5.9 Practical / business
 use}\label{practical-business-use-3}
 
 \textbf{Model selection before deployment.} Before promoting a learner
@@ -650,9 +691,9 @@ resurfaces when bagged trees outperform hand rules in §9.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{6. Market simulator}\label{market-simulator}
+\section{6. Market simulator}\label{market-simulator}
 
-\subsubsection{6.1 First implementation}\label{first-implementation-1}
+\subsection{6.1 First implementation}\label{first-implementation-1}
 
 Order-file simulator: dated BUY/SELL rows with symbol and share count;
 mark portfolio value daily. Cost model: flat \textbf{commission} per
@@ -662,7 +703,7 @@ Typical early strategy settings: commission \textasciitilde{}
 \textbf{\$9.95}, impact \textbf{0.005}, positions in \{−1000, 0,
 +1000\}, start cash \textbf{\$100,000}.
 
-\subsubsection{6.2 After improvements}\label{after-improvements-3}
+\subsection{6.2 After improvements}\label{after-improvements-3}
 
 \begin{itemize}
 \tightlist
@@ -679,7 +720,7 @@ Default research costs in later notebooks: \textbf{\$1 commission +
 0.1\% impact}, with \textbf{unlevered} share caps via
 \texttt{affordable\_shares}.
 
-\subsubsection{6.3 Practical / business
+\subsection{6.3 Practical / business
 use}\label{practical-business-use-4}
 
 \textbf{Cost-aware strategy R\&D.} Any strategy evaluated at zero costs
@@ -691,14 +732,14 @@ slippage rises --- weak edges disappear first.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{7. Indicators and theoretically optimal
+\section{7. Indicators and theoretically optimal
 strategy}\label{indicators-and-theoretically-optimal-strategy}
 
 Charts historically used \textbf{adjusted close normalized to 1.0} at
 the start of the window. Implementations live in
 \texttt{quantlab.indicators}.
 
-\subsubsection{7.1 Simple moving average
+\subsection{7.1 Simple moving average
 (SMA)}\label{simple-moving-average-sma}
 
 SMA is the arithmetic mean of the last \(n\) prices:
@@ -715,7 +756,7 @@ long SMA as a possible uptrend start (and the reverse for downtrend).
 \textbf{First test:} \(n \in \{20, 50\}\) on JPM; multiple 20/50 crosses
 over \textasciitilde2 years; 20 above 50 interpreted as upward trend.
 
-\subsubsection{7.2 Bollinger Bands}\label{bollinger-bands}
+\subsection{7.2 Bollinger Bands}\label{bollinger-bands}
 
 Upper/lower bands at SMA ± (width × rolling standard deviation). First
 test: \(n = 20\), width = 2.
@@ -735,7 +776,7 @@ test: \(n = 20\), width = 2.
 First-test plots scaled the band value (÷10) for readability; late-2009
 showed bands tightening (falling SD).
 
-\subsubsection{7.3 Momentum}\label{momentum}
+\subsection{7.3 Momentum}\label{momentum}
 
 Leading rate-of-change vs price \(n\) periods ago (first test:
 \(n = 20\)):
@@ -744,12 +785,12 @@ Leading rate-of-change vs price \(n\) periods ago (first test:
 \text{momentum}_t = \frac{P_t}{P_{t-n}} - 1
 \]
 
-Positive $\Rightarrow$ bullish momentum. Crossing up through zero
+Positive =\textgreater{} bullish momentum. Crossing up through zero
 after being below does not prove a downtrend is over --- only that it is
 slowing. First-test figure: momentum spiked after the
 \textasciitilde2009-04 trend reversal.
 
-\subsubsection{7.4 Exponential moving average
+\subsection{7.4 Exponential moving average
 (EMA)}\label{exponential-moving-average-ema}
 
 EMA weights recent prices more heavily:
@@ -774,16 +815,16 @@ EMA weights recent prices more heavily:
 First test used 20- and 50-day EMA; 20 crossing above 50 as a buy cue.
 EMA crosses can lag differently than SMA crosses on the same chart.
 
-\subsubsection{7.5 Volatility}\label{volatility}
+\subsection{7.5 Volatility}\label{volatility}
 
-Dispersion of returns; higher vol $\Rightarrow$ wider range of
+Dispersion of returns; higher vol =\textgreater{} wider range of
 outcomes (riskier in that sense). First indicator study used
 \textbf{7-day} rolling std of daily returns (×2 for display); strategy
 work often used \textbf{20-day}. High vol early-2009 coincided with the
 large downtrend. Risk-averse traders may refuse to trade when vol is
 extreme; others combine high vol with trend direction as a signal.
 
-\subsubsection{7.6 Signal research (after
+\subsection{7.6 Signal research (after
 improvements)}\label{signal-research-after-improvements}
 
 Notebook
@@ -819,7 +860,7 @@ forward return across tickers and factors. Mean-reversion features are
 directionally consistent but economically small --- costs will dominate
 any naive trading rule built on them alone.
 
-\subsubsection{7.7 Theoretically optimal strategy
+\subsection{7.7 Theoretically optimal strategy
 (TOS)}\label{theoretically-optimal-strategy-tos}
 
 \textbf{Assumptions.} Perfect foresight of tomorrow's close; no bankroll
@@ -839,15 +880,19 @@ start.
 
 \textbf{First-test performance}
 
-Metric \textbar{} TOS \textbar{} Benchmark \textbar{}
-
-\textbar--------\textbar----:\textbar----------:\textbar{} \textbar{}
-Sharpe ratio \textbar{} 13.3228 \textbar{} 0.1569 \textbar{} \textbar{}
-Cumulative return \textbar{} 5.7861 \textbar{} 0.0123 \textbar{}
-\textbar{} Stdev of daily returns \textbar{} 0.0045 \textbar{} 0.0170
-\textbar{} \textbar{} Average daily return \textbar{} 0.0038 \textbar{}
-0.0002 \textbar{} \textbar{} Final value \textbar{} \$678,610 \textbar{}
-\$101,230 \textbar{}
+\begin{longtable}[]{@{}lrr@{}}
+\toprule\noalign{}
+Metric & TOS & Benchmark \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Sharpe ratio & 13.3228 & 0.1569 \\
+Cumulative return & 5.7861 & 0.0123 \\
+Stdev of daily returns & 0.0045 & 0.0170 \\
+Average daily return & 0.0038 & 0.0002 \\
+Final value & \$678,610 & \$101,230 \\
+\end{longtable}
 
 Benchmark stayed relatively flat; TOS trended strongly upward --- an
 upper bound, not a tradable policy.
@@ -865,7 +910,7 @@ strategies must approach after frictions --- not a target they can hit.
 \textbf{After improvements.} \texttt{theoretically\_optimal\_trades} in
 \texttt{quantlab.strategies}; notebook 06 uses it as a ceiling.
 
-\subsubsection{7.8 Practical / business
+\subsection{7.8 Practical / business
 use}\label{practical-business-use-5}
 
 \textbf{Signal research and capacity budgeting.} Indicator ICs set
@@ -878,9 +923,9 @@ strategy.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{8. Q-learning}\label{q-learning}
+\section{8. Q-learning}\label{q-learning}
 
-\subsubsection{8.1 First test --- grid
+\subsection{8.1 First test --- grid
 worlds}\label{first-test-grid-worlds}
 
 Tabular Q-learning (optional \textbf{Dyna} replay) on discrete mazes
@@ -888,7 +933,7 @@ Tabular Q-learning (optional \textbf{Dyna} replay) on discrete mazes
 large penalty for pits, positive reward at goal. The agent learns a path
 from start to goal.
 
-\subsubsection{8.2 After improvements --- trading
+\subsection{8.2 After improvements --- trading
 application}\label{after-improvements-trading-application}
 
 Same \texttt{QLearner} drives \texttt{TradingEnvironment}:
@@ -922,7 +967,7 @@ keeps maze training available. Natural extensions (Dyna-style replay for
 sample efficiency; function approximation / DQN for richer states) are
 listed in §12.
 
-\subsubsection{8.3 Practical / business
+\subsection{8.3 Practical / business
 use}\label{practical-business-use-6}
 
 \textbf{Policy learning with costs inside the loop.} Tabular Q-learning
@@ -934,27 +979,27 @@ under the same cost-aware evaluation gate.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{9. Strategy evaluation}\label{strategy-evaluation}
+\section{9. Strategy evaluation}\label{strategy-evaluation}
 
 \textbf{Initial hypothesis (first test):} Manual Strategy beats
 Benchmark \textbf{in-sample}; Strategy Learner beats Manual.
 
-\subsubsection{9.1 Indicators used for
+\subsection{9.1 Indicators used for
 strategies}\label{indicators-used-for-strategies}
 
 Same family as §7 (SMA 20/50, Bollinger \(n=20\), width 2, momentum 20,
 volatility 20-day ×2 for display/signals). Prices forward- then
 back-filled and normalized to 1.0 at start for the first-test charts.
 
-\subsubsection{9.2 Manual strategy --- creation and signals (first
+\subsection{9.2 Manual strategy --- creation and signals (first
 implementation)}\label{manual-strategy-creation-and-signals-first-implementation}
 
 \textbf{Windows:} in-sample 2008-01-01 -\textgreater{} 2009-12-31;
 out-of-sample 2010-01-01 -\textgreater{} 2011-12-31. Symbol JPM.
 Holdings constrained to \{−1000, 0, +1000\}.
 
-Actions sum component votes: sum \textgreater{} 0 $\Rightarrow$ buy,
-sum \textless{} 0 $\Rightarrow$ sell, 0 $\Rightarrow$ flat. Multiple
+Actions sum component votes: sum \textgreater{} 0 =\textgreater{} buy,
+sum \textless{} 0 =\textgreater{} sell, 0 =\textgreater{} flat. Multiple
 indicators hedge single-indicator failure and allow trading vs pure
 hold.
 
@@ -988,34 +1033,34 @@ hold.
   Momentum crosses \textbf{below} zero (symmetric to the buy rule).
 \end{enumerate}
 
-Example: votes (+1, −1, 0) sum to 0 $\Rightarrow$ no trade.
+Example: votes (+1, −1, 0) sum to 0 =\textgreater{} no trade.
 
-\subsubsection{9.3 Manual vs benchmark --- first-test
+\subsection{9.3 Manual vs benchmark --- first-test
 performance}\label{manual-vs-benchmark-first-test-performance}
 
 In-sample: Manual beat Benchmark (as designed). Out-of-sample: Manual
 \textbf{worse} than Benchmark --- thresholds tuned on in-sample did not
 transfer. ``Past performance doesn't guarantee future performance.''
 
-Metric \textbar{} Manual (In) \textbar{} Bench (In) \textbar{} Manual
-(Out) \textbar{} Bench (Out) \textbar{}
-
-\textbar--------\textbar------------:\textbar-----------:\textbar-------------:\textbar------------:\textbar{}
-\textbar{} Sharpe \textbar{} 0.188 \textbar{} 0.153 \textbar{} −1.4569
-\textbar{} −0.2636 \textbar{} \textbar{} Cumulative return \textbar{}
-0.034 \textbar{} 0.01 \textbar{} −0.3847 \textbar{} −0.0853 \textbar{}
-\textbar{} Stdev daily return \textbar{} 0.0151 \textbar{} 0.017
-\textbar{} 0.00997 \textbar{} 0.0085 \textbar{} \textbar{} Avg daily
-return \textbar{} 0.000179 \textbar{} 0.00016 \textbar{} −0.0009
-\textbar{} −0.00014 \textbar{} \textbar{} Number of trades \textbar{} 41
-\textbar{} 2 \textbar{} 40 \textbar{} 2 \textbar{} \textbar{} Final
-value \textbar{} \$103,340.80 \textbar{} \$100,819.25 \textbar{}
-\$61,517.55 \textbar{} \$91,273.10 \textbar{}
+\begin{longtable}[]{@{}lrrrr@{}}
+\toprule\noalign{}
+Metric & Manual (In) & Bench (In) & Manual (Out) & Bench (Out) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Sharpe & 0.188 & 0.153 & −1.4569 & −0.2636 \\
+Cumulative return & 0.034 & 0.01 & −0.3847 & −0.0853 \\
+Stdev daily return & 0.0151 & 0.017 & 0.00997 & 0.0085 \\
+Avg daily return & 0.000179 & 0.00016 & −0.0009 & −0.00014 \\
+Number of trades & 41 & 2 & 40 & 2 \\
+Final value & \$103,340.80 & \$100,819.25 & \$61,517.55 & \$91,273.10 \\
+\end{longtable}
 
 Extra trades explain in-sample outperformance vs a static hold; the same
 activity hurt out-of-sample.
 
-\subsubsection{9.4 Strategy learner (first
+\subsection{9.4 Strategy learner (first
 implementation)}\label{strategy-learner-first-implementation}
 
 \textbf{Features:} same indicators as Manual (incl.~20/50 SMA ratio,
@@ -1027,8 +1072,7 @@ impact. Missing features filled with 0.
 \textbf{leaf size 6} (larger leaf to limit degradation). Train
 2008-2009; test 2010-2011.
 
-\subsubsection{9.5 Experiment 1 --- Manual vs Learner vs Benchmark
-(first
+\subsection{9.5 Experiment 1 --- Manual vs Learner vs Benchmark (first
 test)}\label{experiment-1-manual-vs-learner-vs-benchmark-first-test}
 
 Commission \textbf{9.5}, impact \textbf{0.005}, \$100k start, ±1000
@@ -1042,28 +1086,30 @@ change rankings.
 
 \textbf{In-sample table (first test)}
 
-Metric \textbar{} Strategy Learner \textbar{} Manual \textbar{}
-Benchmark \textbar{}
-
-\textbar--------\textbar-----------------:\textbar-------:\textbar----------:\textbar{}
-\textbar{} Sharpe \textbar{} 3.6 \textbar{} 0.188 \textbar{} 0.153
-\textbar{} \textbar{} Cumulative return \textbar{} 1.816 \textbar{}
-0.034 \textbar{} 0.01 \textbar{} \textbar{} Stdev daily return
-\textbar{} 0.009 \textbar{} 0.0151 \textbar{} 0.017 \textbar{}
-\textbar{} Avg daily return \textbar{} 0.0021 \textbar{} 0.000179
-\textbar{} 0.00016 \textbar{} \textbar{} Number of trades \textbar{} 117
-\textbar{} 41 \textbar{} 2 \textbar{} \textbar{} Final value \textbar{}
-\$281,056.30 \textbar{} \$103,340.80 \textbar{} \$100,819.25 \textbar{}
+\begin{longtable}[]{@{}lrrr@{}}
+\toprule\noalign{}
+Metric & Strategy Learner & Manual & Benchmark \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Sharpe & 3.6 & 0.188 & 0.153 \\
+Cumulative return & 1.816 & 0.034 & 0.01 \\
+Stdev daily return & 0.009 & 0.0151 & 0.017 \\
+Avg daily return & 0.0021 & 0.000179 & 0.00016 \\
+Number of trades & 117 & 41 & 2 \\
+Final value & \$281,056.30 & \$103,340.80 & \$100,819.25 \\
+\end{longtable}
 
 In-sample, the Learner had the best return and Sharpe with the
 \textbf{lowest} daily vol while trading the \textbf{most} --- classic
 in-sample success that did not fully carry OOS against buy-and-hold.
 
-\subsubsection{9.6 Experiment 2 --- impact sensitivity (first
+\subsection{9.6 Experiment 2 --- impact sensitivity (first
 test)}\label{experiment-2-impact-sensitivity-first-test}
 
 Commission \textbf{0}; impacts \textbf{0, 0.002, 0.004, 0.006}.
-Hypothesis: larger impact $\Rightarrow$ lower final value (impact is a
+Hypothesis: larger impact =\textgreater{} lower final value (impact is a
 cost). Generally true for cum return / avg daily return / final value;
 not perfectly monotone at tiny impact steps because of random trees.
 Higher impact tended to reduce Sharpe. At impact \textasciitilde{} 0.02,
@@ -1071,22 +1117,22 @@ trades became minimal; high enough impact can yield \textbf{no} trades.
 
 \textbf{In-sample impact table (first test)}
 
-Impact \textbar{} 0 \textbar{} 0.002 \textbar{} 0.004 \textbar{} 0.006
-\textbar{}
+\begin{longtable}[]{@{}lrrrr@{}}
+\toprule\noalign{}
+Impact & 0 & 0.002 & 0.004 & 0.006 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Sharpe & 3.676 & 3.857 & 3.901 & 3.535 \\
+Cumulative return & 1.92 & 2.023 & 2.043 & 1.776 \\
+Stdev daily & 0.00938 & 0.00921 & 0.00916 & 0.0093 \\
+Avg daily return & 0.00217 & 0.00223 & 0.00225 & 0.00207 \\
+Number of trades & 93 & 109 & 103 & 112 \\
+Final value & \$292,030 & \$302,036 & \$303,881 & \$276,948 \\
+\end{longtable}
 
-\textbar--------\textbar--:\textbar------:\textbar------:\textbar------:\textbar{}
-\textbar{} Sharpe \textbar{} 3.676 \textbar{} 3.857 \textbar{} 3.901
-\textbar{} 3.535 \textbar{} \textbar{} Cumulative return \textbar{} 1.92
-\textbar{} 2.023 \textbar{} 2.043 \textbar{} 1.776 \textbar{} \textbar{}
-Stdev daily \textbar{} 0.00938 \textbar{} 0.00921 \textbar{} 0.00916
-\textbar{} 0.0093 \textbar{} \textbar{} Avg daily return \textbar{}
-0.00217 \textbar{} 0.00223 \textbar{} 0.00225 \textbar{} 0.00207
-\textbar{} \textbar{} Number of trades \textbar{} 93 \textbar{} 109
-\textbar{} 103 \textbar{} 112 \textbar{} \textbar{} Final value
-\textbar{} \$292,030 \textbar{} \$302,036 \textbar{} \$303,881
-\textbar{} \$276,948 \textbar{}
-
-\subsubsection{9.7 After improvements --- modern protocol and
+\subsection{9.7 After improvements --- modern protocol and
 scorecard}\label{after-improvements-modern-protocol-and-scorecard}
 
 \textbf{Protocol.} Symbol \textbf{MSFT}; train \textbf{2016-2019}; OOS
@@ -1140,18 +1186,34 @@ annual consistency checks.
 
 \textbf{Modern OOS scorecard (MSFT, 2020-2023)}
 
-Strategy \textbar{} Cumulative return \textbar{} Sharpe \textbar{} Max
-drawdown \textbar{} Final value \textbar{}
-
-\textbar----------\textbar------------------:\textbar-------:\textbar-------------:\textbar------------:\textbar{}
-\textbar{} ML learner (bagged random trees) \textbar{} \textbf{+185.4\%}
-\textbar{} \textbf{1.02} \textbar{} \textbf{−27.0\%} \textbar{}
-\textbf{\$285,412} \textbar{} \textbar{} Buy \& hold \textbar{} +143.0\%
-\textbar{} 0.85 \textbar{} −37.2\% \textbar{} \$242,714 \textbar{}
-\textbar{} Manual rules \textbar{} +33.1\% \textbar{} 0.38 \textbar{}
-−45.4\% \textbar{} \$133,046 \textbar{} \textbar{} Q-learner \textbar{}
-+6.1\% \textbar{} 0.17 \textbar{} −31.4\% \textbar{} \$106,103
-\textbar{}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1579}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2105}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Strategy
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Cumulative return
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Sharpe
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Max drawdown
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Final value
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+ML learner (bagged random trees) & \textbf{+185.4\%} & \textbf{1.02} &
+\textbf{−27.0\%} & \textbf{\$285,412} \\
+Buy \& hold & +143.0\% & 0.85 & −37.2\% & \$242,714 \\
+Manual rules & +33.1\% & 0.38 & −45.4\% & \$133,046 \\
+Q-learner & +6.1\% & 0.17 & −31.4\% & \$106,103 \\
+\end{longtable}
 
 \begin{figure}
 \centering
@@ -1180,7 +1242,7 @@ Both facts belong in any promotion decision: a research desk should
 require both a favorable multi-year OOS scorecard \emph{and} acceptable
 year-by-year behavior before capital allocation.
 
-\subsubsection{9.8 Practical / business
+\subsection{9.8 Practical / business
 use}\label{practical-business-use-7}
 
 \textbf{Promotion gate for trading ideas.} Identical cost-aware
@@ -1193,10 +1255,9 @@ edge.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{10. ABIDES market
-simulation}\label{abides-market-simulation}
+\section{10. ABIDES market simulation}\label{abides-market-simulation}
 
-\subsubsection{10.1 First implementation --- agent
+\subsection{10.1 First implementation --- agent
 design}\label{first-implementation-agent-design}
 
 Custom agent in the Agent-Based Interactive Discrete Event Simulation
@@ -1221,7 +1282,7 @@ environment (EMA mid-price momentum + inventory-aware quoting):
   Flatten within \textasciitilde5 minutes of the close.
 \end{enumerate}
 
-\subsubsection{10.2 After improvements}\label{after-improvements-4}
+\subsection{10.2 After improvements}\label{after-improvements-4}
 
 Kernel vendored under
 \href{../third_party/abides/}{\texttt{third\_party/abides/}} (see
@@ -1233,7 +1294,7 @@ and \texttt{quantlab.abides\_runner}
 in §§6-9 remain the primary scorecard; ABIDES is the path to richer
 fill, spread, and book realism called out as future work in §12.
 
-\subsubsection{10.3 Practical / business
+\subsection{10.3 Practical / business
 use}\label{practical-business-use-8}
 
 \textbf{Execution and microstructure R\&D.} Close-to-close simulators
@@ -1246,7 +1307,7 @@ eventually, spread-aware evaluation.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{11. Unified conclusions}\label{unified-conclusions}
+\section{11. Unified conclusions}\label{unified-conclusions}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1282,10 +1343,10 @@ eventually, spread-aware evaluation.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{12. Limitations and future
+\section{12. Limitations and future
 work}\label{limitations-and-future-work}
 
-\subsubsection{Limitations}\label{limitations}
+\subsection{Limitations}\label{limitations}
 
 \begin{itemize}
 \tightlist
@@ -1307,7 +1368,7 @@ work}\label{limitations-and-future-work}
   year, even when the multi-year OOS scorecard looks favorable.
 \end{itemize}
 
-\subsubsection{Future work}\label{future-work}
+\subsection{Future work}\label{future-work}
 
 \begin{itemize}
 \tightlist
@@ -1330,7 +1391,7 @@ work}\label{limitations-and-future-work}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{References}\label{references}
+\section{References}\label{references}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}

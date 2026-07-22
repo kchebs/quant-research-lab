@@ -16,9 +16,8 @@ Where useful: *X was tested and Y was received before improvements were made.*
 Figures are embedded inline from [`docs/img/`](img/) and [`docs/img/report/`](img/report/).
 Executable detail is in [`notebooks/`](../notebooks/).
 
-**Formats:** Markdown ([`RESEARCH_REPORT.md`](RESEARCH_REPORT.md)), LaTeX
-([`RESEARCH_REPORT.tex`](RESEARCH_REPORT.tex); compile with `xelatex RESEARCH_REPORT.tex`),
-and LaTeX ([`RESEARCH_REPORT.tex`](RESEARCH_REPORT.tex)).
+**Formats:** Markdown ([`RESEARCH_REPORT.md`](RESEARCH_REPORT.md)) and LaTeX
+([`RESEARCH_REPORT.tex`](RESEARCH_REPORT.tex); compile with `xelatex RESEARCH_REPORT.tex`).
 
 **Disclaimer.** Educational and personal research only. Nothing here is investment
 advice; known limitations are documented in §12.
@@ -43,7 +42,7 @@ in-sample results flatter every method; only cost-aware, walk-forward comparison
 is trustworthy.
 
 | Strategy (MSFT OOS 2020-2023) | Cum. return | Sharpe | Max DD | Final value |
-|——————————|————:|——-:|——-:|————:|
+|---|---:|---:|---:|---:|
 | ML learner (bagged random trees) | **+185.4%** | **1.02** | **−27.0%** | **$285,412** |
 | Buy & hold | +143.0% | 0.85 | −37.2% | $242,714 |
 | Manual rules | +33.1% | 0.38 | −45.4% | $133,046 |
@@ -221,7 +220,7 @@ Clean API in `quantlab.sim.martingale` with seeded RNG. Re-run (200 sims, seed
 42) via `scripts/generate_report_assets.py`:
 
 | Setting | Hit rate | Expected terminal |
-|———|———:|——————:|
+|---|---:|---:|
 | Unlimited | 1.00 | 80.0 |
 | Cap $256 | 0.63 | ~ −44.3 |
 
@@ -261,7 +260,7 @@ minimizing the negative Sharpe.
 **Parameters**
 
 | Parameter | Value |
-|———--|——--|
+|---|---|
 | Start | 2008-06-01 |
 | End | 2009-06-01 |
 | Symbols | JPM, GLD, X, IBM |
@@ -269,7 +268,7 @@ minimizing the negative Sharpe.
 **Optimizer / portfolio results (first test)**
 
 | Metric | Value |
-|——--|——:|
+|---|---:|
 | Current function value | −0.026653247 |
 | Iterations | 7 |
 | Function evaluations | 42 |
@@ -277,9 +276,12 @@ minimizing the negative Sharpe.
 | Allocations | ~ [1, 0, 0, 0] (100% JPM) |
 | Sum of allocations | 1.00 |
 | Sharpe ratio | −1.0939 |
-| Volatility (daily) | reported alongside objective |
 | Average daily return | 0.0018367 |
 | Cumulative return | −0.1148 |
+
+The original write-up listed “volatility” as −0.02665; that number is the
+optimizer’s objective value (negative Sharpe under the maximize-Sharpe formulation),
+not the standard deviation of daily returns.
 
 Normalized optimal portfolio vs S&P 500 was plotted for the crisis window. The
 takeaway: in-sample “optimal” weights in a crash do not imply a good absolute
@@ -557,7 +559,7 @@ deltas up to ±2000 while net holdings stay in {−1000, 0, +1000}).
 **First-test performance**
 
 | Metric | TOS | Benchmark |
-|——--|—-:|———-:|
+|---|---:|---:|
 | Sharpe ratio | 13.3228 | 0.1569 |
 | Cumulative return | 5.7861 | 0.0123 |
 | Stdev of daily returns | 0.0045 | 0.0170 |
@@ -670,7 +672,7 @@ than Benchmark — thresholds tuned on in-sample did not transfer. “Past
 performance doesn’t guarantee future performance.”
 
 | Metric | Manual (In) | Bench (In) | Manual (Out) | Bench (Out) |
-|——--|————:|———--:|————-:|————:|
+|---|---:|---:|---:|---:|
 | Sharpe | 0.188 | 0.153 | −1.4569 | −0.2636 |
 | Cumulative return | 0.034 | 0.01 | −0.3847 | −0.0853 |
 | Stdev daily return | 0.0151 | 0.017 | 0.00997 | 0.0085 |
@@ -702,7 +704,7 @@ other OOS windows might change rankings.
 **In-sample table (first test)**
 
 | Metric | Strategy Learner | Manual | Benchmark |
-|——--|—————--:|——-:|———-:|
+|---|---:|---:|---:|
 | Sharpe | 3.6 | 0.188 | 0.153 |
 | Cumulative return | 1.816 | 0.034 | 0.01 |
 | Stdev daily return | 0.009 | 0.0151 | 0.017 |
@@ -725,7 +727,7 @@ became minimal; high enough impact can yield **no** trades.
 **In-sample impact table (first test)**
 
 | Impact | 0 | 0.002 | 0.004 | 0.006 |
-|——--|--:|——:|——:|——:|
+|---|---:|---:|---:|---:|
 | Sharpe | 3.676 | 3.857 | 3.901 | 3.535 |
 | Cumulative return | 1.92 | 2.023 | 2.043 | 1.776 |
 | Stdev daily | 0.00938 | 0.00921 | 0.00916 | 0.0093 |
@@ -772,7 +774,7 @@ method that fails annual consistency checks.
 **Modern OOS scorecard (MSFT, 2020-2023)**
 
 | Strategy | Cumulative return | Sharpe | Max drawdown | Final value |
-|———-|——————:|——-:|————-:|————:|
+|---|---:|---:|---:|---:|
 | ML learner (bagged random trees) | **+185.4%** | **1.02** | **−27.0%** | **$285,412** |
 | Buy & hold | +143.0% | 0.85 | −37.2% | $242,714 |
 | Manual rules | +33.1% | 0.38 | −45.4% | $133,046 |

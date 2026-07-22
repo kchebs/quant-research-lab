@@ -76,7 +76,7 @@ quant-research-lab/
 ├── data/                  # fundamentals/Glassdoor snapshots; learners; gridworlds
 ├── third_party/abides/    # optional agent-based market simulator
 ├── tests/                 # pytest unit tests
-└── docs/                  # RESEARCH_REPORT.md/.tex/.pdf, figures, archive
+└── docs/                  # RESEARCH_REPORT.md/.tex, figures, archive
 ```
 
 Skills demonstrated, by layer:
