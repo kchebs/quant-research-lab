@@ -38,7 +38,7 @@ flowchart LR
 | 11 | [Assess learners](notebooks/11_assess_learners.ipynb) | How do leaf size, bagging, and tree type affect error? | Small leaves overfit; bagging helps; RT faster than DT |
 | 12 | [Martingale and grid-world RL](notebooks/12_martingale_and_gridworld.ipynb) | What do capped bankrolls and maze Q-learning teach? | Finite bankroll → negative EV; mazes learn goal-seeking policies |
 
-Full narrative (first implementation vs after improvements, including Glassdoor/stock screening): **[docs/RESEARCH_REPORT.md](docs/RESEARCH_REPORT.md)** ([LaTeX](docs/RESEARCH_REPORT.tex) / [PDF](docs/RESEARCH_REPORT.pdf)).
+Full narrative (first implementation vs after improvements, embedded charts, business-use framing, and Glassdoor/stock screening): **[docs/RESEARCH_REPORT.md](docs/RESEARCH_REPORT.md)** ([LaTeX](docs/RESEARCH_REPORT.tex)).
 
 ## The final scorecard
 

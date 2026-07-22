@@ -1,0 +1,23 @@
+# Portfolio Optimization Report
+
+> Converted from a prior Word draft. Author bylines, course codes, and Drive links removed.
+
+Optimize Something
+Optimal Portfolio
+Figure 1: The graph compares a normalized S&P500 to the normalized portfolio values of an optimal portfolio determined by the Sharpe Ratio.
+Figure 1: The graph compares a normalized S&P500 to the normalized portfolio values of an optimal portfolio determined by the Sharpe Ratio.
+The following parameters were used:
+	•	Start Date: 2008-06-01
+	•	End Date: 2009-06-01
+	•	Symbols: ["JPM", "GLD", "X", "IBM"]
+Report Results:
+	•	Current function value: -0.026653247004757935
+	•	Iterations: 7
+	•	Function evaluations: 42
+	•	Gradient evaluations: 7
+	•	Allocations: [1.00000000e+00 0.00000000e+00 6.52256027e-16 0.00000000e+00]
+	•	Sum of Allocations: 1.00
+	•	Sharpe Ratio: -1.0939293045293255
+	•	Volatility (stdev of daily returns): -0.026653247004757935
+	•	Average Daily Return: 0.0018367037394021704
+	•	Cumulative Return: -0.11480908152734814

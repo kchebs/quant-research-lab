@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\begin{document}
+\title{Assess and Defeat Learners Report}
+\author{}
+\date{}
+\maketitle
+
+Assess Learners
+Abstract—This project compares multiple types of machine learning learners – decision tree, random tree, “insane”, bag, and linear regression. All learners will accept non-time series data and return a continuous numerical result. It compares the learners using RMSE and other metrics.
+Introduction
+The goal of the project is to code and then compare these learners. The learners will be compared based on accuracy using root mean square error (RMSE). In a later experiment of this project, other comparison metrics will be used. Using the metrics, insights into the effect of leaf size and bag size will be drawn. The initial hypothesis is that increasing leaf size will decrease overfitting but increase error. It is also initially believed that decision trees, while expected to take longer, will be more accurate than random trees due to decision trees’ inherent effort to try something better than randomness.
+Methods
+The code can be run using, for example, “python testlearner.py Data/Instanbul.csv”. For all the below experiments and analyses, the Istanbul.csv data file was used. However, the code is written to accept any similar data file. The code to create the graphs and print the metrics are in the testlearner.py file while each learner has its dedicated file (Random Tree - RTLearner.py, Decision Tree - DTLearner.py, Bag – BagLearner.py, Insane – InsaneLearner.py).
+In the experiments, the data was randomly shuffled and 60\% was used for training (in-sample). If the analysis included leaf size, then leaf size was tested from 1 – 100.
+Experiment 1 
+This experiment only uses the Decision Tree model to analyze the relationship between overfitting, accuracy (RMSE), and leaf size. The decision tree code uses the index of the value with the highest correlation as the value to split on.
+Experiment 2
+This experiment builds on Experiment 1 by adding bagging to the decision tree model to analyze bagging’s effect on reducing overfitting with respect to leaf size. The bagging code defaults to 20 bags unless otherwise specified and can accept any learner type.
+Experiment 3
+This experiment compares decision trees and random trees. The random tree code is nearly identical to the decision tree code except instead of using correlation to determine split value, the split value is determined randomly. The metrics used are mean absolute error (MAE) and time. The time is the time taken to add evidence (X, Y), and query with both the training and test input (X) sets.
+Non-Experiment Components
+While not a part of Experiments 1-3, InsaneLearner implements 20 BagLearner instances where each instance is composed of 20 LinRegLearner instances in under 20 lines of code. LinRegLearner is a provided linear regression learner.
+Discussion
+Experiment 1
+In machine learning and statistics, overfitting is the act of too closely fitting a particular set of data such that the model may fail to fit future or additional data reliably. It can be gauged by measuring the in-sample vs the out-of-sample RMSE.
+Overfitting occurs with respect to leaf size – the lower the leaf size, the more likely a tree is to overfit the training data because leaf size is a hyperparameter that’s used to aggregate data points at the leaf level once the leaf size has been reached. Thus, smaller sized aggregations lead to more overfitting.
+Figure 1: Overfitting occurring where out-of-sample RMSE is greater than in-sample RMSE at low leaf sizes
+Figure 1: Overfitting occurring where out-of-sample RMSE is greater than in-sample RMSE at low leaf sizes
+As leaf size increases, model complexity decreases. A big leaf size constrains a decision tree from growing too deep thereby causing better generalizations of underlying trends and less vulnerability to overfitting.
+Experiment 2
+Bagging is an ensemble method that groups subsets into “bags” and later aggregates the output to form the final prediction with general goals to improve stability and reduce overfitting and variance. Thus, bagging can reduce overfitting with respect to leaf size, but as Figure 2 shows bagging was not eliminated. 
+Comparing Figures 1 and 2, you can see that the bagging implemented in Figure 2 reduced RMSE for both high and low leaf sizes. For both lines, the RMSE for 10, 21, and 81 for example are lower in Figure 2 than they were in Figure 1 without bagging. Additionally, the difference between the in-sample and out-of-sample lines at very low leaf sizes is much smaller than before. This means that Figure 2: Overfitting occurring during bagging but with lower impact, i.e. lower RMSE.
+Figure 2: Overfitting occurring during bagging but with lower impact, i.e. lower RMSE.
+However, since there is still a section (now 81 and lower leaf sizes) where the in-sample RMSE is lower than the out-of-sample RMSE, overfitting is occurring. Even if we varied bag sized, instead of using 20 bags as done here, there would still be an overfitting region.
+Experiment 3
+Random trees and decision trees both have their pros-and-cons. The random trees code for this project is nearly identical to the decision trees code except that the random trees code replaces correlation as the factor to determine the split value and instead uses a random number generator. Due to this fact, we’d assume that random forests would be less accurate than decision trees, less prone to overfitting, and take less time.
+As expected, Figure 3 shows that error for the random tree typically is always higher than the error for the decision tree. This is expected because the decision tree uses a calculation to strategically choose a value which the random tree does Figure 3: Decision tree with more accurate results on average
+Figure 3: Decision tree with more accurate results on average
+Figure 4: Random Tree tested \textasciitilde{}4x max faster than decision tree at low leaf sizes with speed between the two getting closer together at higher leaf sizes
+Figure 4: Random Tree tested \textasciitilde{}4x max faster than decision tree at low leaf sizes with speed between the two getting closer together at higher leaf sizes\\
+
+Summary
+This analysis showed that there is an inverse relationship between leaf size and overfitting in decision trees and that RMSE comparison can gauge if overfitting is occurring. The project also showed that bagging can help reduce the impact of overfitting and error and that there are benefits and disadvantages to both decision trees and random trees. In summary, the project shows that there is no one perfect model for every instance. Choosing the right model depends on the type of problem, goals, and resources and time available.\\
+
+\end{document}

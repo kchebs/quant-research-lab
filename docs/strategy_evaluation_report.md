@@ -1,0 +1,180 @@
+# Strategy Evaluation Report
+
+> Converted from a prior Word draft. Author bylines, course codes, and Drive links removed.
+
+Strategy Evaluation
+Abstract—This project evaluates different trading strategies and compares them to a benchmark singular-buy and hold strategy. The initial hypothesis is that the Manual Strategy will perform better than the Benchmark in the in-sample range and the Strategy Learner will perform better than the Manual Strategy.
+Part 1: Indicators
+In this project, the following technical indicators are used to build the Manual Strategy and Strategy Learner: simple moving average, Bollinger Bands, momentum, and volatility.
+All the charts in this project have the adjusted close prices normalized to start at a value of 1.
+Simple Moving Average
+Simple moving average (SMA) is a changing mean calculated by adding the price of several periods and then dividing by the count of periods. The formula and pseudocode for SMA are:
+ 
+prices.rolling(n).mean()
+where n is the number of periods.
+In this project, N from the above equation is 20 and 50 days and the results are shown in the figure below. When the 20-day crosses above the 50-day SMA, the stock is on an upward trend.
+Bollinger Bands
+Bollinger Bands® is another popular technical analysis technique. There are three main components to Bollinger Bands graphs – an upper band, a SMA, and a lower band. The upper and lower bands are plotted two standard deviations away from the simple moving average. This can be shown as:
+
+ 
+
+Where n is the number of periods and width is the distance from the SMA.
+In this project, N is 20 days and the width is 2. Thus, the bands are two standards deviations away from the SMA.
+The Bollinger Band Value gives a relative position of the current price with regards to the bands and is calculated:
+ 
+Momentum
+Unlike SMA, momentum is a leading indicator measuring a security's rate-of-change. It compares the current price with the previous price from several periods prior and can be calculated as:
+ 
+Where price is the current price,  is price at time n, and n is the number of periods.
+In this project, n is 20 days. If momentum is positive, it is bullish momentum. A trader could set a buy or sell signal based on if momentum is positive or negative and how it is trending.
+Volatility
+Volatility is a measure of the scattering of returns for a given security and can be measured using the standard deviation of the daily returns. Generally, the higher the volatility, it is believed the riskier the security. 
+Volatility refers to the level of uncertainty about the size of changes in a security's value. A greater volatility means that a stock’s value could be spread out over a larger range of values. This means that it’s price can change severely over a short period in either direction. A smaller volatility means that a security's value does not oscillate intensely, but changes at a steady pace over time. 
+For the project, volatility was calculated as the standard deviation from the daily returns over a 20 Day rolling window which was then multiplied by 2. A buy could be triggered by high volatility and the start of an upward trend.
+Part 2: Manual Strategy
+Strategy Creation
+The Manual Strategy is a rule-based strategy that outperforms the benchmark over the in-sample period. The in-sample period is January 1, 2008 to December 31, 2009. The out-of-sample period for the experiments is January 1, 2010 to December 31, 2011.
+The strategy was created using the 20- and 50-day simple moving average, 20-day momentum, 20-day Bollinger Bands, and 20-day volatility. These were all indicators that were also used in Project 6. The prices component in the strategy was forward filled then backfilled to eliminate missing price values and normalized at the start.
+The strategy’s actions was is determined based on how the aforementioned indicators perform compared to each other over their current and previous day. This is described more in the next section.
+Buy/Sell Signals
+A buy or sell was determined based on the sum of the following component signals. If the summation was negative, it was a sell; if it was positive, it was a buy; and if it was 0 then no action. The amount bought and sold was then determined by the current holdings to guarantee that the holding never was outside the -1000 to 1000 range. This process was decided because no single indicator is perfect at determining if a stock purchase should happen all the time. By using multiple indicators, a middle-ground approach of risk and reward can be achieved where if multiple indicators suggest a buy, then you buy and vice-versa. This and its ability to make more trades by buying and selling instead of simply holding is what gives it the potential to become effective.
+The following describes the action logic:
+	•	A +1 / Buy Signal would occur for each of the following:
+	•	20-days SMA is greater than its 50-days SMA at current date, and 20-days SMA is less than its 50-days SMA at previous date.
+	•	Adjusted close price is greater than its 20-days lower Bollinger band at current date, and adjusted close price is less than its 20-days lower Bollinger band at previous date.
+	•	Current day’s momentum is more than zero and the previous days’ momentum is less than zero and the previous day’s is not different from the day before that.
+	•	A -1 / Sell Signal would occur for each of the following:
+	•	20-days SMA less than its 50-days SMA at current date, and 20-days SMA greater than its 50-days SMA at previous date.
+	•	Adjusted close price less than its 20-days upper Bollinger band at current date and adjusted close price greater than its 20-days upper Bollinger band at previous date.
+	•	Current day’s momentum is less than zero and the previous days’ momentum is more than zero and the previous day’s is not different from the day before that
+An example result is +1, -1, 0 which sums to 0 and so no action would be taken.
+Figure 1: Manual strategy performance versus the benchmark for in-sample (left) and out-of-sample (right). Blue lines represent buy trades and black lines represent sell trades.
+Figure 1: Manual strategy performance versus the benchmark for in-sample (left) and out-of-sample (right). Blue lines represent buy trades and black lines represent sell trades.
+
+The graphs above show, as expected, that the Manual Strategy performed better than the benchmark in the in-sample time range. On the out of sample range, the Manual Strategy performed worse than the benchmark. This is because the indicators, thresholds, and comparisons specifically used to optimize the in-sample period did not also optimize the out-of-sample period. The approach was not tweaked on the out-of-sample data. This behavior is common in real-life and is related to the common phrase “past performance doesn’t guarantee future performance.” The past performance, our in-sample data, did not guarantee future performance, our out-of-sample data.
+The following table summarizes the performance of the portfolios.
+
+Manual (In)
+Benchmark (In)
+Manual (Out)
+Benchmark (Out)
+Sharpe Ratio
+0.188
+0.153
+-1.4569
+-0.2636
+Cumulative Return
+0.034
+0.01
+-0.3847
+-0.0853
+Standard Deviation of Daily Returns
+0.0151
+0.017
+0.00997
+0.0085
+Average Daily Return
+0.000179
+0.00016
+-0.0009
+-0.00014
+Number of Trades
+41
+2
+40
+2
+Final Value
+103,340.80
+100,819.25
+61,517.55
+91,273.10
+
+The differences in cumulative return, standard deviation, and daily returns between the manual strategy and the benchmark occur because the additional trades that the manual strategy takes allows it to maximize its cash by buying and selling at opportune times instead of holding it for the entire period like the benchmark.
+Strategy Learner
+To turn the trading problem into a learning problem for a learner, the first step to take was to identify the indicators and goal to use. For the Strategy Learner, the indicators used are the same as the Manual Strategy – 50-day simple moving average and 20-day simple moving average, Bollinger bands, momentum, and volatility. The width of the Bollinger bands is set to 2. The goal was the 5-day percent return. The training and testing sets use the same features/indicators. Any missing indicator values were filled in with zeros so that no trades would be made if insufficient data occurred for a specific day.
+Next, a Bag Learner of Random Trees was decided to be used. The number of bags was 20 and the leaf size was 6. The leaf size was set this high to prevent degradation. The Strategy Learner was trained on dates January 1, 2008 to December 31, 2009. It’s out-of-sample/testing period is January 1, 2010 to December 31, 2011.
+Experiment 1
+The goal of this experiment is to compare the Manual Strategy, Strategy Learner, and Benchmark. The benchmark is defined as the performance of a portfolio investing in 1000 shares of JPM and holding that position. All values are normalized to 1.0 at the start, and all portfolios used a 9.5 Commission, 0.005 impact, and $100,000 starting cash. Trades were only of JPM and the allowable positions are 1000 shares short or long or 0 shares. A seed was set to prevent different results every time it was run.
+The initial hypothesis for this experiment was that the Strategy Learner would perform better than the Manual Strategy. As shown in the below figure, that was true – the Strategy Learner performed better than the Manual Strategy on the out-of-sample date range.
+Figure 2: Strategy Learner performs better than Manual Strategy in both in-sample and out-of-sample. However, benchmark beats Strategy Learner in out-of-sample.
+Figure 2: Strategy Learner performs better than Manual Strategy in both in-sample and out-of-sample. However, benchmark beats Strategy Learner in out-of-sample.
+In the in-sample, the Strategy Learner performed exceptionally better than the benchmark and Manual. The Strategy Learner had the lowest standard deviation of daily return, highest daily and cumulative return and achieved those all while making the greatest number of trades.
+However, if a seed was not set; these results would not be identical every time because of the “randomness” component of random trees. Additionally, if a different out-of-sample date was chosen, it is possible that Strategy Learner and Manual Strategy would beat the benchmark in those instances.
+
+The following table summarizes the performance of the portfolios.
+In-Sample
+Strategy
+Manual
+Benchmark
+Sharpe Ratio
+3.6
+0.188
+0.153
+Cumulative Return
+1.816
+0.034
+0.01
+Standard Deviation of Daily Returns
+0.009
+0.0151
+0.017
+Average Daily Return
+0.0021
+0.000179
+0.00016
+Number of Trades
+117
+41
+2
+Final Value
+281,056.30
+103,340.80
+100,819.25
+
+Experiment 2
+The goal of this experiment is to compare how changing the impact amount affects the Strategy Learner. The benchmark is defined as the performance of a portfolio investing in 1000 shares of JPM and holding that position. All values are normalized to 1.0 at the start, and all portfolios used a 0 Commission and $100,000 starting cash. Trades were only of JPM. The impact values used were 0, 0.002, 0.004, and 0.006.
+Figure 3: In-sample (left) and out-of-sample (right) of varying impact graphs with Strategy Learner.
+Figure 3: In-sample (left) and out-of-sample (right) of varying impact graphs with Strategy Learner.
+In general, the graphs show that as impact is increased the cumulative return, average daily return, and final value are less. However, due to the interplay of randomness and very minor impact sizes, it is not as clear-cut as a linear relationship. When, impact was increased to even larger numbers, the portfolio performed even worse. Additionally, when impact increases, the Sharpe Ratio trend towards decreasing. When an impact value much closer 0.02 was tested, the number of trades was minimal. It was even possible to reach a point where the model suggested making no trades with the impact so high.
+
+In-Sample
+0
+0.002
+0.004
+0.006
+Sharpe Ratio
+3.676
+3.857
+3.901
+3.535
+Cumulative Return
+1.92
+2.023
+2.043
+1.776
+Standard Deviation of Daily Returns
+0.00938
+0.00921
+0.00916
+0.0093
+Average Daily Return
+0.00217
+0.00223
+0.00225
+0.00207
+Number of Trades
+93
+109
+103
+112
+Final Value
+292,030
+302,036.46
+303,881.24
+276,947.90
+
+References
+1. Hayes, A. (2020, August 28). Bollinger Band®. Retrieved October 19, 2020, from https://www.investopedia.com/terms/b/bollingerbands.asp 
+2. Hayes, A. (2020, September 22). Simple Moving Average (SMA) Definition. Retrieved October 19, 2020, from https://www.investopedia.com/terms/s/sma.asp
+3. Staff, I. (2020, August 28). Momentum Indicates Stock Price Strength. Retrieved October 19, 2020, from https://www.investopedia.com/articles/technical/081501.asp
+4. Woods, G. (2019, September 26). Trading with the Bollinger Band Squeeze. Retrieved October 19, 2020, from https://www.tradingsetupsreview.com/bollinger-squeeze/
