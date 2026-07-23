@@ -42,7 +42,7 @@ def leaf_size_rmse_curve(
     bag: bool = False,
     n_estimators: int = 20,
     seed: int | None = 0,
-) -> dict[str, list[float]]:
+) -> dict[str, list[float] | list[int]]:
     """In-sample and out-of-sample RMSE vs leaf size."""
     if leaf_sizes is None:
         leaf_sizes = range(1, 101)
@@ -50,6 +50,7 @@ def leaf_size_rmse_curve(
     in_rmses: list[float] = []
     out_rmses: list[float] = []
     for leaf in leaf_sizes:
+        model: BaggedTrees | RegressionTree
         if bag:
             model = BaggedTrees(
                 n_estimators=n_estimators,

@@ -62,8 +62,12 @@ def significant_pairs(
     for i, a in enumerate(cols):
         for b in cols[i + 1 :]:
             r, p = rho.loc[a, b], pval.loc[a, b]
-            if pd.notna(p) and p <= alpha and abs(r) >= min_abs_rho:
-                rows.append({"var_1": a, "var_2": b, "spearman_rho": r, "p_value": p})
+            r_f = float(r)
+            p_f = float(p)
+            if pd.notna(p_f) and p_f <= alpha and abs(r_f) >= min_abs_rho:
+                rows.append(
+                    {"var_1": a, "var_2": b, "spearman_rho": r_f, "p_value": p_f}
+                )
     result = pd.DataFrame(rows, columns=["var_1", "var_2", "spearman_rho", "p_value"])
     return result.sort_values("spearman_rho", ascending=False).reset_index(drop=True)
 

@@ -29,7 +29,7 @@ class BaggedTrees:
         self.rng = np.random.default_rng(seed)
         self._trees: list[RegressionTree] = []
 
-    def fit(self, X: np.ndarray, y: np.ndarray) -> "BaggedTrees":
+    def fit(self, X: np.ndarray, y: np.ndarray) -> BaggedTrees:
         X = np.asarray(X, dtype=float)
         y = np.asarray(y, dtype=float)
         n = len(y)

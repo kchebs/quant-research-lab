@@ -32,7 +32,7 @@ class GridWorld:
         self.pos = self.start
 
     @classmethod
-    def from_csv(cls, path: str | Path) -> "GridWorld":
+    def from_csv(cls, path: str | Path) -> GridWorld:
         grid = np.loadtxt(path, delimiter=",", dtype=int)
         return cls(grid)
 

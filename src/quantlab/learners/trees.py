@@ -31,7 +31,7 @@ class RegressionTree:
 
     _LEAF = -1
 
-    def fit(self, X: np.ndarray, y: np.ndarray) -> "RegressionTree":
+    def fit(self, X: np.ndarray, y: np.ndarray) -> RegressionTree:
         X = np.asarray(X, dtype=float)
         y = np.asarray(y, dtype=float)
         self._tree = self._build(X, y)
@@ -83,9 +83,12 @@ class RegressionTree:
         return np.array([self._predict_row(row) for row in X])
 
     def _predict_row(self, row: np.ndarray) -> float:
+        tree = self._tree
+        if tree is None:
+            raise RuntimeError("Tree has not been fitted")
         node = 0
         while True:
-            feature, value, left, right = self._tree[node]
+            feature, value, left, right = tree[node]
             if feature == self._LEAF:
                 return value
             node += int(left) if row[int(feature)] <= value else int(right)
