@@ -55,9 +55,22 @@ All strategies: MSFT, out-of-sample **2020–2023**, $100k starting cash, unleve
 
 The honest caveats live in [notebook 09](notebooks/09_results_and_conclusions.ipynb): single symbol, one out-of-sample window, simple cost model, and walk-forward analysis shows the ML edge is not consistent year to year.
 
-## CI metrics artifact
+## CI metrics artifacts
 
 `scripts/emit_scorecard_metrics.py` writes `artifacts/scorecard_smoke.json` from **synthetic** prices during smoke/CI — validating the backtest+metrics pipeline without claiming live market results. The research OOS scorecard above remains the source of truth for MSFT 2020–2023.
+
+`scripts/emit_forecast_metrics.py` writes `artifacts/forecast_smoke.json` with naive next-day MAE/RMSE (last value and mean-return baselines) on synthetic or cached local prices — a CI forecasting path, not live trading edge.
+
+## Product decisions and tradeoffs
+
+- Prefer **auditable, cost-aware backtests** and explicit statistical verdicts over opaque “alpha” claims.
+- The published OOS scorecard is **single-ticker** (MSFT) on **one window** (2020–2023); walk-forward already shows the ML edge is not year-stable — treat headline Sharpes as method comparison, not production PnL.
+- Smoke/CI uses synthetic (or offline cached) prices so clones never need network; research notebooks remain the source of truth for market results.
+- From-scratch learners and a simple cost model favor pedagogy and reproducibility over broker-grade execution realism.
+
+## Technologies
+
+Python 3.10+ · NumPy · pandas · SciPy · scikit-learn · matplotlib · seaborn · yfinance · Jupyter · pytest · ruff · (optional) ABIDES
 
 ## What's inside
 
@@ -68,6 +81,7 @@ quant-research-lab/
 │   ├── stats/             # sample sizing, Spearman scans, regression w/ verdicts
 │   ├── screening/         # the 8-rule investment screen (rule engine)
 │   ├── indicators/        # SMA, EMA, Bollinger %B, momentum, volatility
+│   ├── forecasting/       # naive next-day baselines (CI MAE/RMSE smoke)
 │   ├── backtest/          # market simulator (commission + impact) and metrics
 │   ├── learners/          # trees, bagging, linear regression, InsaneLearner
 │   ├── strategies/        # manual, ML, theoretically optimal
@@ -95,7 +109,7 @@ Skills demonstrated, by layer:
 ## Getting started
 
 ```bash
-git clone https://github.com/kchebs/quant-research-lab.git
+git clone <your-fork-or-clone-url>/quant-research-lab.git
 cd quant-research-lab
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
@@ -111,6 +125,13 @@ Notebooks 01–03 run fully offline from the committed snapshots. Price-based no
 - `data/2020_09.csv`, `data/2020_11.csv`, `data/2020_12.csv` — monthly fundamentals + Glassdoor-outlook snapshots assembled in 2020 (Morningstar scrape + manual enrichment). Static research artifacts.
 - `data/prices/` — auto-populated adjusted daily OHLCV cache from Yahoo Finance (gitignored).
 - `docs/archive/` — the original 2020 scraper notebook and notes, kept for provenance.
+
+## Future improvements
+
+- Multi-ticker / multi-window OOS scorecards to reduce single-symbol selection bias.
+- Richer forecasting baselines (and optional learned models) with walk-forward MAE/RMSE artifacts beyond the naive CI smoke.
+- Stronger execution models (spreads, borrow, capacity) while keeping smoke offline-first.
+- Expand ABIDES demos and wire optional agent runs into CI when dependencies are present.
 
 ## Disclaimer
 

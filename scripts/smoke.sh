@@ -23,6 +23,7 @@ run_py() {
 echo "== quant-research-lab smoke (interpreter: $PY) =="
 run_py -m pytest -q
 run_py scripts/emit_scorecard_metrics.py
+run_py scripts/emit_forecast_metrics.py
 if run_py -c "import ruff" 2>/dev/null || [[ -x "${ROOT}/.venv/bin/ruff" ]]; then
   run_py -m ruff check src/quantlab
 fi

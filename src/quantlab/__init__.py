@@ -6,6 +6,7 @@ data         : price loading (yfinance + local cache) and fundamentals snapshots
 stats        : hypothesis testing and statistical research utilities
 screening    : rule-based investment screening engine
 indicators   : technical indicators (clean-room implementations)
+forecasting  : naive next-day price baselines (CI MAE/RMSE smoke)
 backtest     : market simulator with transaction costs and performance metrics
 learners     : from-scratch trees, bagging, linear regression, InsaneLearner
 strategies   : manual, ML, and theoretically optimal trading strategies
