@@ -37,7 +37,7 @@ class TradingEnvironment:
     def num_actions(self) -> int:
         return len(ACTIONS)
 
-    def fit_bins(self, prices: pd.Series) -> "TradingEnvironment":
+    def fit_bins(self, prices: pd.Series) -> TradingEnvironment:
         """Learn quantile bin edges from the training window."""
         features = indicator_frame(prices).dropna()
         self._bin_edges = {

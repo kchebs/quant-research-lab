@@ -21,7 +21,7 @@ class InsaneLearner:
         self.rng = np.random.default_rng(seed)
         self._bags: list[list[LinearRegressionLearner]] = []
 
-    def fit(self, X: np.ndarray, y: np.ndarray) -> "InsaneLearner":
+    def fit(self, X: np.ndarray, y: np.ndarray) -> InsaneLearner:
         X = np.asarray(X, dtype=float)
         y = np.asarray(y, dtype=float)
         n = len(y)

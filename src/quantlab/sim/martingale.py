@@ -24,7 +24,7 @@ def martingale_episode(
     bankroll exhausted, or ``max_bets`` reached).
     """
     rng = rng if rng is not None else np.random.default_rng()
-    winnings = np.zeros(max_bets, dtype=float)
+    winnings: np.ndarray = np.zeros(max_bets, dtype=float)
     equity = 0.0
     bet = 1.0
     finished = False
@@ -69,7 +69,7 @@ def run_martingale_experiment(
 ) -> np.ndarray:
     """Run ``n_sims`` episodes; return array shaped ``(n_sims, max_bets)``."""
     rng = np.random.default_rng(seed)
-    out = np.empty((n_sims, max_bets), dtype=float)
+    out: np.ndarray = np.empty((n_sims, max_bets), dtype=float)
     for i in range(n_sims):
         out[i] = martingale_episode(
             win_prob=win_prob,

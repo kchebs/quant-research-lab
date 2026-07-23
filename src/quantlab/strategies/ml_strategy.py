@@ -35,7 +35,7 @@ class MLTradingStrategy:
     def _features(self, prices: pd.Series) -> pd.DataFrame:
         return indicator_frame(prices)
 
-    def fit(self, prices: pd.Series) -> "MLTradingStrategy":
+    def fit(self, prices: pd.Series) -> MLTradingStrategy:
         features = self._features(prices)
         future_return = prices.shift(-self.lookahead) / prices - 1
         data = features.assign(target=future_return).dropna()

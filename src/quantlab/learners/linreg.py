@@ -12,7 +12,7 @@ class LinearRegressionLearner:
         self.coef_: np.ndarray | None = None
         self.intercept_: float | None = None
 
-    def fit(self, X: np.ndarray, y: np.ndarray) -> "LinearRegressionLearner":
+    def fit(self, X: np.ndarray, y: np.ndarray) -> LinearRegressionLearner:
         X = np.asarray(X, dtype=float)
         y = np.asarray(y, dtype=float)
         design = np.column_stack([X, np.ones(len(X))])
