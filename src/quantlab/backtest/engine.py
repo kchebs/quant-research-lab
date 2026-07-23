@@ -10,7 +10,11 @@ sell) into daily portfolio values. Costs modeled:
 
 from __future__ import annotations
 
+import logging
+
 import pandas as pd
+
+logger = logging.getLogger(__name__)
 
 
 def affordable_shares(prices: pd.Series, cash: float) -> int:
@@ -57,6 +61,15 @@ def run_backtest(
     ``cash``, and ``value`` (total portfolio value marked at close).
     """
     trades = trades.reindex(prices.index).fillna(0.0)
+    n_trades = int((trades != 0).sum())
+    logger.info(
+        "backtest start cash=%.2f commission=%.2f impact=%.4f days=%d trade_days=%d",
+        start_cash,
+        commission,
+        impact,
+        len(prices),
+        n_trades,
+    )
 
     shares = 0.0
     cash = start_cash

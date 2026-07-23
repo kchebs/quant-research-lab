@@ -55,6 +55,10 @@ All strategies: MSFT, out-of-sample **2020–2023**, $100k starting cash, unleve
 
 The honest caveats live in [notebook 09](notebooks/09_results_and_conclusions.ipynb): single symbol, one out-of-sample window, simple cost model, and walk-forward analysis shows the ML edge is not consistent year to year.
 
+## CI metrics artifact
+
+`scripts/emit_scorecard_metrics.py` writes `artifacts/scorecard_smoke.json` from **synthetic** prices during smoke/CI — validating the backtest+metrics pipeline without claiming live market results. The research OOS scorecard above remains the source of truth for MSFT 2020–2023.
+
 ## What's inside
 
 ```

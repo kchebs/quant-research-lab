@@ -24,3 +24,4 @@ data/prices/
 third_party/abides/log/
 third_party/abides/**/__pycache__/
 third_party/abides/data/trades/
+artifacts/
