@@ -1,0 +1,1 @@
+momentum_inventory_agent.py is a trading agent designed to run in the Agent-Based Interactive Discrete Event Simulation environment. It is based on the framework provided in "Simple Trading Agent" and should not use leverage.

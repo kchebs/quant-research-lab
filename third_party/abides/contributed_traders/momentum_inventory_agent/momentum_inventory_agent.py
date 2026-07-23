@@ -5,7 +5,7 @@ from contributed_traders.util import get_file
 
 # Simple Trading Agent was used as the framework to learn and create this agent; if leverage was used, it was accidental and unknowingly
 
-class kmc7_myagent(TradingAgent):
+class MomentumInventoryAgent(TradingAgent):
 
     def __init__(self, id, name, type, symbol, starting_cash,
                  min_size, max_size, wake_up_freq='60s',
@@ -29,11 +29,11 @@ class kmc7_myagent(TradingAgent):
 
     # noinspection PyMethodMayBeStatic
     def author(self):
-        return "kchebs"
+        return "momentum_inventory"
 
     def kernelStarting(self, startTime):
         super().kernelStarting(startTime)
-        with open(get_file('kmc7_myagent/myagent.cfg'), 'r') as cfg:
+        with open(get_file('momentum_inventory_agent/myagent.cfg'), 'r') as cfg:
             self.wnd1, self.wnd2 = [int(c) for c in cfg.readline().split()]
 
     def wakeup(self, currentTime):
@@ -60,7 +60,7 @@ class kmc7_myagent(TradingAgent):
             self.cancelOrder(prchs)
 
     def agentname(self):
-        return 'kmc7_myAgent'
+        return 'MomentumInventoryAgent'
 
     def dmp_shr(self):
         if 0 == len(self.orders) and self.symbol in self.holdings:

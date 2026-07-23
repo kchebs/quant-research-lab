@@ -32,8 +32,8 @@ def agent_module_path() -> Path:
     return (
         abides_root()
         / "contributed_traders"
-        / "kchebs_myagent"
-        / "kchebs_myagent.py"
+        / "momentum_inventory_agent"
+        / "momentum_inventory_agent.py"
     )
 
 

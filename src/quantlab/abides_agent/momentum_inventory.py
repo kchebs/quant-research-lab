@@ -1,7 +1,7 @@
 """Momentum + inventory trading logic used by the ABIDES agent.
 
 Pure functions so the strategy can be tested without the discrete-event kernel.
-The ABIDES agent in ``third_party/abides/contributed_traders/kchebs_myagent``
+The ABIDES agent in ``third_party/abides/contributed_traders/momentum_inventory_agent``
 applies the same rules against live order-book snapshots.
 """
 
